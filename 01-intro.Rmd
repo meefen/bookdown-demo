@@ -1,21 +1,57 @@
 # Introduction {#intro}
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+## Syllabus
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+[link to the syllabus](#)
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
+Read the Syllabus in full... Ask questions on the #general channel on Slack (read further if this sentence doesn't make sense). 
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+## Digital learning environments{#digital}
 
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
+This is a primarily online class. We will use a range of digital tools to support our individual and group learning. Below is a list of them as I am planning for this course, and we can tweak the list as moving forward.
 
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+### Slack
+
+`Slack` is a communication tool widely adopted by tech companies and is gaining traction in education more recently. It was originally created to cut emails. 
+
+In this online class, we will greatly depend on Slack for class communications. I will use Slack to push out course annoucements, distribute materials, and all other stuff an instructor would normally do. Anyone in our Slack team should feel free to organize groups -- also called `channels` in Slack-ology. Class participants, including me, are expected to check Slack several times a week. 
+
+Note that by default private messages will be forwarded to your email unless you customized your preferences otherwise. 
+
+To sign up for our Slack team, go to: https://snaed.slack.com/signup
+
+Tutorials: https://get.slack.help/hc/en-us/categories/200111606-Using-Slack
+
+### Hypothes.is
+
+Instead of making online posts out of the context, each week we will be making open annotations in Web documents using a cutting-edge tool named Hypothes.is (Hi hereafter). The tool has been used broadly in education, for example, for close reading in humanities [@Kennedy2016-qw]. In this class, the basic idea is we are going to engage with online materials (e.g., our textbook accessible from the libary) and interact with each other through reading & commenting on each other's annotations. 
+
+Setting up Hi:
+
+- Sign up for an account
+- Install the browser plugin
+- Join our private class group
+
+Using Hi - important tips:
+
+- Make sure you are posting to our private class group. Otherwise, your annotations are made to the Public Domain, and will not be picked up by our class feed.
+- Use tags.
+- Reply to each other's annotations. 
+
+To sign up for our Hi group, visit: https://hypothes.is/groups/8Nxk21z5/snaed
+
+Note: Please try to use a same username for Slack and Hi so that we will not get confused. 
+
+### Twitter (optional)
+
+If you tweet, like [me](https://twitter.com/bod0ng), please us #SNAED in tweets related to this class. 
+
+To demonstrate how Twitter could be useful, I bet you can learn more from [TechPizza](http://techpizza.org/twitter.php) than from this course (set Topic to be, for example, 'Text, Network Analsysi' --> 'network:gephi'). 
+
+### Integrations
+
+- Slack -> Email: Depending on your preference settings, you will receive some notification emails from Slack.
+- Hi -> Slack: Hi annotations properly posted to our group will be notifed in Slack's `#hi_feed` channel. 
+
+
+

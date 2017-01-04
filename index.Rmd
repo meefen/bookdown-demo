@@ -1,30 +1,46 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "Social Network Analysis in Education"
+author: "Prof. Bodong Chen"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
-bibliography: [book.bib, packages.bib]
+bibliography: [biblio.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+github-repo: meefen/sna-ed
+description: "This is a course handbook written by Bodong Chen for his SNA course at UMN."
 ---
 
-# Prerequisites
+# Preface {-}
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
-
-For now, you have to install the development versions of **bookdown** from Github:
-
-```{r eval=FALSE}
-devtools::install_github("rstudio/bookdown")
+```{r fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.link='https://upload.wikimedia.org/wikipedia/commons/9/9b/Social_Network_Analysis_Visualization.png'}
+knitr::include_graphics('images/cover.png', dpi = NA)
 ```
 
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
+This site, or book, is the course portal of `CI5330 - Social Network Analysis in Education`, offered by Prof Bodong Chen at the University of Minnesota in Spring '17. 
 
-To compile this example to PDF, you need to install XeLaTeX.
+Content on this site will be actively built and refined throughout the semester. 
+
+## Key links
+
+- **Textbook** [Carolan [-@Carolan2014-dn]](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education) Note: UMN library access required.
+- [**Slack team**](https://snaed.slack.com/): We use Slack for course "management", aka announcements, commucations, chats, small group work, etc.
+- [**Hypothes.is** course group](https://hypothes.is/groups/8Nxk21z5/snaed): We will interact "on top of" web content during this course. Hypothes.is is a cutting-edge, open-source web annotation tool.
+- [**Twitter** hashtag #snaed](https://twitter.com/search?q=%23snaed): *Optionally*, you can tweet about this course using #snaed.
+
+## Why not Moodle?
+
+To learn social network analysis (SNA) -- and many other stuff -- I believe the best way is to 'live' with it. That is, the best way to learn SNA is to seize every opportunity of applying SNA in one's own learning journey. This philosophy leads to two major reasons I'm piecing together a learning system by myself:
+
+- First, as an instructor I wish to foster social interactions as much as possible. Traditional learning management systems like Moodle is limiting for this purpose.
+- Second, to practice SNA with our own `trace data`, system log data[^1] need to be somehow 'exposed' to users. Traditional systems are falling behind in this area.
+
+If you haven't used these tools listed above, no worries. I will provide detailed guidance to get you started (see Section \@ref(digital)). It is expected that many of us are venturing out our comfort zones. SO DO I! This is the first time I am doing this :-). I hope we will all learn a great deal about and beyond SNA.
+
+Have fun!
+
+[^1]: I treat data as [plural](https://en.oxforddictionaries.com/definition/us/data) in the course.
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
