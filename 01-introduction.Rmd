@@ -21,7 +21,7 @@ I was first exposed to SNA in 2007, when there was a virtual class offered at Pe
 
 ## Syllabus
 
-[link to the syllabus](#)
+The most [current syllabus](https://github.com/meefen/sna-ed/blob/master/syllabus/syllabus.md) will always available online. 
 
 Read the Syllabus in full... Ask questions on the #general channel on Slack (read further if this sentence doesn't make sense). 
 

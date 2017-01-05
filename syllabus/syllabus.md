@@ -1,8 +1,5 @@
----
-layout: page
-title: Syllabus - CI 5330 - Social Network Analysis in Education
-description: Syllabus of the course
----
+Syllabus - CI 5330 - Social Network Analysis in Education
+======
 
 **Spring 2017 * Sections 001 (Primarily Online), 3 credits**
 
@@ -166,6 +163,7 @@ Even though this is a primarily online class, your attendance is imperative.
 
 Detailed readings and agenda items will be provided on the course website.
 
+## University Policies
 
-See [University Policies](Syllabi-Attachment-Current-Graduate.pdf).
+See [this file](Syllabi-Attachment-Current-Graduate.pdf).
 
