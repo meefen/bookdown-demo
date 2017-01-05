@@ -1,35 +1,67 @@
 --- 
 title: "Social Network Analysis in Education"
-author: "Prof. Bodong Chen"
+author: "Bodong Chen"
 date: "`r Sys.Date()`"
-site: bookdown::bookdown_site
-output: bookdown::gitbook
-documentclass: book
+knit: "bookdown::render_book"
+documentclass: krantz
 bibliography: [biblio.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: meefen/sna-ed
+colorlinks: yes
+lot: yes
+lof: yes
+fontsize: 12pt
+monofont: "Source Code Pro"
+monofontoptions: "Scale=0.7"
+site: bookdown::bookdown_site
 description: "This is a course handbook written by Bodong Chen for his SNA course at UMN."
+url: 'https\://bookdown.org/chen/snaed/'
+github-repo: meefen/sna-ed
+cover-image: images/cover.jpg
 ---
+
+```{r setup, include=FALSE}
+options(
+  htmltools.dir.version = FALSE, formatR.indent = 2,
+  width = 55, digits = 4, warnPartialMatchAttr = FALSE, warnPartialMatchDollar = FALSE
+)
+
+lapply(c('DT', 'citr', 'formatR'), function(pkg) {
+  if (system.file(package = pkg) == '') install.packages(pkg)
+})
+```
 
 # Preface {-}
 
-```{r fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.link='https://upload.wikimedia.org/wikipedia/commons/9/9b/Social_Network_Analysis_Visualization.png'}
-knitr::include_graphics('images/cover.png', dpi = NA)
+<!--
+```{r fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.link='#'}
+knitr::include_graphics('images/cover.jpg', dpi = NA)
 ```
+-->
 
-This site, or book, is the course portal of `CI5330 - Social Network Analysis in Education`, offered by Prof Bodong Chen at the University of Minnesota in Spring '17. 
+This site, or book, is the course portal of `CI5330 - Social Network Analysis in Education`, offered by Prof. Bodong Chen at the University of Minnesota in Spring '17. 
 
 Content on this site will be actively built and refined throughout the semester. 
 
-## Key links
+**Key links**
 
-- **Textbook** [Carolan [-@Carolan2014-dn]](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education) Note: UMN library access required.
+- **Textbook** [Carolan (2014)](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education) Note: UMN library access required.
 - [**Slack team**](https://snaed.slack.com/): We use Slack for course "management", aka announcements, commucations, chats, small group work, etc.
 - [**Hypothes.is** course group](https://hypothes.is/groups/8Nxk21z5/snaed): We will interact "on top of" web content during this course. Hypothes.is is a cutting-edge, open-source web annotation tool.
 - [**Twitter** hashtag #snaed](https://twitter.com/search?q=%23snaed): *Optionally*, you can tweet about this course using #snaed.
 
-## Why not Moodle?
+
+
+![Creative Commons License](images/by-nc-sa.png)  
+The online version of this book is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+```{block2, type='flushright', html.tag='p'}
+Bodong Chen  
+Minneapolis, Minnesota
+```
+
+
+## Why not Moodle? {-}
 
 To learn social network analysis (SNA) -- and many other stuff -- I believe the best way is to 'live' with it. That is, the best way to learn SNA is to seize every opportunity of applying SNA in one's own learning journey. This philosophy leads to two major reasons I'm piecing together a learning system by myself:
 
@@ -42,9 +74,4 @@ Have fun!
 
 [^1]: I treat data as [plural](https://en.oxforddictionaries.com/definition/us/data) in the course.
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
+
