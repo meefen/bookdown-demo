@@ -1,5 +1,24 @@
 # Introduction {#intro}
 
+This week we will: 
+
+1. Get to know each other
+2. Get oriented to the course
+
+Please click on the '>' button to proceed to the next page.
+
+## Why Social Network Analysis?
+
+We come together to learn more about Social Network Analysis (SNA) -- for various reasons. In preparation for the class, I invited three current graduate students -- Michael from UMich, Alejandro from Indiana, and Fan from UMN -- to share a bit about their experience:
+
+[video 1]
+
+[video 2]
+
+[video 3]
+
+I was first exposed to SNA in 2007, when there was a virtual class offered at Peking University (where I did my master's) in collaboration with another university in the Netherlands. Looking backwards, I don't think I've learned much from that class, mostly because I didn't have a clear sense about how SNA could be applicable to my own work. During my doctoral studies in Toronto, I became increasingly intrigued by SNA (and network analysis) in general because 1) learning (my main research interest) takes place in networks; 2) many researchers I read use SNA in various cool ways; and 3) SNA could offer real-time feedback to teachers and students as well. So since then, I've been self-teaching myself, with help of a vast body of resources online, about SNA. It has been a long journey with a lot of exploration and tinkering, which I absolutely enjoyed. Now I engage with SNA mostly for three purposes: 1) use 'traditional' SNA techniques in my empirical work; 2) develop formative feedback tools that focuse on social aspects of learning; and 3) develop network-based approaches to tie multiple analytical aspects (social, temporal, semantic) of learning together. I consider myself constantly learning new thigns about SNA, and look forward to this journey with everyone in the class!
+
 ## Syllabus
 
 [link to the syllabus](#)
@@ -46,12 +65,18 @@ Note: Please try to use a same username for Slack and Hi so that we will not get
 
 If you tweet, like [me](https://twitter.com/bod0ng), please us #SNAED in tweets related to this class. 
 
-To demonstrate how Twitter could be useful, I bet you can learn more from [TechPizza](http://techpizza.org/twitter.php) than from this course (set Topic to be, for example, 'Text, Network Analsysi' --> 'network:gephi'). 
+To demonstrate how Twitter could be useful, I bet you can learn more from [TechPizza](http://techpizza.org/twitter.php) than from this course (set Topic to be, for example, 'Text, Network Analsysi' --> 'network:gephi').
+
+### Google Drive
+
+Google Drive will be used for major assignment submissions. UMN offers free Drive access and unlimited storage. If you need help, check this OIT page: https://it.umn.edu/technology/google-drive
+
+In the #assignment Slack channel, click on the '+' button to pull out a menu with opitons of adding Drive files. You may need to authenticate Google Drive on Slack. See [help page](https://get.slack.help/hc/en-us/articles/205875058-Google-Drive-for-Slack).
 
 ### Integrations
 
 - Slack -> Email: Depending on your preference settings, you will receive some notification emails from Slack.
 - Hi -> Slack: Hi annotations properly posted to our group will be notifed in Slack's `#hi_feed` channel. 
-
+- Drive -> Slack: You can directly add Drive files into Slack when submitting a 'larger' assignment (e.g., project paper, presentations, essays). 
 
 
