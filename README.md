@@ -1,9 +1,7 @@
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "Get Started" at https://bookdown.org/ for how to compile this example.
+This is a course portal developed using [**bookdown**](https://github.com/rstudio/bookdown) for my *Social Network Analysis in Education* class at the Univerity of Minnesota. The compiled instance is hosted at https://bookdown.org/chen/snaEd.
 
-You can find the preview of this example at https://bookdown.org/yihui/bookdown-demo/
+## Usage
 
-## How?
+To push an update to Bookdown.org, run `bookdown::publish_book(name = "snaEd", account = "chen", render = "local")`. Note that you will need to use your own account.
 
-`bookdown::publish_book(name = "snaEd", account = "chen", render = "local")`
-
-Check [here](https://github.com/rstudio/bookdown/tree/master/inst/examples) for inspirations.
+Check [this example](https://github.com/rstudio/bookdown/tree/master/inst/examples) for detailed usage of **bookdown**.
