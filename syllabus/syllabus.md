@@ -1,5 +1,4 @@
-Syllabus - CI 5330 - Social Network Analysis in Education
-======
+# Syllabus - CI 5330 - Social Network Analysis in Education
 
 **DRAFT - SUBJECT TO CHANGE**
 
@@ -12,7 +11,7 @@ Syllabus - CI 5330 - Social Network Analysis in Education
 ### Instructor Information
 
 **Bodong Chen, Assistant Professor**  
-E-mail: chenbd\@umn.edu  
+E-mail: chenbd@umn.edu  
 Phone/Voicemail: (773) 850-1032  
 Office: LTML, 210 Lrng & Environmental Sci, St. Paul  
 Office Hours: By Appointment
@@ -82,19 +81,18 @@ Each week, students are expected to: 1) read assigned materials; 2) collaborativ
 
 #### Textbook
 
-- Carolan, B. V. (2014). *[Social network analysis and education: Theory, methods and applications](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education)*. Thousand Oaks, CA: SAGE Publications. 
-
-(*Note: Free access arranged through the UMN Library. Follow the link above.*)
+- Carolan, B. V. (2014). *[Social network analysis and education: Theory, methods and applications](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education)*. Thousand Oaks, CA: SAGE Publications.  (*Note: Free access arranged through the UMN Library. Follow the link above.*)
 
 Optional:
 
 - Scott, J. (2013). *Social network analysis* (3rd ed.). Thousand Oaks, CA: SAGE Publications.
+- Scott, J., & Carrington, P. J. (2011). [The SAGE Handbook of Social Network Analysis](http://methods.sagepub.com.ezp2.lib.umn.edu/book/the-sage-handbook-of-social-network-analysis). SAGE Publications.
 
 #### Technical requirements
 
 **Internet use**. All participants are expected to have access to the Internet in order to participate in this course. If you need technical support, consider visiting UMN OIT's [tech help walk-in locations](http://it.umn.edu/help/walk-in) on campus.
 
-**Software**. To succeed in this class, you will need to use [Hypothes.is](https://hypothes.is), [Slack](slack.com), [Gephi](https://gephi.org/), [R](https://www.r-project.org/), and typical word processing software like Google Docs. Note that Gephi depends on Java, so your computer should support Java as well.  For [R](https://www.r-project.org/), the `sna` and `igraph` packages need to be installed, in addition to the standard R base installation. [RStudio](https://www.rstudio.com/) is the recommended software environment. You are not expected to pick up every tool at once. Detailed guidelines will be provided on the course website to introduce each of them. 
+**Software**. To succeed in this class, you will need to use [Hypothes.is](https://hypothes.is), [Slack](www.slack.com), [Gephi](https://gephi.org/), [R](https://www.r-project.org/), and typical word processing software like Google Docs. Note that Gephi depends on Java, so your computer should support Java as well.  For [R](https://www.r-project.org/), the `sna` and `igraph` packages need to be installed, in addition to the standard R base installation. [RStudio](https://www.rstudio.com/) is the recommended software environment. You are not expected to pick up every tool at once. Detailed guidelines will be provided on the course website to introduce each of them. 
 
 #### Deadlines & late assignments
 

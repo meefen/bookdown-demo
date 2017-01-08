@@ -1,0 +1,3 @@
+# Syllabus {-}
+
+The most up-to-date syllabus is [here](https://github.com/meefen/sna-ed/blob/master/syllabus/syllabus.md).

@@ -3,80 +3,139 @@
 This week we will: 
 
 1. Get to know each other
-2. Get oriented to the course
+2. Walk through the Syllabus
+3. Get to know course logistics
+
+[bodong's video 1 - intro]
 
 Please click on the '>' button to proceed to the next page.
 
 ## Why Social Network Analysis?
 
-We come together to learn more about Social Network Analysis (SNA) -- for various reasons. In preparation for the class, I invited three current graduate students -- Michael from UMich, Alejandro from Indiana, and Fan from UMN -- to share a bit about their experience:
+We come together to learn (more) about social network analysis (SNA) -- for various reasons. In preparation for the class, I invited three current graduate students -- **Mike Brown** from UMich, **Alejandro Andrade** from Indiana, and **Fan Ouyang** from UMN -- who're all doing interesting work with SNA to share a bit about their experiences:
+
+Mike
 
 [video 1]
 
+Alejandro
 [video 2]
 
+Fan
 [video 3]
 
-I was first exposed to SNA in 2007, when there was a virtual class offered at Peking University (where I did my master's) in collaboration with another university in the Netherlands. Looking backwards, I don't think I've learned much from that class, mostly because I didn't have a clear sense about how SNA could be applicable to my own work. During my doctoral studies in Toronto, I became increasingly intrigued by SNA (and network analysis) in general because 1) learning (my main research interest) takes place in networks; 2) many researchers I read use SNA in various cool ways; and 3) SNA could offer real-time feedback to teachers and students as well. So since then, I've been self-teaching myself, with help of a vast body of resources online, about SNA. It has been a long journey with a lot of exploration and tinkering, which I absolutely enjoyed. Now I engage with SNA mostly for three purposes: 1) use 'traditional' SNA techniques in my empirical work; 2) develop formative feedback tools that focuse on social aspects of learning; and 3) develop network-based approaches to tie multiple analytical aspects (social, temporal, semantic) of learning together. I consider myself constantly learning new thigns about SNA, and look forward to this journey with everyone in the class!
+### Bodong's SNA journey
+
+I myself was first exposed to SNA in 2007, when there was a distance class offered at Peking University (where I completed my master's) in collaboration with another university in the Netherlands. Looking backwards, I don't think I've learned much from that class, mostly because I didn't see a clear relevance between my work then and SNA. 
+During my doctoral studies in Toronto, I became increasingly intrigued by SNA (and network analysis in general), because 1) the world is becomming increasingly inter-connected; 2) many researchers I read use SNA in many cool ways; and 3) SNA could offer insights to improve learning and teaching. So since then, I've been self-teaching myself about SNA, with help from a vast body of online resources. It has been a long journey with a lot of exploration and tinkering, which I absolutely enjoyed. 
+
+Now I engage with SNA for three major reasons: 1) to apply 'classic' SNA techniques in my empirical work; 2) to develop formative feedback tools focusing on social aspects of learning; and 3) to develop network-based approaches to uncover holistic insights about learning, by combining multiple analytical aspects (social, temporal, semantic) together. I consider myself constantly learning new thigns about SNA, and look forward to this learning journey with everyone in the class!
 
 ## Syllabus
 
 The most [current syllabus](https://github.com/meefen/sna-ed/blob/master/syllabus/syllabus.md) will always available online. 
 
-Read the Syllabus in full... Ask questions on the #general channel on Slack (read further if this sentence doesn't make sense). 
+In Week 1, please read the Syllabus in full. Ask questions, if any, on the `#q_and_a` channel on Slack. 
 
-## Digital learning environments{#digital}
+## Digital learning environments {#digital}
 
-This is a primarily online class. We will use a range of digital tools to support our individual and group learning. Below is a list of them as I am planning for this course, and we can tweak the list as moving forward.
+This is a **primarily online** class. We will use a range of digital tools to support our individual and group learning. Below is a list of them and we can tweak the list when moving forward.
+
+### Bookdown course site
+
+This website you're reading is built by myself using `Bookdown` and hosted on Bookdown.org. `Bookdown` is designed for writing books. While this site may evolve into an open textbook, I'm using it as our course portal.
+
+Course resourses, usually organized by weeks, will be published here. Each chapter maps onto a week. Weekly course annoucements will be pushed to the class through Slack (more below).
 
 ### Slack
 
-`Slack` is a communication tool widely adopted by tech companies and is gaining traction in education more recently. It was originally created to cut emails. 
+[mini video slack]
 
-In this online class, we will greatly depend on Slack for class communications. I will use Slack to push out course annoucements, distribute materials, and all other stuff an instructor would normally do. Anyone in our Slack team should feel free to organize groups -- also called `channels` in Slack-ology. Class participants, including me, are expected to check Slack several times a week. 
+**Slack** is a team communication tool popular among tech companies and increasingly adopted in classrooms. It was originally created to make teamwork more efficient -- and more fun.
 
-Note that by default private messages will be forwarded to your email unless you customized your preferences otherwise. 
+In SNAEd, **we will rely on Slack -- instead of an LMS -- for class communication.** For instance, **I will use Slack to** push out course annoucements, distribute materials, collect assignments, organize small groups, provide feedback, etc. **You can use Slack to** discuss with each other, self-organize into groups, contact me for feedback, share funny gifs, etc. In a sense, we work as a **team** where everyone can -- and is expected to -- initiate things. **In this online class, all participants, including me, are expected to check Slack several times a week.**
 
-To sign up for our Slack team, go to: https://snaed.slack.com/signup
+**To sign up** for our private Slack team, go to: https://snaed.slack.com/signup
 
-Tutorials: https://get.slack.help/hc/en-us/categories/200111606-Using-Slack
+To get started with Slack, get familiar with a few **Slack terms** you need to know [^1]:
 
-### Hypothes.is
+- **Updates** — the basic message or status of Slack. Similar to Facebook updates, tweets, chats, etc.
+- **Channels** — like separate rooms within the domain. They can be *public* or *private*. 
+- **Direct Messages** — like DMs or private messages anywhere else.
+- **Posts** — longer than a status update. Similar to a blog blog or a Word document. Once it's shared to a *Channel*, folks can **comment** on it or even **edit** it if the owner allows. 
+- **Snippets** — Chunks of syntax-highlighted code for when that’s the thing you need to share. We *might* use it.
+- **\@replies** — much like on Twitter, used when you want to mention someone. You can \@everyone or \@channel.
+- **emoji** — just like what you see everywhere.
+- **Integrations** — Slack can 'talk' with many other systems. For example, you can post a doc from your Google Drive when submitting an assignment; you can type `/giphy` to share random gifs. I will explain more later. 
 
-Instead of making online posts out of the context, each week we will be making open annotations in Web documents using a cutting-edge tool named Hypothes.is (Hi hereafter). The tool has been used broadly in education, for example, for close reading in humanities [@Kennedy2016-qw]. In this class, the basic idea is we are going to engage with online materials (e.g., our textbook accessible from the libary) and interact with each other through reading & commenting on each other's annotations. 
+Knowing those should be enough for the class. To learn more, check out the Slack tutorials: https://get.slack.help/hc/en-us/categories/200111606-Using-Slack
 
-Setting up Hi:
+[^1]: Credit: http://www.zachwhalen.net/posts/notes-on-teaching-with-slack/
 
-- Sign up for an account
-- Install the browser plugin
-- Join our private class group
+### Hypothesis
 
-Using Hi - important tips:
+[mini video Hypo]
 
-- Make sure you are posting to our private class group. Otherwise, your annotations are made to the Public Domain, and will not be picked up by our class feed.
-- Use tags.
-- Reply to each other's annotations. 
+Each week when we read, we will be making **open annotations** in Web documents using a cutting-edge tool named **Hypothesis** (Hypo for short hereafter). This is to replace *threaded discussion* in typical online classes. Hypo has been used broadly in education, for example, for close reading in humanities [@Kennedy2016-qw]. In this class, the basic idea is we are going to engage with Web materials (e.g., our textbook accessible from the libary) and interact with each other through reading & commenting on each other's annotations. 
 
-To sign up for our Hi group, visit: https://hypothes.is/groups/8Nxk21z5/snaed
+To set up Hypo for the class:
 
-Note: Please try to use a same username for Slack and Hi so that we will not get confused. 
+- Register an account here: https://hypothes.is/register
+- Install the [Hypo extension](https://chrome.google.com/webstore/detail/hypothesis-web-pdf-annota/bjfhmglciegochdpefhhlphglcehbmek?hl=en) in your Google Chrome browser.
+
+Using Hypo - important tips:
+
+<!-- - To sign up for our Hi group, visit: https://hypothes.is/groups/8Nxk21z5/snaed Make sure you are posting to our private class group. Otherwise, your annotations are made to the Public Domain, and will not be picked up by our class feed. -->
+- **Include the `SNAEd` tag in every annotation** you make for the class. Otherwise, it will not be picked up by our [class feed](https://hypothes.is/search?q=tag%3AsnaEd).
+- **Monitor our class feed** here: https://hypothes.is/search?q=tag%3AsnaEd
+- Reply to each other's annotations
+
+To learn more, check out [Hypothesis Quick Start Guide for Students](https://hypothes.is/quick-start-guide-for-students/), and [a more complete Resource Guide for Students](https://hypothes.is/student-resource-guide/).
+
+Note: Please try to use a same (or at least a smilar) username for Slack and Hypo so that we can match you in two spaces.
 
 ### Twitter (optional)
 
-If you tweet, like [me](https://twitter.com/bod0ng), please us #SNAED in tweets related to this class. 
+If you tweet, like [me](https://twitter.com/bod0ng), please tag your tweets with `#SNAEd` as well. 
 
 To demonstrate how Twitter could be useful, I bet you can learn more from [TechPizza](http://techpizza.org/twitter.php) than from this course (set Topic to be, for example, 'Text, Network Analsysi' --> 'network:gephi').
 
 ### Google Drive
 
-Google Drive will be used for major assignment submissions. UMN offers free Drive access and unlimited storage. If you need help, check this OIT page: https://it.umn.edu/technology/google-drive
+Google Drive will be used for major assignment submissions. I will provide detailed feedback directly in your Google Docs, so it is important you use Google Drive. UMN offers free Drive access and unlimited storage. If you need help, check this OIT page: https://it.umn.edu/technology/google-drive
 
-In the #assignment Slack channel, click on the '+' button to pull out a menu with opitons of adding Drive files. You may need to authenticate Google Drive on Slack. See [help page](https://get.slack.help/hc/en-us/articles/205875058-Google-Drive-for-Slack).
+To submit an assignment through Slack, head to the #assignment Slack channel and click on the '+' button to pull out a menu with opitons of adding Drive files. You may need to authenticate Google Drive on Slack. See [help page](https://get.slack.help/hc/en-us/articles/205875058-Google-Drive-for-Slack).
 
 ### Integrations
 
-- Slack -> Email: Depending on your preference settings, you will receive some notification emails from Slack.
-- Hi -> Slack: Hi annotations properly posted to our group will be notifed in Slack's `#hi_feed` channel. 
-- Drive -> Slack: You can directly add Drive files into Slack when submitting a 'larger' assignment (e.g., project paper, presentations, essays). 
+[minivideo integration/flow]
 
+We are using multiple systems in this class. And I am fully aware that it may cause disorientation especially in the first one or two weeks. Please keep in mind Slack is the place for us to hang out, and other things -- course content on our course site, Hypo, Drive -- will be somehow integrated in our commucations on Slack.
+
+- **Course site -> Slack**: When new content is published (weekly in most cases), I will send out an annoucement in the `#annoucement` channel.
+- **Hypo -> Slack**: Hypo annotations properly posted using our `#SNAEd` tag will be notifed in Slack's `#hypo_feed` channel. 
+- **Drive -> Slack**: You can directly add Drive files into Slack when submitting a 'larger' assignment (e.g., project paper, presentations, essays). 
+- **Slack -> Email**: Depending on your preference settings, you will receive some notification emails from Slack. The default settings will email you Private Messages. You can change [your email preferences here](https://snaed.slack.com/account/notifications). 
+
+## Get to know each other {#selfintro}
+
+Please record a short Flipgrid video to introduce yourself to the class. This activity is important for this primarily online class. You should be able to record below directly; otherwise, open this link in a separate browser tab https://flipgrid.com/3b6043
+
+After recording your self-intro video, please check each other's videos and respond. Don't feel shy about pointing out your shared interests or one classmate's nice wall decorations :-).
+
+<iframe width="600" height="800" frameBorder="0" src="https://flipgrid.com/3b6043" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+## Face-to-face sign-up {#f2fdoodle}
+
+To determine when will be a best weekday for us to meet F2F (or synchronously online), please respond to this [Doodle poll](http://doodle.com/poll/gyc992bdse6t28kq). It is important for us to list all *possible* time slots so we can find a time that work for all of us.
+
+Office hours will be provided each week. More information will be posted next week.
+
+
+Finally, below is an aggregation of our Hypo annotations so far.
+
+```{r, echo=FALSE}
+knitr::include_url("https://hypothes.is/search?q=tag%3Asnaed", 
+  height = "400px")
+```
 
