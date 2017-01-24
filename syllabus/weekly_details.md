@@ -20,7 +20,7 @@ Summary: We dive into the core of the course this week by considering the essent
 Readings:
 
 - Carolan, ch. 2-3
-- Grunspan, D. Z., Wiggins, B. L., & Goodreau, S. M. (2014). Understanding Classrooms through Social Network Analysis: A Primer for Social Network Analysis in Education Research. Cell Biology Education, 13(2), 167–178. http://doi.org/10.1187/cbe.13-08-0162
+- (Optional) Grunspan, D. Z., Wiggins, B. L., & Goodreau, S. M. (2014). Understanding Classrooms through Social Network Analysis: A Primer for Social Network Analysis in Education Research. Cell Biology Education, 13(2), 167–178. http://doi.org/10.1187/cbe.13-08-0162
 
 
 #### Class 3: Applications and Examples I

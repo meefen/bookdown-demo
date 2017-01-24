@@ -27,7 +27,7 @@ options(
 )
 
 lapply(c('DT', 'citr', 'formatR'), function(pkg) {
-  if (system.file(package = pkg) == '') install.packages(pkg)
+  if (system.file(package = pkg) == '') install.packages(pkg, repos = c(CRAN = "http://cran.rstudio.com"))
 })
 ```
 
@@ -37,11 +37,11 @@ This site is the course portal of **CI5330 - Social Network Analysis in Educatio
 
 Content on this site is actively built and refined throughout the semester. 
 
-### Key links for the course: {-}
+### Key links for the course {-}
 
 - **[Textbook Carolan (2014)](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education)**. *Note*: UMN library access required.
 - [**Slack team**](https://snaed.slack.com/): We use Slack for course "management", aka. announcements, commucations, chats, small group work, etc.
-- [**Hypothesis** course group](https://hypothes.is/groups/8Nxk21z5/snaed): We interact on top of web materials (including the textbook) during this course. Hypothesis is a cutting-edge, open-source *web annotation* tool, which is used more and more broadly [by educators](https://hypothes.is/education/) in the past two years.
+- [**Hypothesis**](https://hypothes.is/): We interact on top of web materials (including the textbook) during this course. Hypothesis is a cutting-edge, open-source *web annotation* tool, which is used more and more broadly [by educators](https://hypothes.is/education/) in the past two years.
 - Optional - [**Twitter** hashtag #SNAEd](https://twitter.com/search?q=%23snaed): You can tweet about this course using #SNAEd.
 
 
@@ -67,6 +67,15 @@ If you haven't used these tools mentioned above, no worries. I will provide deta
 Have fun!
 
 [^1]: I treat 'data' as [plural](https://en.oxforddictionaries.com/definition/us/data) in the course.
+
+## Two tracks of participation {-}
+
+This course website is openly available online, reflecting my committment to '[open scholarship](http://bodong.ch/notes/)'. So there are two tracks of participation designed for this class.
+
+1. **UMN class**: For UMN graduate students enrolled in the class, your participation in this class is not that different from taking another primarily online class. You are expected to meet course requirements outlined in the course syllabus. You will have *a private space* (supported by Slack) for within-class communications.
+2. **Open participation**: For 'Open Participants' who are following the class, you can access the same materials I curate on this website. You may need to buy the textbook if you do not have a library access. And ways for you to participate include 1) making Hypothesis annotations using #SNAEd (more later), and 2) discussing in [an open forum](https://muut.com/snaed/).
+
+If you have any feedback on the current design, please get in touch. I'd love to hear your thoughts.
 
 ## Ways to contribute to this site {-}
 
