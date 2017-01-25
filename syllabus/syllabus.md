@@ -106,29 +106,32 @@ Below is an overview of class assignments. All assignments are subject to change
 
 ### Grading
 
-| **Components**                   | **Percentage** |
-|----------------------------------|----------------|
-| Project checkpoint 1             |  5%          |
-| Data collection hands-on         | 10%          |
-| Project checkpoint 2             |  5%          |
-| Network analysis hands-on        | 10%          |
-| Project final artifact           | 40%          |
-| Project final presentation       | 20%          |
-| Reflection essay or e-portfolio  | 10%          |
+| **Components**                   | **Points** |
+|----------------------------------|------------|
+| Class participation              | 26         |
+| Project checkpoint 1             |  5         |
+| Data collection hands-on         | 10         |
+| Project checkpoint 2             |  5         |
+| Network analysis hands-on        | 10         |
+| Project final artifact           | 30         |
+| Project final presentation       | 10         |
+| Reflection essay or e-portfolio  | 10         |
+| *TOTAL*                          | 106        |
 
 <!--
-- **Class Participation - online, f2f** (25%): Online discussion in each week takes place before each face-to-face (f2f) class meeting. It will focus on unpacking important concepts and exploring research ideas. Students are required to minimally contribute one initial post and two comments each week.
+
 - **Class Participation - f2f** (10%): Students are expected to come to class prepared to discuss required readings. Class participation grade is based not only on being present but also contributing to class discussion.
 -->
 
+- **Class Participation - online, f2f** (2 points * 13): Active participation is an important part of this class. Specific requirements on class activities will be posted for each week. Only 13 weeks because the final week is dedidated to project presentations.
 - **Course Project**: The central goal of this course is to help students apply SNA to their own research. To this end, each student will develop and continually refine a project idea throughout the course. A number of assignments are designed to help them move towards this goal:
-	- *Project checkpoint 1* (5%): Each student will share an initial project idea and receive feedback from the instructor and peers.
-	- *Data collection hands-on* (5%): Students will apply data collection techniques introduced in class to a real-world research scenario of their choice.
-	- *Project checkpoint 2* (5%): Students will share their refined project ideas, with a concrete data collection plan fleshed out.
-	- *Network analysis hands-on* (10%): Students will practice SNA using either an open dataset provided by the instructor or a dataset of their own. Research questions will be provided to guide the analysis to cover key aspects of SNA.
-	- *Project final artifact* (40%): Each student will produce a project final artifact that represents preliminary results of their initial project ideas. The specific format of this artifact, which could be a research paper, an e-portfolio, or an interactive tool, is to be negotiated in advance with the instructor.
-	- *Project final presentation* (20%): Students will deliver a project final presentation by the end of the class to showcase their projects. The presentation will be assessed by both peers and the instructor, in light of a rubric.
-- **Reflection essay or e-portfolio** (10%): This assignment is designed to help students reflect on the journey of taking this course and examine possibilities of applying SNA in their ongoing and future research. 
+	- *Project checkpoint 1* (5 points): Each student will share an initial project idea and receive feedback from the instructor and peers. Initial post is worth 4 points, and meaningful feedback on one peer is worth 1 point.
+	- *Data collection hands-on* (10 points): Students will apply data collection techniques introduced in class to a real-world research scenario of their choice.
+	- *Project checkpoint 2* (5 points): Students will share their refined project ideas, with a concrete data collection plan fleshed out.
+	- *Network analysis hands-on* (10 points): Students will practice SNA using either an open dataset provided by the instructor or a dataset of their own. Research questions will be provided to guide the analysis to cover key aspects of SNA.
+	- *Project final artifact* (30 points): Each student will produce a project final artifact that represents preliminary results of their initial project ideas. The specific format of this artifact, which could be a research paper, an e-portfolio, or an interactive tool, is to be negotiated in advance with the instructor.
+	- *Project final presentation* (10 points): Students will deliver a project final presentation by the end of the class to showcase their projects. The presentation will be assessed by both peers and the instructor, in light of a rubric.
+- **Reflection essay or e-portfolio** (10 points): This assignment is designed to help students reflect on the journey of taking this course and examine possibilities of applying SNA in their ongoing and future research. 
 
 *Note*: Detailed guidelines and/or rubrics will be provided for major assignments. There will be no final exam for the class. 
 

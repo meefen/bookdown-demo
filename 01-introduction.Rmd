@@ -137,11 +137,11 @@ Below are a list of activities for Week 1. They are all **due by Jan 23, 23:59PM
 
 ### Get to know each other
 
-Please record a short Flipgrid video to introduce yourself to the class. This activity is important for this primarily online class. You should be able to record below directly; otherwise, open this link in a separate browser tab https://flipgrid.com/3b6043
+Please record a short Flipgrid video to introduce yourself to the class. This activity is important for this primarily online class. You should be able to record following this link: https://flipgrid.com/3b6043
 
 After recording your self-intro video, please check each other's videos and respond. Don't feel shy about pointing out your shared interests or one classmate's nice wall decorations :-). (Tip: Test your sound to make sure it works.)
 
-<iframe width="600" height="600" frameBorder="0" src="https://flipgrid.com/3b6043" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<!-- <iframe width="600" height="600" frameBorder="0" src="https://flipgrid.com/3b6043" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
 
 ### F2F sessions {#f2fdoodle}
 

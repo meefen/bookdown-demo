@@ -37,10 +37,12 @@ knitr::include_url("https://hypothes.is/search?q=tag:snaed%20tag:term",
   height = "400px")
 ```
 
-This week, we will be immersed in a number of key SNA concepts. In the following video, I "glide over" some basic terms that are often used in SNA. You do not need to memorize them all. As a matter of fact, I see those terms existing as a network; as you "unlock" one term, you are also activating others. 
+This week, we will be immersed in a number of key SNA concepts. In the following video, I "glide over" some basic terms that are often used in SNA. You do not need to memorize them all. As a matter of fact, I see those terms existing as a network (see the image below); as you "unlock" one term, you are also activating others. So spend time on some terms, and you're implicitly learning about others.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/lB5zx3L1Mi4?rel=0" frameborder="0" allowfullscreen></iframe>
 
+![Small World of Words](images/smallworldwords.png)  
+(Credit: [Small World of Words project](https://smallworldofwords.org/en/project/visualize))
 
 ## Week 2 Activities
 
@@ -63,13 +65,13 @@ This week, we will be immersed in a number of key SNA concepts. In the following
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Pe80-YWFetE?rel=0" frameborder="0" allowfullscreen></iframe>
 
-In **Slack**, in the `assignments` channel, **share a post** describing your initial project idea. 
+1. In **Slack**, in the `assignments` channel, **share a post** describing your initial project idea. 
 
-- In your post, use 3 paragraphs to (1) describe the **context**, (2) articulate the **phenomenon** and introduce your key **question(s)**, and (3) describe any initial thoughts (if any) on using SNA in this project. 
-- Not sure how to compose a post? Check this [help page](https://get.slack.help/hc/en-us/articles/203950418-Compose-a-post).
+  - In your post, use 3 paragraphs to (1) describe the **context**, (2) articulate the **phenomenon** and introduce your key **question(s)**, and (3) describe any initial thoughts (if any) on using SNA in this project. 
+  - Not sure how to compose a post? Check this [help page](https://get.slack.help/hc/en-us/articles/203950418-Compose-a-post).
 
-**Read each other's posts**. Please **leave comments** (and emojis if you want) to "praise" and/or "push" each other.
+2. **Read each other's posts**. Please **leave comments** (and emojis if you want) to "praise" and/or "push" each other.
 
-If you find someone who share a similar interest with you, you're encouraged to form a group. Slack is always there for you to communicate and collaborate with each other!
+(If you find someone who share a similar interest with you, you're encouraged to form a group. Slack is always there for you to communicate and collaborate with each other!)
 
 Have a wonderful week!
