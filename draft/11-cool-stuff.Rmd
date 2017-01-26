@@ -1,0 +1,3 @@
+# Cool Examples
+
+[Two-mode](http://faculty.ucr.edu/~hanneman/nettext/C17_Two_mode.html)

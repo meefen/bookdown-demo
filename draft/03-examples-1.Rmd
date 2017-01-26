@@ -1,0 +1,23 @@
+# Applications and Examples I {#ch3}
+
+Week 3 is about looking for cool examples and applications of SNA, after crafting your initial project idea.
+
+You could find stuff from the list.
+
+You can also do your own search..
+
+
+
+## An example
+
+of both an SNA study, and a nice presentation of a study
+
+Social Network Analysis in R applied to stoke patients' health behaviors
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/4WOGwRQWyNM?list=PL6XFeulyPj7BcB6gLLQyuDkZqWhAeSwQL" frameborder="0" allowfullscreen></iframe>
+
+How trees talk to each other | Suzanne Simard
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/Un2yBgIAxYs?list=PLSKPwgliCYKuVEJcuhEy7NcKHrYIuS7Yo" frameborder="0" allowfullscreen></iframe>
+
+Canadian accent alert.
