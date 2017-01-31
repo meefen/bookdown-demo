@@ -1,0 +1,83 @@
+# Applications and Examples I {#ch3}
+
+In Week 2, we explore **basic concepts/terms** in SNA and drafted our **initial project ideas**. Below I am randomly highlighting two terms you explicated, and I encourage you to check out our [Hypo Feed](https://hypothes.is/stream?q=tag:snaed) regularly.
+
+> **sociometry**
+>
+> This has come up a couple times now with no definition (that I've seen), so I looked it up on dictionary.com: the measurement of attitudes of social acceptance or rejection through expressed preferences among members of a social grouping
+>
+> -- [contributed by Val](https://hyp.is/VvJoFOS9EeaJrhvFrHVA3Q/methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n3.xml)
+
+
+> **social capital**
+>
+> this is a fuzzy term, which was only reinforced as being fuzzy for me when trying to find a more formal definition. I think [this page](http://www.socialcapitalresearch.com/literature/definition.html) summed it up the best
+>
+> -- [contributed by Lisa](https://hyp.is/Z-WUYucUEea1q7eJmEYkfA/methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n2.xml)
+
+**In this week, we will:**
+
+- Examine some concrete examples of SNA research
+- 'Present' an example of your choice to the class
+- 'Take' ideas from each other to inform your project ideas
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/AuQOlRQ5mCY?rel=0" frameborder="0" allowfullscreen></iframe>
+
+## Applications and Examples of SNA
+
+After the first two weeks of exploration, I am quite sure we've come to a share recognition on **the potential of SNA** in various domains. In this page, I want to share two applications of SNA -- outside of education -- that I found inspiring.
+
+The first example is **Suzanne Simard's TED talk on "How trees talk to each other"** that I stumbled upon when listening to NPR. (Canadian accent alert.) The reason I picked this exmaple is Simard's work demonstrates a *paradigm shift* (discussed by Freeman) in the study of trees and forest by highlighting the importance of *ties* among trees.
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/Un2yBgIAxYs?list=PLSKPwgliCYKuVEJcuhEy7NcKHrYIuS7Yo" frameborder="0" allowfullscreen></iframe>
+
+The second example is Amar Dhand's work on "**stoke patients' health behaviors**" that is based on a specific type of social network named *ego-networks*. The reason I piced this example is Dhand did a great job presenting the motivation of their work and went on to investigate a solution powered by SNA. This presention could be a great model for you to follow for this week's class activity (see next page for details).
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/4WOGwRQWyNM?list=PL6XFeulyPj7BcB6gLLQyuDkZqWhAeSwQL" frameborder="0" allowfullscreen></iframe>
+
+Did you find these examples inspiring? Feel free to share on the Slack `ideas` channel, or make Hypo annotations on this page.
+
+## Week 3 Activities
+
+- **Read & Share**, due by **Friday Feb 3, 11:59PM**
+- **Take / comment**, due by **Monday Feb 6, 11:59PM**
+
+### Readings
+
+1) **Skim** [Carolan, ch. 10, on "Social Capital"](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n10.xml), and annotate concepts you recognize / don't know
+
+2) **Closely examine** an empirical study of your choice. You could either (a) **claim** one article from below -- by annotating it using Hypo, or (b) **search** for one article from your research area.  I would recommend option #b so that this reading activity is adding to your project.
+
+When examining the article, please try to discern those three levels of considerations I presented in Week 2 (i.e., Philosophical, Methodological, and methods). 
+
+- Daly, A. J., & Finnigan, K. S. (2011). The Ebb and Flow of Social Network Ties Between District Leaders Under High-Stakes Accountability. American Educational Research Journal, 48(1), 39–79.
+- Baker-Doyle, K. (2010). Beyond the Labor Market Paradigm: A Social Network Perspective on Teacher Recruitment and Retention. Education Policy Analysis Archives, 18, 26.
+- Heck, R. h., Price, C. l., & Thomas, S. l. (2004). Tracks as Emergent Structures: A Network Analysis of Student Differentiation in a High School. American Journal of Education , 110(4), 321–353.
+- González Canché, M. S., & Rios-Aguilar, C. (2015). Critical Social Network Analysis in Community Colleges: Peer Effects and Credit Attainment. New Directions for Institutional Research, 2014(163), 75–91. https://doi.org/10.1002/ir.20087
+- Hill, M. (2002). Network Assessments and Diagrams: A Flexible Friend for Social Work Practice and Education. Journal of Social Work , 2(2), 233–254.
+- Christley, R. M. (2005). Infection in Social Networks: Using Network Analysis to Identify High-Risk Individuals. American Journal of Epidemiology, 162(10), 1024–1031. http://doi.org/10.1093/aje/kwi308
+- Christakis, N. A., & Fowler, J. H. (2007). The spread of obesity in a large social network over 32 years. The New England Journal of Medicine, 357(4), 370–379.
+- Dawson, S., Tan, J. P. L., & McWilliam, E. (2011). Measuring creative potential: Using social network analysis to monitor a learners’ creative capacity. Australasian Journal of Educational Technology, 27(6), 924–942.
+- Honeycutt, T. (2009). Making Connections: Using Social Network Analysis for Program Evaluation. Mathematica Policy Research, (1), 1–4.
+- Rienties, B., Héliot, Y., & Jindal-Snape, D. (2013). Understanding social learning relations of international students in a large classroom using social network analysis. Higher Education, 66(4), 489–504. http://doi.org/10.1007/s10734-013-9617-9
+- Martinez, A., Dimitriadis, Y., Rubia, B., Gómez, E., & de la Fuente, P. (2003). Combining qualitative evaluation and social network analysis for the study of classroom social interactions. Computers & Education, 41(4), 353–368.
+- Roberson, Q. M., & Colquitt, J. A. (2005). Shared and Configural Justice: A Social Network Model of Justice in Teams. Academy of Management Review. Academy of Management, 30(3), 595–607.
+
+### Share & Take
+
+1) **Share** the article you read in a concise manner to the class. The video on "stoke patients" in the previous page could be a great example to follow. In your sharing, you should cover:
+
+- research problem and questions
+- collection of SNA data
+- specific use of SNA (e.g., specific SNA measures, visualizations)
+- key findings
+- one "praise" and/or one "push"
+
+You can choose between these **two formats**:
+
+- *a screencast* (5-min max): A video presentation of you talking through your example. Post a link to your video to the Slack `assignments` channel. Potential video capturing tools include Jing, QuickTime, and Screencast-O-Matic.
+- *a Slack post* (500-word max): Post a text-based post to the Slack `assignments` channel as we did in Week 2. 
+
+2) **Take** ideas from each other's presentations to inform your project. **Comment** on each other's posts to acknowledge ideas you take from them, seek clarifications, etc. 
+
+Have a wonderful week!
