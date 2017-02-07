@@ -43,6 +43,7 @@ Readings:
   - Martinez, A., Dimitriadis, Y., Rubia, B., Gómez, E., & de la Fuente, P. (2003). Combining qualitative evaluation and social network analysis for the study of classroom social interactions. Computers & Education, 41(4), 353–368.
   - Roberson, Q. M., & Colquitt, J. A. (2005). Shared and Configural Justice: A Social Network Model of Justice in Teams. Academy of Management Review. Academy of Management, 30(3), 595–607.
   - Tindall, D. B., & Wellman, B. (2001). Canada as Social Structure: Social Network Analysis and Canadian Sociology. Canadian Journal of Sociology = Cahiers Canadiens de Sociologie, 26(3), 265–308.
+  - Woolley, A. W., Chabris, C. F., Pentland, A., Hashmi, N., & Malone, T. W. (2010). Evidence for a Collective Intelligence Factor in the Performance of Human Groups. Science, 330(6004), 686–688. http://doi.org/10.1126/science.1193147
 
 #### Class 4: Collect and Manage Network Data
 
@@ -51,7 +52,6 @@ Summary: In this week we get practical, diving into different types of network d
 Readings:
 
 - Carolan, ch. 4
-- Woolley, A. W., Chabris, C. F., Pentland, A., Hashmi, N., & Malone, T. W. (2010). Evidence for a Collective Intelligence Factor in the Performance of Human Groups. Science, 330(6004), 686–688. http://doi.org/10.1126/science.1193147
 
 #### Class 5: Sociograms and Density
 

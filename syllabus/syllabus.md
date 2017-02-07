@@ -77,7 +77,7 @@ This is a "primarily online" class. [The **course website**](https://bookdown.or
 
 The class would meet periodically depending on needs emerging from the class (see Course Schedule below). Example needs include elaboration of key concepts, software demos, software Q&A, student presentations, etc.
 
-Each week, students are expected to: 1) read assigned materials; 2) collaboratively "annotate" them and discuss ideas using `Hypothes.is` and `Slack`; and 3) craft brief reflection journals connecting class discussions with individual research interests. Discussions could be initiated by the instructor (e.g., responding to key reflective questions from readings) or, more ideally, everyone participating in the class (e.g., Q&A, posting some genius research ideas, sharing interesting use of SNA). Since this is a 3-credit course, please expect a 9-hour weekly workload.
+Each week, students are expected to: 1) read assigned materials; and 2) collaboratively "annotate" them and discuss ideas using `Hypothes.is` and `Slack`. Students are also encouraged to keep brief reflection journals (or e-portfolios) connecting class discussions with individual research interests. Discussions could be initiated by the instructor (e.g., responding to key reflective questions from readings) or, more ideally, everyone participating in the class (e.g., Q&A, posting some genius research ideas, sharing interesting use of SNA). Since this is a 3-credit course, please expect a 9-hour weekly workload.
 
 #### Textbook
 

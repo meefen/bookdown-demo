@@ -27,15 +27,15 @@ In Week 2, we explore **basic concepts/terms** in SNA and drafted our **initial 
 
 After the first two weeks of exploration, I am quite sure we've come to a share recognition on **the potential of SNA** in various domains. In this page, I want to share two applications of SNA -- outside of education -- that I found inspiring.
 
-The first example is **Suzanne Simard's TED talk on "How trees talk to each other"** that I stumbled upon when listening to NPR. (Canadian accent alert.) The reason I picked this exmaple is Simard's work demonstrates a *paradigm shift* (discussed by Freeman) in the study of trees and forest by highlighting the importance of *ties* among trees.
+The first example is **Suzanne Simard's TED talk on "How trees talk to each other"** that I stumbled upon when listening to NPR. (Canadian accent alert!) The reason I picked this exmaple is Simard's work demonstrates a *paradigm shift* (discussed by Barry Wellman in last week's readings) in the study of trees and forests by highlighting the importance of *ties* among trees.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Un2yBgIAxYs?list=PLSKPwgliCYKuVEJcuhEy7NcKHrYIuS7Yo" frameborder="0" allowfullscreen></iframe>
 
-The second example is Amar Dhand's work on "**stoke patients' health behaviors**" that is based on a specific type of social network named *ego-networks*. The reason I piced this example is Dhand did a great job presenting the motivation of their work and went on to investigate a solution powered by SNA. This presention could be a great model for you to follow for this week's class activity (see next page for details).
+The second example is Amar Dhand's work on "**stroke patients' health behaviors**" that is based on a specific type of social network named *ego-networks*. The reason I picked this example is Dhand did a great job presenting the motivation of their work and went on to investigate a solution powered by SNA. This presentation could be a great model for you to follow for this week's class activity (see next page for details).
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/4WOGwRQWyNM?list=PL6XFeulyPj7BcB6gLLQyuDkZqWhAeSwQL" frameborder="0" allowfullscreen></iframe>
 
-Did you find these examples inspiring? Feel free to share on the Slack `ideas` channel, or make Hypo annotations on this page.
+Did you find these examples inspiring? Feel free to share on the Slack `ideas` channel, or make Hypo annotations on this page using hashtags `SNAEd` & `ideas`.
 
 ## Week 3 Activities
 
@@ -65,7 +65,7 @@ When examining the article, please try to discern those three levels of consider
 
 ### Share & Take
 
-1) **Share** the article you read in a concise manner to the class. The video on "stoke patients" in the previous page could be a great example to follow. In your sharing, you should cover:
+1) **Share** the article you read in a concise manner to the class. The video on "stroke patients" in the previous page could be a great example to follow. In your sharing, you should cover:
 
 - research problem and questions
 - collection of SNA data
