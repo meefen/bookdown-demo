@@ -36,23 +36,23 @@ In this week's reading -- **Carolan (2014), Ch 4** -- you will read detailed sug
 
 ### Sources of SNA data
 
-SNA data may be obtained in a variety of ways---from historical archives, questionnaires, ethnographic studies, system logs of online platforms, etc. For example, from public records researchers could analyze *co-sponsorship of legislation* in the U.S. Senate; from a classic Chinese novel, *[Dream of the Red Chamber](https://en.wikipedia.org/wiki/Dream_of_the_Red_Chamber)*, researchers could use SNA to estimate relationships between characters based on their co-occurrence [@Zhao2016-th]. In these two cases, we can see that in SNA research some *relational data* are **natural** or readily available (e.g., co-sponsoring of a legislature), while some other need to be **derived** (e.g., co-occurrence of two words in a same sentence). 
+SNA data may be obtained in a variety of ways---from historical archives, questionnaires, ethnographic studies, system logs of online platforms, etc. For example, from public records researchers could analyze *co-sponsorship of legislation* in the U.S. Senate; from a classic Chinese novel, *[Dream of the Red Chamber](https://en.wikipedia.org/wiki/Dream_of_the_Red_Chamber)*, researchers could use SNA to estimate relationships between characters based on their co-occurrence [@Zhao2016-th]. In these two cases, we can see that in SNA research some *relational data* are **natural** or readily available (e.g., co-sponsoring of a legislature), while some other need to be **derived** (e.g., relationship between novel characters based on co-occurrence of names in a same sentence). 
 
-No matter how relational data get gathered or derived, I want to emphasize the importance of **making sound justification on the collection/creation of relational data**. For example, I reviewed a manuscript that analyzed "co-location networks" based on students' simultaneous access to wifi hotspots on a university campus. As a critical reviewer, I would pay special attention to any strong claims made on "social" connections among students because accessing a same wifi hotspot does not imply any social interaction. However, if the study looks at pairs of students simultaneously accessing 10 hotspots on UMN campus every day, it would become a totally different story. Therefore, in SNA studies we need to constantly reflect on the **contextual definition(s)** of *ties* and the **operationalization of the definitions** in the collection of *relational data*.
+No matter how relational data get gathered or derived, I want to emphasize the importance of **making sound justification** on the collection/creation of relational data. For example, I reviewed a manuscript that analyzed "co-location networks" based on students' simultaneous access to wifi hotspots on a university campus. As a critical reviewer, I would pay special attention to any strong claims made on "social" connections among students, because accessing a same wifi hotspot does not imply any social interaction. However, if the study looks at pairs of students simultaneously accessing 10 hotspots on the campus every day, it would become a totally different story as such intense co-location could be an indicator of (potential) social ties. Therefore, in SNA studies we need to constantly reflect on the **contextual definition(s)** of *ties* and the **operationalization of the definitions** in data collection.
 
 ### Totality and sampling
 
-In some cases, we are able to collect a **whole** social network. Imagine [the year-long NASA simulation of a Mars mission in an isolated dome](https://www.theguardian.com/science/2016/aug/28/mars-scientists-nasa-dome-hawaii-mountain-isolation), researchers would have a better chance of studying the social network of all six scientists in its totality.[^1] In other cases, when it becomes impossible to study a whole network, researchers will need to apply specific techniques of **sampling**.
+In some cases, we are able to collect a **whole** social network. Imagine [the year-long NASA simulation of a Mars mission in an isolated dome](https://www.theguardian.com/science/2016/aug/28/mars-scientists-nasa-dome-hawaii-mountain-isolation), researchers would have a better chance of studying the social network of all six scientists in its totality.[^1] In other cases, when it becomes impossible to study a whole network (e.g., terrorist networks), researchers will need to apply specific techniques of **sampling**.
 
-[^1]: Whether researchers can investigate a phenomenon in its totality is a philosophical question. But if we focus on highly specified questions (whether scientists cooperate in an experiment), we can argue the phenomenon is observable and the likelihood of studying this phenomenon in its totality is very high.
+[^1]: Whether researchers can investigate a phenomenon in its totality is a philosophical question. But if we focus on highly specified questions (e.g., whether scientists cooperate in an experiment), we can argue the phenomenon is observable and the likelihood of studying this phenomenon in its totality is very high.
 
-As you will read this week, **sampling in SNA research is different from sampling we commonly discuss** in an introduction to research course. This is because SNA research is concerned with both the *nodes* and the *ties*. Simply put, a representative sample of nodes does not naturally guarantee a meaningful sample of ties. SNA researchers need to be especially aware the impact of sampling on relational data. For example, in a study we may *systematically sample* every 5th student from a school based on student IDs (sampling applied on nodes), and we may also ask each student to name up to 3 friends in this school (sampling applied on ties). Ego-network also implies an interesting sampling mechanism, as it cares about a focal ego and the nodes to whom ego is directly connected to plus the ties. This could be understood by sampling based on distance from the ego.
+As you will read this week, **sampling in SNA research is different from sampling we commonly discuss** in an introductory research methods course. This is because SNA research is concerned with both the *nodes* and the *ties*. Simply put, a representative sample of nodes does not naturally guarantee a meaningful sample of ties. SNA researchers need to be especially aware of the impact of sampling on relational data. For example, in a study we may *systematically sample* every 5th student from a school based on student IDs (sampling applied on nodes), and we may also ask each student to name up to 3 friends in this school (sampling applied on ties). Ego-network also implies an interesting sampling mechanism, as it cares about a focal ego and the nodes to whom the ego is directly connected to plus the ties. This could be intuitively understood by sampling based on *distance* from the ego.
 
-How we sample nodes and/or ties depends on how we **specify the boundaries of networks**. It is highly critical for any SNA research and requires systematic considerations on research questions, theoretical perspectives, availability of data, etc. To quote @Scott2012-fq:
+How we sample nodes and/or ties depends on how we **specify the boundaries of networks**. The definition of network boundaries is highly critical for any SNA research and requires systematic considerations on research questions, theoretical perspectives, availability of data, etc. To quote @Scott2012-fq:
 
 > ... the determination of network boundaries is not simply a matter of identifying the apparently natural or obvious boundaries of the situation under investigation. Although 'natural' boundaries may, indeed, exist, the determination of boundaries in a research project is the outcome of a theoretically informed decision about what is significant in the situation under investigation... Researchers are involved in a process of conceptual elaboration and model building, not a simple process of collecting pre-formed data (pp. 44-45)
 
-This important recognition speaks back to my Week 1 video on the importance of **learning to make decisions** in such a research methodology class. Defining the boundaries of networks is certain the most central decision for an SNA project. When we start to inspect these decisions, it may looks like we're opening **"a can of worms"**, as many decisions may look artificial, or slippery at best. In this class, I hope we see decision points as **"a bag of diamonds"**---each worth staring at from different angles.[^2]
+This important recognition speaks back to my Week 1 video on the importance of **learning to make decisions** in such a research methodology class. Defining the boundaries of networks is certainly the most central decision for an SNA project. When we start to inspect these decisions, it may looks like we're opening **"a can of worms"**, as many decisions may look artificial, or slippery at best. In this class, I hope we see decision points as **"a bag of diamonds"**---each worth staring at from different angles.[^2]
 
 [^2]: I enjoy the analogy I'm making here :)
 
@@ -60,12 +60,14 @@ This important recognition speaks back to my Week 1 video on the importance of *
 
 Ethical considerations are important for both research and practice. We won't spent much time on this topic this week, but I want to encourage you to attend to ethical concerns in your specific research contexts. Does your research involve venerable populations (e.g., young children)? Does your research involve sensitive data (e.g., health data)? Is your research field online or offline? Because SNA is applied in all kinds of educational research, it is almost impossible to come up with a unified ethics guideline. **I strongly encourage you to skim this [chapter from an ❤Open Textbook❤](https://open.lib.umn.edu/principlesmanagement/chapter/9-5-ethical-considerations-with-social-network-analysis/)** produced by the UMN Libraries. What are the possible ethical concerns in your project? I encourage you to start taking notes on how you could manage them.
 
-I also want to mention that research ethics is not a static topic at all. In many emerging research spaces (e.g., the Internet), research ethics remains highly debatable [@Rivers2014-wt,@Kraut2004-se]. Feel free to share your thoughts via Hypo by adding the `ethics` hashtag, or in the Slack `general` channel.
+I also want to mention that research ethics is never a static topic at all. In many emerging research spaces (e.g., the Internet), research ethics remains highly debatable [@Rivers2014-wt;@Kraut2004-se]. Feel free to share your thoughts via Hypo by adding the `ethics` hashtag, or in the Slack `general` channel.
 
 If you're a UMN student and wish to conduct an actual SNA project as part of the class project (which is not required), please check this [UMN IRB website](http://www.research.umn.edu/irb/guidance/student-researchers.html) for further information. I'm willing to sponsor your project and we can meet individually to talk it through.
 
 
 ## Linear algebra basics
+
+(You can skip this section if you're already familiar with linear algebra.)
 
 **Matrix is all you need to know at this point.** This class will focus on mathematical intuitions and let the computer do heavy-lifting computations for us.
 
@@ -78,7 +80,7 @@ If you want to dive deeper in linear algebra, start from this intro video and mo
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kjBOesZCoqc?list=PLjwvT6cNsD_12ghorqyZ1LHjdvmEhm6N-" frameborder="0" allowfullscreen></iframe>
 
 
-## Representing SNA data
+## Managing SNA data
 
 On this page, I introduce recommended ways of structuring and handling SNA data. Here I especially consider principles of **tidy data** [@Wickham2014-jr], which may question things you encounter in textbooks. The principles of tidy data are very simple (p. 4), and I will explain each principle below with examples.
 
@@ -114,9 +116,9 @@ Table 2 describes book lending activities (**ties**) among students. For example
 
 :  Table 2. A table of weighted ties
 
-Note that *weight* is not always required for networks. In a study that only cares about the existence of a tie, Column 3 will contain only 0 and 1. Or, rows with having a value of 0 in Column 3 will be simply ignored from this table.
+Note that *weight* is not always required for networks. In a study that only cares about the existence of a tie, Column 3 will contain only 0 and 1. Or, rows with having a value of 0 in Column 3 will be simply removed from this table.
 
-Table 3 could be the original record from which Table 2 is constructed. In Table 3, each row represents a book lending action, with its date recorded in Column 3. Here, you get a sense how researchers may need to **transform** data from its original observations to a specific format (even though most SNA software can handle both Tables 2 and 3).
+Table 3 could be the original record from which Table 2 is constructed. In Table 3, each row represents a book lending action, with its date recorded in Column 3. Here, you get a sense how researchers may need to **transform** data from its original observations (Table 3) to a specific format (Table 2), even though most SNA software can handle both formats.
 
 | source | target | date |
 |:-----|:---|:-------|
@@ -130,7 +132,7 @@ Table 3 could be the original record from which Table 2 is constructed. In Table
 
 :  Table 3. A table of raw data of ties.
 
-Additionally, in situations you do not care about **node attributes** (in Table 1), you can simply only use relational data -- only about edges -- to construct a network. In this case, you will only have a table of relational data, which contain the most basic information (identifiers) of nodes. 
+Additionally, in situations you do not care about **node attributes** (in Table 1), you can simply only use relational data -- only about edges -- to construct a network. In this case, you will only have a table of relational data, which already contain the most basic information (identifiers) of nodes. Take Table 2 for example, all unique node identifers in columns `source` and `target` will be extracted to create a list of nodes, with no further information about their attributes.
 
 ### Two-mode data
 
@@ -160,14 +162,15 @@ Imagine the research project is actually more complicated: We are also intereste
 | baseball     |
 | basketball   |
 | volleyball   |
+| football     |
 
 :  Table 6. Sports teams in the school (version 2).
 
-Using Table 5, you could construct a **two-mode network**, or an affiliation network, with students and sports teams as two types of *actors* in the network. In contrast, Table 2 only has one mode -- students. 
+Using Table 5, you could construct a **two-mode network** -- also called as an affiliation network -- with students and sports teams as two types of *actors* in the network. In contrast, Table 2 only has one mode -- students. 
 
-Finally, if your research project is concerned with friendship in general -- which covers both book lending and sports affiliation -- you could even merge two types of relational data together (with solid justification). This is another type of **transformation** you may need to do in SNA research. Knowing basic data transformation techniques -- either in spreadsheet software or in R -- would be helpful for work in this class.
+Finally, if your research project is concerned with friendship in general -- which covers both book lending and sports affiliation -- you could even merge two types of relational data together (with solid justification). For example, from Table 5 we can tell A and C are both in the basketball team. We can then adjust the weight between A and B in Table 2 accordingly. This is another type of **transformation** you may need to do in SNA research. Knowing basic data transformation techniques -- either in spreadsheet software or in R -- would be helpful for work in this class.
 
-To summarize, this page provides a basic overview of how simply SNA data could be structured. You may encounter different ways of representing SNA data, e.g., a relationship matrix with rows and columns representing actors. Such representations could all be derived from a *tidy* dataset we have here. In data collection, we will strive for collecting keeping as much raw information as possible (such as dates you saw above), to enable analyses that only come to your mind after data collection.
+To summarize, this page provides a basic overview of how SNA data could be structured. You may encounter different ways of representing SNA data, such as a relationship matrix with rows and columns representing the same set of actors. Such representations could all be derived from a *tidy* dataset discussed above. In data collection, we will strive for keeping as much raw information as possible (such as timestamp), to enable analyses that only come to your mind afterwards.
 
 ## Import data into software {#import-data}
 
@@ -177,16 +180,16 @@ After all these explorations in the past weeks, it's time to play with some SNA 
 
 **Two Tracks**.  To accommodate your learning preferences, I provide two tracks of learning based on what SNA software you wish to learn. 
 
-- **R** is a statistical language that involves a little bit coding. It may have a steep learning curve if you've never coded before, but the benefits after you get to know R is huge. I recommend R in this course.
-- **Gephi** is a wonderful SNA software package coming with a graphical user interface. If you're more comfortable with tools like MS Word or SPSS, and if you'll never want to try R, it would be a good option for you.
+- **R** is a statistical language that involves a little bit of coding. It may have a steep learning curve if you've never coded before, but I believe everyone of us can learn it and the benefits of knowing R is huge. So I recommend R in this course.
+- **Gephi** is a wonderful SNA software package coming with a graphical user interface. If you're more comfortable with tools like MS Word or SPSS, and if you'll never want to try R, it would be a good option for you.  There are many similar software applications out there, many of which you've already encountered in readings. You can use them, but they're not officially supported in the class.
 
 I've created two new channels `R` and `Gephi` for track-specific discussions.
 
 ### Track R
 
-If you've not used R before, please take Module 1 of this free course on [Introduction to R](Introduction to R). If you have questions, post them in the `q_and_a` channel or DM Bodong.
+If you've not used R before, please take Module 1 of this [free course on Introduction to R](Introduction to R). If you have questions, post them in the `q_and_a` channel or DM Bodong.
 
-Below are R codes to get you started (also downloadable from [the #SNAEd Github repository](https://github.com/meefen/sna-ed/blob/master/assets/lab_1.R)). Please make sure the `igraph` R package is installed in your system. You can go far beyond than the codes, and make sure you please share what you make to our Slack `assignment` channel.
+Below are R codes to get you started (also downloadable from [the #SNAEd Github repository](https://github.com/meefen/sna-ed/blob/master/assets/lab_1.R)). Please make sure the `igraph` R package is installed in your system. You can go far beyond the codes. And make sure you share what you make to our Slack `assignment` channel.
 
 ```{r eval=FALSE}
 # Load igraph
@@ -206,13 +209,13 @@ plot(g)
 plot(g, edge.arrow.size=.2, vertex.label=NA, vertex.size=8)
 ```
 
-Below is a great video made by James Cook, a professor from University of Maine, that you may want to check out.
+Below is a great video made by James Cook (a professor from University of Maine) that would be helpful as well.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/N_mMXvNPE8Y" frameborder="0" allowfullscreen></iframe>
 
 ### Track Gephi
 
-To begin, download the [dataset here](https://raw.githubusercontent.com/meefen/sna-ed/master/assets/lesmis/lesmis.csv). Open it using a spreadsheet software and see what's in there. But make sure you never change it.
+To begin, download the [dataset here](https://raw.githubusercontent.com/meefen/sna-ed/master/assets/lesmis/lesmis.csv). Open it using a spreadsheet software and see what's in there. But make sure you never change anything in the file.
 
 Follow this really nice tutorial on network visualization and analysis with Gehpi. You only need to get through the **first 10 minutes**.  Given the nature of the dataset, you may want to filter `edges` to leave out those edges with a weight of `0`.
 
@@ -220,4 +223,4 @@ Follow this really nice tutorial on network visualization and analysis with Gehp
 
 Like folks from Track R, please share what you make to our Slack `assignment` channel.
 
-Have fun, everyone!
+Have fun, everyone!!
