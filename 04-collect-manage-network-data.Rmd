@@ -10,13 +10,13 @@
 
 **An overview of Week 4 activities:**
 
-- **Read**
+- *Read*
     - Carolan, ch. 4
     - [Book chapter on Ethical Considerations With Social Network Analysis](https://open.lib.umn.edu/principlesmanagement/chapter/9-5-ethical-considerations-with-social-network-analysis/)
-- **Play & Share** (more details on Section \@ref(import-data))
+- *Play & Share* (more details on Section \@ref(import-data))
     - Import a practice dataset into the SNA software of your choice
     - Get familiar with the software
-    - Share the network visualization you make in the `assignment` channel, due by **Monday Feb 6, 11:59PM**
+    - Share the network visualization you make in the `assignment` channel, due by **Monday Feb 13, 11:59PM**
 
 I've created two new Slack channels `R` and `Gephi` for track-specific questions and discussions.
 
@@ -184,7 +184,9 @@ I've created two new channels `R` and `Gephi` for track-specific discussions.
 
 ### Track R
 
-Below are R codes to get you started. Please make sure the `igraph` R package is installed in your system. You can go far beyond than the codes, and make sure you please share what you make to our Slack `assignment` channel.
+If you've not used R before, please take Module 1 of this free course on [Introduction to R](Introduction to R). If you have questions, post them in the `q_and_a` channel or DM Bodong.
+
+Below are R codes to get you started (also downloadable from [the #SNAEd Github repository](https://github.com/meefen/sna-ed/blob/master/assets/lab_1.R)). Please make sure the `igraph` R package is installed in your system. You can go far beyond than the codes, and make sure you please share what you make to our Slack `assignment` channel.
 
 ```{r eval=FALSE}
 # Load igraph
