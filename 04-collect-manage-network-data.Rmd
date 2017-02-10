@@ -170,7 +170,7 @@ Using Table 5, you could construct a **two-mode network** -- also called as an a
 
 Finally, if your research project is concerned with friendship in general -- which covers both book lending and sports affiliation -- you could even merge two types of relational data together (with solid justification). For example, from Table 5 we can tell A and C are both in the basketball team. We can then adjust the weight between A and B in Table 2 accordingly. This is another type of **transformation** you may need to do in SNA research. Knowing basic data transformation techniques -- either in spreadsheet software or in R -- would be helpful for work in this class.
 
-To summarize, this page provides a basic overview of how SNA data could be structured. You may encounter different ways of representing SNA data, such as a relationship matrix with rows and columns representing the same set of actors. Such representations could all be derived from a *tidy* dataset discussed above. In data collection, we will strive for keeping as much raw information as possible (such as timestamp), to enable analyses that only come to your mind afterwards.
+To summarize, this page provides a basic overview of how SNA data could be structured. You may encounter different ways of representing SNA data, such as a relationship matrix with rows and columns representing the same set of actors (see [the Harry Potter support networks](http://www.stats.ox.ac.uk/~snijders/siena/HarryPotterData.html) for example). Such representations could all be derived from a *tidy* dataset discussed above. In data collection, we will strive for keeping as much raw information as possible (such as timestamp), to enable analyses that only come to your mind afterwards.
 
 ## Import data into software {#import-data}
 
@@ -187,9 +187,11 @@ I've created two new channels `R` and `Gephi` for track-specific discussions.
 
 ### Track R
 
-If you've not used R before, please take Module 1 of this [free course on Introduction to R](Introduction to R). If you have questions, post them in the `q_and_a` channel or DM Bodong.
+If you've not used R before, please take Module 1 of this [free course on Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r). If you have questions, post them in the `q_and_a` channel or DM Bodong.
 
-Below are R codes to get you started (also downloadable from [the #SNAEd Github repository](https://github.com/meefen/sna-ed/blob/master/assets/lab_1.R)). Please make sure the `igraph` R package is installed in your system. You can go far beyond the codes. And make sure you share what you make to our Slack `assignment` channel.
+Below are R codes to get you started (also downloadable from [the #SNAEd Github repository](https://github.com/meefen/sna-ed/blob/master/assets/lab_1.R)). Please make sure the `igraph` R package is installed in your system as it is beyond `Base R`. Not familiar with installing additional R packages, check out [this video](https://www.youtube.com/watch?v=u1r5XTqrCTQ).
+
+You can go far beyond the codes. And make sure you share what you make to our Slack `assignment` channel.
 
 ```{r eval=FALSE}
 # Load igraph
