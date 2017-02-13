@@ -44,6 +44,7 @@ Readings:
   - Roberson, Q. M., & Colquitt, J. A. (2005). Shared and Configural Justice: A Social Network Model of Justice in Teams. Academy of Management Review. Academy of Management, 30(3), 595–607.
   - Tindall, D. B., & Wellman, B. (2001). Canada as Social Structure: Social Network Analysis and Canadian Sociology. Canadian Journal of Sociology = Cahiers Canadiens de Sociologie, 26(3), 265–308.
   - Woolley, A. W., Chabris, C. F., Pentland, A., Hashmi, N., & Malone, T. W. (2010). Evidence for a Collective Intelligence Factor in the Performance of Human Groups. Science, 330(6004), 686–688. http://doi.org/10.1126/science.1193147
+  - Moody, J. (2001). Race, school integration, and friendship segregation in America 1. American journal of Sociology, 107(3), 679-716.
 
 #### Class 4: Collect and Manage Network Data
 
@@ -55,15 +56,16 @@ Readings:
 
 #### Class 5: Sociograms and Density
 
-Summary: We are getting practical this week, using Gephi to visualize social networks of your choice and reviewing basic principles of network visualization.
+Summary: We are getting practical this week, using Gephi to visualize social networks of your choice and reviewing basic principles of network visualization. We will also explore network-level concepts and measures, including size, density, centralization, and diameter. 
 
 Readings:
 
+- Carolan, ch. 5
 - Schreurs, B., de Laat, M., Teplovs, C., & Voogd, S. (2014). Social Learning Analytics applied in a MOOC-environment. eLearning Papers, 36(January), 45–48.
 
 #### Class 6: Centrality and Centralization
 
-Summary: This week focuses on network-level concepts and measures, including size, density, centralization, and diameter. We will get familiar with these characteristics and the interpretations of them in various educational contexts.
+Summary: We will get familiar with these characteristics and the interpretations of them in various educational contexts.
 
 Readings:
 

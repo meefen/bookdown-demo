@@ -158,8 +158,8 @@ Even though this is a primarily online class, your attendance is imperative.
 | 1       | Introduction                               | 1/24      | Flipgrid self-intro       |
 | 2       | Basic Concepts                             | 1/31      | Project checkpoint 1      |
 | 3       | Applications and Examples I                | 2/7       |                           |
-| 4       | Collect and Manage Network Data            | 2/14      | Data collection hands-on  |
-| 5*      | Sociograms and Density                     | 2/21      |                           |
+| 4       | Collect and Manage Network Data            | 2/14      |                           |
+| 5       | Sociograms and Density                     | 2/21      | Data collection hands-on  |
 | 6       | Centrality and Centralization              | 2/28      |                           |
 | 7       | Components and Cliques                     | 3/7       | Project checkpoint 2      |
 | 8       | Ego-centric Networks                       | 3/21      |                           |
