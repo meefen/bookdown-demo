@@ -32,9 +32,9 @@ The creation a sociogram depends on `network layout` algorithms. Network layouts
 
 The following knowledge and understanding are important for making a sociogram:[^3]
 
-- Know common network visualization goals
-- Know network visualization types, and corresponding layout algorithms
-- Know visualization controls
+- Know common network visualization goals (e.g., revealing segregation, showing hierarchy)
+- Know network visualization types (e.g., heat maps, network maps, hive plots), and corresponding layout algorithms
+- Know visualization controls (e.g., size, color, shape, width, position)
 
 [^3]: See http://kateto.net/network-visualization
 
@@ -45,7 +45,7 @@ Putting knowledge into action, when producing a sociogram you need to:
 3. Apply proper visualization controls
 4. *If needed*, repeat 1-3.
 
-Below, I present a few examples that do not draw on force-directed layouts.
+Below, I present a few network visualization examples that do not draw on force-directed layouts.
 
 ### Example 1: Global Flight Network
 
@@ -57,12 +57,16 @@ Below, I present a few examples that do not draw on force-directed layouts.
 2. Type: The coordinates are determined by the origin and destination of each flight. In other words, no additional algorithmic decisions are made beyond the use of a world map.
 3. Controls: Line color represents duration of a flight. Brightness of each line adds up to each other to represent the intensity of flight activities in certain areas.
 
+Note: How will this visualization look differently if the map is not eurocentric? Does it matter? What 'world-views' might have been built into such a visualization?
+
 ### Example 2: Networks of interaction in mobile animal groups 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hpVENCrwJ1s" frameborder="0" allowfullscreen></iframe>  
 (See [the article](http://www.pnas.org/content/112/15/4690/F3.expansion.html))
 
 Here the concern is network dynamics, and the placement of each node (representing each individual animal) is based on its (projected) physical location in the real world. 
+
+Note: In this movie, which information naturally existed and which information was constructed by researchers?
 
 ### Example 3: Migration Network
 
@@ -71,13 +75,14 @@ Here the concern is network dynamics, and the placement of each node (representi
 
 This visualization attempts to visualize migration `flows` into Minnesota across time. This visualization could be seen as a series of ego-centric networks of Minnesota in terms of migration into the state.
 
+Note: Like Example 2, which information naturally existed and which information was constructed by researchers? Which decisions did the 'data journalist' make in this graph?
 
 ### Example 4: Light Up the Curriculum
 
 ![](images/light-up-curriculum.png)  
 (See [interactive version here](http://bodong.ch/assets/hive/lightup.html))
 
-This is a visualization I made to demonstrate semantic similarity among three types of documents---curriculum standards, students' online posts, and their verbal discussions. This visualization technique is called `hive plots.` Each axis represents a type of document. This visualization was chosen because I only cared about cross-type linkages and didn't care about the links within each document type.
+This is a visualization made to demonstrate semantic similarity among three types of documents---curriculum standards, students' online posts, and their verbal discussions. This visualization technique is called `hive plots.` Each axis represents a type of document. This visualization was chosen because researchers only cared about cross-type linkages and didn't care about the links within each document type.
 
 
 ### Play more with network visualizations
@@ -86,7 +91,7 @@ This part is **optional**. I'm providing more materials for those who hope to ex
 
 **Track R**: I encourage you to follow [this tutorial](http://kateto.net/network-visualization) I've already mentioned above. You can download data and R scripts used in this tutorial from [the author's Github repository](https://github.com/kateto/R-Network-Visualization-Workshop). 
 
-**Track Gephi**: Check out the following video that demonstrates Scientific Literature Analysis using Gephi. You are also encouraged to check out the first 3 sections of [this Gephi tutorial](http://www.martingrandjean.ch/gephi-introduction/).
+**Track Gephi**: I encourage you to read the first section of [this tutorial](http://kateto.net/network-visualization). Also, check out the following video that demonstrates Scientific Literature Analysis using Gephi. You are also encouraged to check out the first 3 sections of [this Gephi tutorial](http://www.martingrandjean.ch/gephi-introduction/).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QRx-yBcPTV8" frameborder="0" allowfullscreen></iframe>
 
@@ -98,10 +103,7 @@ As always, please report back to our track-specific Slack channels -- `Gephi` an
 
 Below, I make several extra points that are not covered:
 
-First, the chapter is based on a `directed, non-weighted` network. We need to recognize that there are several types of networks based on the kinds of ties they have (see Table 5.1[^4]). Take the measure of `density` for example, the number of possible links are different for a directed network and an undirected network with the same `size`: a directed network has more possible links because each pair of nodes have two possible links. There are different algorithms in place that account for network types when calculating these measures. 
-Second, the researcher sometimes need to make important decisions when computing network measures, even if a same algorithm is applied. For example, for a weighted network, it is a common practice to set a `threshold` of weight (based on some justified reasons) to filter links weaker than the threshold. Then network `density` could be computed the same way as an unweighted network. In this case, the measure of density calculated in this way is highly sensible to decisions made by the researcher, which are informed by her/his assumptions of the network. (**Decision Point**)
-
-> "It is important that a researcher does not use a measure simply because it is available in a standard program. A researcher must always be perfectly clear about the assumptions involved in any particular procedure, and must report these along with the density measures calculated" (Scott, 2013, p. 73)
+First, the chapter is based on a `directed, non-weighted` network. We need to recognize that there are several types of networks based on the kinds of ties they have (see Table 5.1[^4]). Take the measure of `density` for example, the number of possible links are different for a directed network and an undirected network with the same `size`: a directed network has more possible links because each pair of nodes have two possible links. There are different algorithms (built in SNA tools) that would account for network types when calculating these measures. 
 
 
 |            | Undirected | Directed |
@@ -113,7 +115,11 @@ Second, the researcher sometimes need to make important decisions when computing
 
 [^4]: See [the R code I wrote](assets/05-demo.R) to produce these toy networks.
 
-As we're diving into specific SNA techniques -- such as `density`, `average degree` -- I want to remind you of the "3 levels of considerations" we explored in [Week 2](https://bookdown.org/chen/snaEd/understanding-sna-in-educational-research.html). Decision points we've covered this week, such as which layout to use and what threshold to apply when computing density of a weighted network, are often informed by theoretical frameworks we adopt in a study or contextualized knowledge we have about a research problem. Like @Scott2013-wu advised above, it's important for us to make our theoretical assumptions explicit in an SNA study. 
+Second, the researcher sometimes need to make important decisions when computing network measures, even if a same algorithm is applied. For example, for a weighted network, it is a common practice to set a `threshold` of weight (based on some justified reasons) to filter links weaker than the threshold (see Example 4 from the previous page). Then network `density` could be computed the same way as an unweighted network. In this case, the calculated measure of density is highly sensible to the researcher's decisions, which are influenced by her/his assumptions of the network. (**Decision Point**)
+
+> "It is important that a researcher does not use a measure simply because it is available in a standard program. A researcher must always be perfectly clear about the assumptions involved in any particular procedure, and must report these along with the density measures calculated" (Scott, 2013, p. 73)
+
+As we're diving into specific SNA techniques -- such as `density`, `average degree` -- I want to remind you of the "3 levels of considerations" we explored in [Week 2](https://bookdown.org/chen/snaEd/understanding-sna-in-educational-research.html). Decision points we've covered this week, such as which layout to use and what threshold to apply when computing density of a weighted network, are often informed by theoretical frameworks we adopt in a study or contextualized knowledge we have about a research problem. It is important for us to make our theoretical assumptions explicit in an SNA study. 
 
 ## Assignments and Activities
 
@@ -121,7 +127,7 @@ As we're diving into specific SNA techniques -- such as `density`, `average degr
 
 ### Read and build knowledge
 
-**Read** [Carolan (2014) Chapter 5](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n5.xml). Make Hypothesis annotations as we normally do using proper hashtags (e.g., `question`, `idea`).
+**Read** [Carolan (2014) Chapter 5](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n5.xml). Make Hypothesis annotations as we normally do using proper hashtags (e.g., `question`, `idea`). Don't forget to include our `SNAEd` course hashtag.
 
 **Build knowledge as a group**: When reading through the chapter, **identify** at least one network-level measure, **conduct research** on how it could be computed using R or Gephi, and **share** your solution using Hypothesis. Include at least three hashtags in your Hypothesis annotation: `SNAEd`, `compute` and `R`/`Gephi`.
 - If you found someone else has already covered your 'favorite' measure, try to **build on** the existing solution by, for example, introducing a parameter/mechanism to deal with weighted networks. 
@@ -132,13 +138,13 @@ Finally, if you find a network-level measures not captured in the book, please a
 
 As the second project checkpoint, you are required to turn in a dataset that is organized according to the "tidy data" principles discussed last week. 
 
-- If your proposed project idea involves human subjects and requires an IRB approval, please draft **a data collection plan for your project** AND **find a publicly available dataset to work with**. If the public dataset you find is not tidy, you will need to transform it to a tidy dataset. The [Network Data Repository](https://networkdata.ics.uci.edu/index.html) is a good place to look at, or you can build a network based on public data (e.g., from a novel, Twitter).
-  - If you plan to conduct your proposed project that requires an IRB approval, please get in touch with Bodong to work on an IRB application.
+- If your proposed project idea that involves human subjects and requires an IRB approval, for this assignment you can draft **a data collection plan for your project** AND **find a publicly available dataset to work with**. If the public dataset you find is not tidy, you will need to transform it to a tidy dataset. The [Network Data Repository](https://networkdata.ics.uci.edu/index.html) is a good place to look at, or you can build a network based on public data (e.g., from a novel, Twitter).
+    - If you plan to conduct your proposed project that requires an IRB approval, please get in touch with Bodong to work on an IRB application.  This [IRB webpage](http://www.research.umn.edu/irb/research.html) is a great starting point for you to decide whether you need an IRB approval.
 
 When submitting this assignment, depending on whether your dataset contains sensitive data or not, you can choose to share it publicly within the class on the `assignment` Slack channel, or via PM to Bodong, or only share computed results (more below) with the class on Slack.
 
 ### Compute network-level measures and share
 
-No matter which dataset you use, please try to compute network-level measures and share back to the class on Slack. You are encouraged to share scripts (for Track R) or screencasts (for Track Gephi and R) but it's not required. You are also encouraged to 'triangulate' measures with visualizations. 
+No matter which dataset you use, please try to compute network-level measures and share back to the class on Slack. You are encouraged to share scripts (for Track R) or mini-videos (for Track Gephi and R) even though they are not required. You are also encouraged to 'triangulate' measures with visualizations. 
 
 Enjoy a great week!
