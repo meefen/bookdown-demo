@@ -69,7 +69,7 @@ Summary: We will get familiar with these characteristics and the interpretations
 
 Readings:
 
-- Carolan, ch. 5
+- None
 
 #### Class 7: Components and Cliques
 
@@ -126,6 +126,7 @@ Readings:
 - Andrade, A. (2015). Using Situated-Action Networks to visualize complex learning. In O. Lindwall, P. Hakkinen, T. Koschmann, P. Tchounikine, & S. Ludvigsen (Eds.), Exploring the Material Conditions of Learning: The Computer Supported Collaborative Learning (CSCL) Conference 2015, Volume 1 (pp. 372–379). Gothenburg, Sweden: International Society of the Learning Sciences.
 - Rapid Ethnographic Analysis
 - SNAPP
+- Epistemic Network Analysis
 
 #### Class 13: Crafting SNA Research, Ethics
 

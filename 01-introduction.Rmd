@@ -20,6 +20,8 @@ Please watch the following short video made by colleagues from Duke.
 
 ## Why Social Network Analysis?
 
+### Student perspectives
+
 We come together to learn (more) about social network analysis (SNA) -- for various reasons. In preparation for the class, I invited three current graduate students -- **Alejandro Andrade** from Indiana, **Michael Brown** from UMich, and **Fan Ouyang** from UMN -- who're all doing interesting work with SNA to share a bit about their experiences (note some videos are only visible for UMN viewers):
 
 **Alejandro Andrade**
@@ -35,6 +37,10 @@ We come together to learn (more) about social network analysis (SNA) -- for vari
 <iframe src="https://drive.google.com/file/d/0By5677EX3O4eb3lXOTc5MlBGWGc/preview" width="640" height="480"></iframe>
 
 Getting inspired? You will have a chance to share your interests in SNA in Section \@ref(week1assign).
+
+### The hidden influence of social networks
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2U-tOghblfE" frameborder="0" allowfullscreen></iframe>
 
 <!-- ### Bodong's SNA journey -->
 

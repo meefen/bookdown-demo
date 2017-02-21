@@ -18,6 +18,8 @@
 - *Complete the data collection hands-on assignment*
 - *Compute network-level measures and share to the class*
 
+Finally, no matter whether you're a formal or open participant of this class, **please consider participating in a related research project**. Information about this project and an electronic consent form can be found on [this page](https://goo.gl/forms/M7305n1mMEF1aPWk1). Your voluntary participation would be much appreciated.
+
 ## Sociograms and network visualizations
 
 A `sociogram` is a graphic representation of a social network.[^1] Its goal is to transform mathematical representations of a network -- e.g., a distance matrix -- into a network drawing.
@@ -113,7 +115,7 @@ First, the chapter is based on a `directed, non-weighted` network. We need to re
 
 : Table 5.1: Different types of networks.
 
-[^4]: See [the R code I wrote](assets/05-demo.R) to produce these toy networks.
+[^4]: See [the R code I wrote](https://github.com/meefen/sna-ed/blob/master/assets/05-demo.R) to produce these toy networks.
 
 Second, the researcher sometimes need to make important decisions when computing network measures, even if a same algorithm is applied. For example, for a weighted network, it is a common practice to set a `threshold` of weight (based on some justified reasons) to filter links weaker than the threshold (see Example 4 from the previous page). Then network `density` could be computed the same way as an unweighted network. In this case, the calculated measure of density is highly sensible to the researcher's decisions, which are influenced by her/his assumptions of the network. (**Decision Point**)
 
