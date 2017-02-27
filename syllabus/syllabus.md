@@ -155,20 +155,20 @@ Even though this is a primarily online class, your attendance is imperative.
 
 | Classes | Topics                                     | Due dates | Assignments & activities  |
 |---------|--------------------------------------------|-----------|---------------------------|
-| 1       | Introduction                               | 1/24      | Flipgrid self-intro       |
-| 2       | Basic Concepts                             | 1/31      | Project checkpoint 1      |
-| 3       | Applications and Examples I                | 2/7       |                           |
-| 4       | Collect and Manage Network Data            | 2/14      |                           |
-| 5       | Sociograms and Density                     | 2/21      | Data collection hands-on  |
-| 6       | Centrality and Centralization              | 2/28      |                           |
-| 7       | Components and Cliques                     | 3/7       | Project checkpoint 2      |
-| 8       | Ego-centric Networks                       | 3/21      |                           |
-| 9       | Applications and Examples II               | 3/28      |                           |
-| 10*     | Statistical Analysis with Network Data     | 4/4       |                           |
-| 11      | Network Dynamics and Temporality           | 4/11      | Network analysis hands-on |
-| 12      | Novel Approaches and Analytics             | 4/18      |                           |
-| 13      | Crafting SNA Research, Ethics              | 4/25      |                           |
-| 14*     | Project Presentations                      | 5/2       | Project final artifact; Reflection essay   |
+| 1       | Introduction                               | 1/23      | Flipgrid self-intro       |
+| 2       | Basic Concepts                             | 1/30      | Project checkpoint 1      |
+| 3       | Applications and Examples I                | 2/6       |                           |
+| 4       | Collect and Manage Network Data            | 2/13      |                           |
+| 5       | Sociograms and Density                     | 2/20      | Data collection hands-on  |
+| 6       | Centrality and Centralization              | 2/27      |                           |
+| 7       | Components and Cliques                     | 3/6       | Project checkpoint 2      |
+| 8       | Ego-centric Networks                       | 3/20      |                           |
+| 9       | Applications and Examples II               | 3/27      |                           |
+| 10*     | Statistical Analysis with Network Data     | 4/3       |                           |
+| 11      | Network Dynamics and Temporality           | 4/10      | Network analysis hands-on |
+| 12      | Novel Approaches and Analytics             | 4/17      |                           |
+| 13      | Crafting SNA Research, Ethics              | 4/24      |                           |
+| 14*     | Project Presentations                      | 5/1       | Project final artifact; Reflection essay   |
 
 Weeks with a '__*__' will take place face-to-face.  
 Detailed readings and agenda items will be provided on the course website.
