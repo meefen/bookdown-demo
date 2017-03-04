@@ -2,7 +2,7 @@
 
 ## Read data from Excel
 library(readxl)
-cscw = read_excel("assets/cscw17.xlsx")
+cscw = read_excel(file.path("~/Google Drive/UMN/Teaching/sna-ed", "assets/cscw17.xlsx"))
 cscw_mentions = cscw[cscw$Relationship == "Mentions", ]
 
 ## Create graph
