@@ -162,6 +162,7 @@ Even though this is a primarily online class, your attendance is imperative.
 | 5       | Sociograms and Density                     | 2/20      | Data collection hands-on  |
 | 6       | Centrality and Centralization              | 2/27      |                           |
 | 7       | Components and Cliques                     | 3/6       | Project checkpoint 2      |
+|         | SPRING BREAK -- NO CLASS                   |           |                           |
 | 8       | Ego-centric Networks                       | 3/20      |                           |
 | 9       | Applications and Examples II               | 3/27      |                           |
 | 10*     | Statistical Analysis with Network Data     | 4/3       |                           |
