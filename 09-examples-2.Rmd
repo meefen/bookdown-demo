@@ -1,0 +1,82 @@
+---
+title: "Applications and Examples II"
+always_allow_html: yes
+---
+
+# Applications and Examples II {#ch9}
+
+In Week \@ref(ch3), we explored a range of example applications of SNA in education. The purpose of that exploration was to expose ourselves to the potential of SNA for educational research and to get acquainted with basic SNA terminologies that were later introduced in the course.
+
+This week, after considerable work on several areas, we're going to do **a 'deep dive'** in more examples. This time, you are bringing with yourself an 'arsenal' of SNA concepts and techniques. By critically examining examples closely, the goal of this week's exploration is to further:
+
+- Understand how an SNA study could become theoretically and methodologically aligned
+- Detect critical decisions of SNA research in action
+- Understand how SNA techniques could be combined with other methods
+
+Please watch the introduction video below to get started:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RmjDNnrl-aA" frameborder="0" allowfullscreen></iframe>
+
+## Week 9 Activities
+
+- **Read, Examine & Share**, due by **Sunday March 26, 11:59PM**
+- **Comment**, due by **Monday March 27, 11:59PM**
+
+### Read, Examine & Share
+
+**Choose**: A research article that is/seems highly relevant to your project idea (a list is offered below if you cannot identify one by yourself). Record its bibliographic information so that you can share with the class. Ideally this article could serve as a model text for your 'Project Final Artifact', especially if you plan to develop something publishable from this course.
+
+**Examine** this article closely, focusing on the following areas: 1) research purposes served by SNA in the study; 2) specific SNA techniques applied; 3) how SNA is combined with other methodology.
+
+**Share** your thoughts as a **Slack Post** on the `assignments` channel. In this post, add key take-aways from this article that may inform your own research project. This Slack post is due by **Sunday March 26, 11:59PM**.
+
+### Comment
+
+Spend time reading each others' posts. When you're reading, try your best to 'borrow' ideas from articles introduced by others to inform your own project. Make sure you credit a colleague's contribution to your thinking by **commenting** on her post. 
+
+Please try to comment on at least 2 classmates' posts. Comments are due by **Monday March 27, 11:59PM**.
+
+### Lists of articles to choose from
+
+**Note: Ideally you will choose a reading by yourself that is pertinent to your project idea.**
+
+Examples from LAK17
+
+- Boroujeni, M. S., Hecking, T., Hoppe, H. U., & Dillenbourg, P. (2017). Dynamics of MOOC discussion forums. In Proceedings of the Seventh International Learning Analytics & Knowledge Conference on - LAK ’17 (pp. 128–137). New York, New York, USA: ACM Press. https://doi.org/10.1145/3027385.3027391
+- Poquet, O., Dawson, S., & Dowell, N. (2017). How Effective is Your Facilitation?: Group-level Analytics of MOOC Forums. In Proceedings of the Seventh International Learning Analytics & Knowledge Conference (pp. 208–217). New York, NY, USA: ACM. https://doi.org/10.1145/3027385.3027404
+- Wise, A. F., Cui, Y., & Jin, W. Q. (2017). Honing in on social learning networks in MOOC forums: examining critical network definition decisions. In Proceedings of the Seventh International Learning Analytics & Knowledge Conference (pp. 383–392). ACM. https://doi.org/10.1145/3027385.3027446
+
+List of articles from Week 3
+
+- Daly, A. J., & Finnigan, K. S. (2011). The Ebb and Flow of Social Network Ties Between District Leaders Under High-Stakes Accountability. American Educational Research Journal, 48(1), 39–79.
+- Baker-Doyle, K. (2010). Beyond the Labor Market Paradigm: A Social Network Perspective on Teacher Recruitment and Retention. Education Policy Analysis Archives, 18, 26.
+- Heck, R. h., Price, C. l., & Thomas, S. l. (2004). Tracks as Emergent Structures: A Network Analysis of Student Differentiation in a High School. American Journal of Education , 110(4), 321–353.
+- González Canché, M. S., & Rios-Aguilar, C. (2015). Critical Social Network Analysis in Community Colleges: Peer Effects and Credit Attainment. New Directions for Institutional Research, 2014(163), 75–91. https://doi.org/10.1002/ir.20087
+- Hill, M. (2002). Network Assessments and Diagrams: A Flexible Friend for Social Work Practice and Education. Journal of Social Work , 2(2), 233–254.
+- Christley, R. M. (2005). Infection in Social Networks: Using Network Analysis to Identify High-Risk Individuals. American Journal of Epidemiology, 162(10), 1024–1031. http://doi.org/10.1093/aje/kwi308
+- Christakis, N. A., & Fowler, J. H. (2007). The spread of obesity in a large social network over 32 years. The New England Journal of Medicine, 357(4), 370–379.
+- Dawson, S., Tan, J. P. L., & McWilliam, E. (2011). Measuring creative potential: Using social network analysis to monitor a learners’ creative capacity. Australasian Journal of Educational Technology, 27(6), 924–942.
+- Honeycutt, T. (2009). Making Connections: Using Social Network Analysis for Program Evaluation. Mathematica Policy Research, (1), 1–4.
+- Rienties, B., Héliot, Y., & Jindal-Snape, D. (2013). Understanding social learning relations of international students in a large classroom using social network analysis. Higher Education, 66(4), 489–504. http://doi.org/10.1007/s10734-013-9617-9
+- Martinez, A., Dimitriadis, Y., Rubia, B., Gómez, E., & de la Fuente, P. (2003). Combining qualitative evaluation and social network analysis for the study of classroom social interactions. Computers & Education, 41(4), 353–368.
+- Roberson, Q. M., & Colquitt, J. A. (2005). Shared and Configural Justice: A Social Network Model of Justice in Teams. Academy of Management Review. Academy of Management, 30(3), 595–607.
+
+## Course Project Check-in
+
+Based on our Slack communications (public or private), you are all making progress on your course projects. I want to make a few notes so that you can plan your project:
+
+- The *Project Final Artifact* is worth 30 points. Each student will produce a project final artifact that represents preliminary results of their initial project ideas. The specific format of this artifact, which could be a research paper, an e-portfolio, or an interactive tool, is to be negotiated in advance with the instructor. If you have ideas/concerns with your own project, please send Bodong a Direct Message.
+- A rubric will be shared next week to guide your work on the Project Final Artifact. But do use this week's exploration as an opportunity to make an outline for your Final Artifact. As I've mentioned in earlier weeks, I'm looking for your capabilities in **making theoretically and methodologically informed decisions** in a research area you specialize. 
+- If you are still waiting for your data to come in and haven't done SNA analyses in the past few weeks, I strongly suggest you watch [this video in Week 7](https://bookdown.org/chen/snaEd/from-data-to-analyses-a-demo.html). The idea is for you to practice SNA techniques use a toy dataset, and plug in your own dataset when it is ready. (This is the charm of R and reproducible research.)
+
+### Use an R Notebook
+
+I mentioned this tip in an earlier video, and want to mention it again that if you're using R/igraph for your SNA project, please keep a file (or multiple files) containing your R scripts. You can directly compile a new report after adding new scripts to your growing project each week. You can reuse your scripts for a new dataset. You can ... I can go on for another 1,000 words, but the key idea is your project (containing your ideas, data, scripts) is fully recorded and reproducible. 
+
+To learn more about R Notebooks, check out the video below. Note that you can (1) compile a report directly from a `.R` file, and (2) compile a report from a `.Rmd` (i.e., [R Markdown](http://rmarkdown.rstudio.com/)) file. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TJmNvfhLCoI" frameborder="0" allowfullscreen></iframe>
+
+Again, if you have specific questions, post them on the `q_and_a` channel or reach me via Slack PMs. If you think the questions are too complicated, book an appointment with me via http://bit.ly/bookchen
+
+Have a wonderful week!
