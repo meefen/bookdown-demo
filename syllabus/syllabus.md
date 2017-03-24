@@ -165,7 +165,7 @@ Even though this is a primarily online class, your attendance is imperative.
 |         | SPRING BREAK -- NO CLASS                   |           |                           |
 | 8       | Ego-centric Networks                       | 3/20      |                           |
 | 9       | Applications and Examples II               | 3/27      |                           |
-| 10*     | Statistical Analysis with Network Data     | 4/3       |                           |
+| 10     | Statistical Analysis with Network Data     | 4/3       |                           |
 | 11      | Network Dynamics and Temporality           | 4/10      | Network analysis hands-on |
 | 12      | Novel Approaches and Analytics             | 4/17      |                           |
 | 13      | Crafting SNA Research, Ethics              | 4/24      |                           |
