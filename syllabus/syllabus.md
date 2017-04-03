@@ -129,9 +129,9 @@ Below is an overview of class assignments. All assignments are subject to change
 	- *Data collection hands-on* (10 points): Students will apply data collection techniques introduced in class to a real-world research scenario of their choice.
 	- *Project checkpoint 2* (5 points): Students will share their refined project ideas, with a concrete data collection plan fleshed out.
 	- *Network analysis hands-on* (10 points): Students will practice SNA using either an open dataset provided by the instructor or a dataset of their own. Research questions will be provided to guide the analysis to cover key aspects of SNA.
-	- *Project final artifact* (30 points): Each student will produce a project final artifact that represents preliminary results of their initial project ideas. The specific format of this artifact, which could be a research paper, an e-portfolio, or an interactive tool, is to be negotiated in advance with the instructor.
+	- *Project final artifact* (30 points): Each student will produce a project final artifact that represents preliminary results of their initial project ideas. The specific format of this artifact, which could be a research paper, an e-portfolio, or an interactive tool, is to be negotiated in advance with the instructor. Due by 5/8/2017.
 	- *Project final presentation* (10 points): Students will deliver a project final presentation by the end of the class to showcase their projects. The presentation will be assessed by both peers and the instructor, in light of a rubric.
-- **Reflection essay or e-portfolio** (10 points): This assignment is designed to help students reflect on the journey of taking this course and examine possibilities of applying SNA in their ongoing and future research. 
+- **Reflection essay or e-portfolio** (10 points): This assignment is designed to help students reflect on the journey of taking this course and examine possibilities of applying SNA in their ongoing and future research. Due by 5/8/2017.
 
 *Note*: Detailed guidelines and/or rubrics will be provided for major assignments. There will be no final exam for the class. 
 
@@ -165,11 +165,11 @@ Even though this is a primarily online class, your attendance is imperative.
 |         | SPRING BREAK -- NO CLASS                   |           |                           |
 | 8       | Ego-centric Networks                       | 3/20      |                           |
 | 9       | Applications and Examples II               | 3/27      |                           |
-| 10     | Statistical Analysis with Network Data     | 4/3       |                           |
-| 11      | Network Dynamics and Temporality           | 4/10      | Network analysis hands-on |
+| 10      | Statistical Analysis with Network Data     | 4/3       |                           |
+| 11*     | Network Dynamics and Temporality           | 4/10      | Network analysis hands-on |
 | 12      | Novel Approaches and Analytics             | 4/17      |                           |
 | 13      | Crafting SNA Research, Ethics              | 4/24      |                           |
-| 14*     | Project Presentations                      | 5/1       | Project final artifact; Reflection essay   |
+| 14*     | Project Presentations                      | 5/1       | Project Presentations     |
 
 Weeks with a '__*__' will take place face-to-face.  
 Detailed readings and agenda items will be provided on the course website.

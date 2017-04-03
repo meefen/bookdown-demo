@@ -14,7 +14,7 @@ You've done an absolutely wonderful job on Flipgrid and Hypothesis! So excited t
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/jXxpgQAYfTE?list=PLjwvT6cNsD_12ghorqyZ1LHjdvmEhm6N-" frameborder="0" allowfullscreen></iframe>
 
-### Three levels of considerations
+### Three levels of considerations {#three-levels}
 
 In the previous video, I described three levels of considerations that educational researchers often need to be aware of. You could find more information in text such as [@Niglas2010-tr] or some other research methodology courses. Please note that this framework was *constructed* to help us grapple with the complex terrain of research, and it is highly debatable. 
 

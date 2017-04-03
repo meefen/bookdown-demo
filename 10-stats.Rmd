@@ -1,0 +1,59 @@
+---
+title: "Statistical Analysis with Network Data"
+always_allow_html: yes
+---
+
+# Statistical Analysis with Network Data {#ch10}
+
+In his book, John @Scott2012-fq commented on a struggle shared among many researchers -- including many of us -- who are attracted to SNA because of specific analytical needs but get turned away by SNA's mathematical and statistical complexity. The most central goal of this course is to address this challenge, by focusing on essential SNA concepts -- e.g., density, centrality, cliques, etc. -- instead of the nitty-gritty mathematical details involved in SNA, so that we feel confident in designing an SNA study and venturing into numerous directions made possible by SNA (and network analysis in general).
+
+This week, we will stretch to statistical analysis *with* network data that may unleash the power of work you've been doing so far. In particular, we will work to:
+
+- Understand differences between the mathematical and statistical approaches to SNA
+- Become familiar with different kinds of statistical analysis with network data
+- Plan on applying statistical modeling approaches to your SNA project (if possible)
+
+## Introduction
+
+The video at the bottom provides an introduction to this week. 
+
+Before this video, I want to mention that *statistical models* and *modeling* will get mentioned quite frequently in this week's text. These terms are central to statistics in general. What **a model** does is to provide a statistical approximation of the 'reality' we are interested, so that by generating 'better' approximations we are essentially getting closer to truly understanding the 'reality'.[^1] I personally like a point made by [@Burnham2003-eo] that all models are essentially wrong:
+
+> Fundamental to our paradigm is that none of the models considered as the basis for data analysis are the 'true model' that generates the biological data we observe... A model is a simplification or approximation of reality and hence will not reflect all of reality (p. 20)
+
+[^1]: Note that the description of models introduced here may not fit the philosophical worldview you feel comfortable with or subscribe to. Refer back to Section \@ref{three-levels} for an earlier discussion we had about aligning methodology and philosophical viewpoints. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/biz4tapGma0" frameborder="0" allowfullscreen></iframe>
+
+## Week 10 Activities
+
+1. **Read** [Carolan (2014), ch. 8](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n8.xml) and [ch. 9, till the end of *Regression*](http://methods.sagepub.com.ezp1.lib.umn.edu/Book/social-network-analysis-and-education/n9.xml).  
+
+2. **Annotathon** on our Carolan textbook website. Because this week's topic is of great complexity, we're going to rely on our **collective wisdom** to develop deeper understanding. So please post your `questions`, `examples`, `resources`, `scripts`, and so on as Hypothesis annotations when reading the textbook. 
+
+3. **Post** on Slack a brief report from your project involving at least one statistical analysis we've discussed this week (e.g., t-tests, ANOVA, regression, ERGMs). 
+- Many of you appreciated seeing each other's reports that include scripts and results. And I myself will also post a report to our community space (i.e. Slack) later this week. 
+- If you are using R, please check [last week's notes on using an R Notebook](https://bookdown.org/chen/snaEd/course-project-check-in.html#use-an-r-notebook) for report generation. 
+- If you are using Gephi, you do not have as many options as R provides. But you can export your network data populated with network measures to an external statistical software (e.g., SPSS) for additional analysis.
+
+### Additional resources
+
+- @Kolaczyk2014-qj
+- @Snijders2011-uu
+- @Apkarian2016-td -- [link](http://www.annualreviews.org.ezp1.lib.umn.edu/doi/10.1146/annurev.soc.012809.102709)
+
+## Course Project Check-in
+
+Below is a rubric you can follow while working on your course project. Each component is of equal weight and needs to be addressed in your project artifact.
+
+If you propose a different format -- such as an interactive SNA tool for a specific audience -- please get in touch with Bodong to discuss an adapted rubric that will **work for you**.
+
+| Components                                                      | 4-Expert                                                                                                                                                                                                                                                            | 3 | 2 | 1-Novice                                                                                                                                                                         |
+|-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Statement of the problem, grounding in the literature           | Very well written. Sets up and articulates an interesting problem that is grounded within a larger context. Provides a concise, thoughtful statement of the problem and its broad significance.                                                                     |   |   | Shows a fundamental lack of understanding of the problem. Poorly written, incomplete, lacks structure.                                                                           |
+| Crafting of research questions                                  | Clearly stated, concrete research question(s) developed to address the stated problem. Questions are specific, answerable, and conceptually significant.                                                                                                            |   |   | Questions are too vague, broad, or insignificant.                                                                                                                                |
+| Methodology                                                     | Properly uses SNA and its techniques to answer research questions. Design of study shows strong grasp of important research decisions in SNA. Proper combination of SNA with other methodologies when necessary. Network data are managed and transformed properly.                                                     |   |   | Uses SNA incorrectly, either because of a lack of understanding of specific methods or mis-alignment between methods and research questions. Network data are not handled appropriately. |
+| Analysis, results, and interpretation                           | Promising results obtained from data analyses. Analyses map back to the questions insightfully. Discusses the limitations of the analysis.                                                                                                                         |   |   | Mis-analyzes data or fails to analyze relevant data. Results do not follow from the analysis and mistakes are made in interpretation.                                             |
+| Formatting, documentation of sources, and reproducible research | Citations and references follow the APA Style. Use proper headings and subheadings consistently. Include a concise abstract and keywords. A plus if analysis scripts and results are seamlessly integrated (e.g., as an R Notebook) to support reproducible research. |   |   | No or missing references. Headings and subheadings inconsistent or absent altogether. Missing abstract or keywords.                                                                             |
+
+Have a great week!
