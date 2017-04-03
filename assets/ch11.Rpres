@@ -1,4 +1,4 @@
-Network Dynamics and Temporality
+It's about time: Network dynamics and temporality
 ========================================================
 author: Bodong Chen
 date: 4/3/2017
@@ -7,14 +7,17 @@ autosize: true
 Agenda
 ========================================================
 
-- Project check-in
-- Temporal networks: Introduction
-- Bullet 3
+- Introduction & check-in
+- Agent-based modeling
+- Conceptualizing time
+- Considering time
+- Applying temporal techniques
+- Wrap-up
 
 Why temporality in networks matters?
 ========================================================
 
-Example: Schelling's Segregation Model
+Example: Schelling's Segregation Model (agent-based)
 
 ![](http://www.binpress.com/images/uploads/36480/new-york-city-segregation.jpg)
 
@@ -71,6 +74,11 @@ SNA measures adding 'a temporal taste'
 ![](Mascolo-2013.png)
 
 (Mascolo, 2013)
+
+Demo
+========================================================
+
+See [`temporal.html`](temporal.html)
 
 How you may use temporal networks?
 ========================================================
