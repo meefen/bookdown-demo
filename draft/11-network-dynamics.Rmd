@@ -1,0 +1,65 @@
+---
+title: "Network Dynamics and Temporality"
+always_allow_html: yes
+---
+
+# Network Dynamics and Temporality {#ch11}
+
+> It's About Time!
+
+So far in this class we've been mostly working with `static` networks or `snapshots` of dynamic networks. That's enough for most of our needs. However, social networks are dynamic in nature. One important use of SNA is to understand how an network would function given its current structure. Such a question is genuinely about network dynamics.
+
+In Week 11, we will:
+
+- Explore ways to conceptual time and temporality in SNA
+- Learn how to construct temporal networks
+- Learn approaches to visualizing and measuring temporal networks
+- Explore potential application of temporal SNA to our projects
+
+**Note**: You may see people using different words *temporal*, *dynamic*,  *longitudinal* interchangeably to describe social networks.
+
+## Class Google Hangout
+
+If you missed our class Hangout, or you could only attend a part of it, please check the recording that has been shared via Slack `announcement`. The recording was set as private so please make sure you are signed in with your UMN Google account. 
+
+Reflection: It was fun to get together. But attending to two spaces -- F2F and online -- in the same time was challenging to me. Many thanks to Nic and Weiyi for your patience!
+
+Week 11 materials have been posted here:
+
+- [Slides](https://github.com/meefen/sna-ed/blob/master/assets/ch11.md)
+- [The demo with R code](https://raw.githubusercontent.com/meefen/sna-ed/master/assets/temporal.html) (if you see random text, please save the file to your computer and open it again)
+
+### Tools for temporal network analysis
+
+**Gephi** supports the analysis of dynamic networks. This website, [Exploring Big Historical Data](http://www.themacroscope.org/2.0/dynamic-networks-in-gephi/), provides a useful introduction. See also the Youtube video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hKYku8b60Dc" frameborder="0" allowfullscreen></iframe>
+
+**R packages** `networkDynamic`, `tsna`, and `ndtv` are very useful for temporal network analysis and visualization.
+
+## Week 11 Activities and Upcoming Milestones
+
+### Week 11 activities
+
+Our textbook does not have a chapter on this topic, but you're encouraged to **explore** resources and examples of temporal SNA by yourself and **share back to our class via either Slack or Hypothesis**. 
+
+Below are a few readings you can start with:
+
+- @Gloor2004-vy
+- @Jiang2013-ew
+- @Myllari2010-ad
+- @Rodriguez2014-kx
+- @Raghavan2014-uc
+- @Carley2014-xa
+
+The **Network Analysis Hands-on** is due on 4/10. Please turn in a more-or-less complete version of your ongoing project. Basically this is another check-in point to keep you on track and for you to receive additional feedback. 
+
+### Upcoming milestones
+
+To reiterate, there are three upcoming milestones:
+
+- **4/10, Network analysis hands-on**
+- **5/1, Project presentations** -- I will send out another quick Doodle poll to set a date and time.
+- **5/8, Project final artifact + Reflection essay due** -- You can find some basic info on the syllabus. More detailed info will be shared in later weeks.
+
+Have a wonderful week!

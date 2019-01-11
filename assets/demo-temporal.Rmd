@@ -1,0 +1,139 @@
+---
+title: "Demo - Temporal Networks"
+output: html_notebook
+---
+
+```{r}
+library(networkDynamic) # load the dynamic extensions
+
+triangle <- network.initialize(3) # create a toy network
+add.edge(triangle,1,2) # add an edge between vertices 1 and 2
+add.edge(triangle,2,3) # add a more edges
+class(triangle)
+
+activate.edges(triangle,at=1) # turn on all edges at time 1 only
+activate.edges(triangle,onset=2, terminus=3, e=get.edgeIDs(triangle,v=1,alter=2))
+add.edges.active(triangle,onset=4, length=2,tail=3,head=1)
+class(triangle)
+as.data.frame(triangle)
+
+degree(triangle)
+degree(network.extract(triangle,at=0))
+degree(network.extract(triangle,at=1)) # just look at t=1
+degree(network.extract(triangle,at=2))
+degree(network.extract(triangle,at=5))
+degree(network.extract(triangle,at=10))
+
+plot(triangle,main="ignoring dynamics",displaylabels=T)
+plot(network.extract(triangle,onset=1,terminus=2),main="at time 1",displaylabels=T)
+plot(network.extract(triangle,onset=2,terminus=3),main="at time 1",displaylabels=T)
+
+library(ndtv)
+render.animation(triangle, render.par = list(tween.frames = 6))
+filmstrip(triangle, frames = 6, displaylabels=FALSE)
+
+render.d3movie(triangle,output.mode = 'htmlWidget')
+```
+
+
+```{r}
+
+
+
+```
+
+
+```{r}
+library(ndtv)
+data(short.stergm.sim)
+# str(short.stergm.sim)
+head( as.data.frame(short.stergm.sim) )
+
+render.animation(short.stergm.sim)
+# ani.replay()
+
+render.d3movie(short.stergm.sim)
+filmstrip(short.stergm.sim,displaylabels=FALSE)
+
+timeline(short.stergm.sim)
+```
+
+```{r}
+proximity.timeline(short.stergm.sim,default.dist=6,
+          mode='sammon',labels.at=17,vertex.cex=4)
+```
+
+## Compute some basic temporal stats
+
+```{r}
+library(tsna)
+tEdgeFormation(short.stergm.sim)
+plot( tEdgeFormation(short.stergm.sim) )
+plot( tSnaStats(short.stergm.sim,'gtrans') )
+```
+
+## Simple demo
+
+```{r}
+wheel <- network.initialize(10)
+class(wheel)
+add.edges.active(wheel,tail=1:9,head=c(2:9,1),onset=1:9, terminus=11)
+add.edges.active(wheel,tail=10,head=c(1:9),onset=10, terminus=12)
+as.data.frame(wheel)
+
+
+plot(wheel)
+plot(network.extract(wheel,at=1))
+plot(network.extract(wheel,onset=1,terminus=5))
+
+render.animation(wheel)
+# saveVideo(ani.replay(),video.name="wheel_movie.mp4")
+render.d3movie(wheel,output.mode = 'htmlWidget')
+```
+
+```{r}
+timeline(wheel,slice.par=list(start=0,end=12,interval=1,
+                      aggregate.dur=1,rule='latest'),
+                      plot.vertex.spells=FALSE)
+```
+
+
+## The McFarland classroom interaction dataset
+
+```{r}
+library(networkDynamic)
+# read vertex data
+rawVerts<-read.table(paste(path.package('networkDynamic'),
+   "/extdata/cls33_10_16_96_vertices.tsv",sep=''),header=TRUE,
+   stringsAsFactors = FALSE)
+
+# peek at column headings to find ids and times
+head(rawVerts)
+
+# read in interaction (edge) data
+rawEdges<-read.table(paste(path.package('networkDynamic'),
+  "/extdata/cls33_10_16_96_edges.tsv",sep=''),header=TRUE,
+  stringsAsFactors = FALSE)
+
+# peek at column headings to find ids and times
+head(rawEdges)
+
+cls33 <-networkDynamic(vertex.spells=rawVerts[,c(3,4,1,2)],
+                       edge.spells=rawEdges[,c(3,4,1,2,5,6)],
+                       create.TEAs = TRUE,
+                       edge.TEA.names = c('weight','interaction_type'))
+list.edge.attributes(cls33)
+
+# add in the unchanging vertex attribute data
+set.vertex.attribute(cls33,"sex",as.vector(rawVerts$sex))
+set.vertex.attribute(cls33,"role",as.vector(rawVerts$role))
+
+set.vertex.attribute(cls33,"data_id",as.numeric(rawVerts$data_id))
+set.network.attribute(cls33,'vertex.pid','data_id')
+
+cls33%n%'net.obs.period'
+obs<-cls33%n%'net.obs.period'
+obs$'time.unit'<-'minutes'
+cls33%n%'net.obs.period'<-obs
+```
+

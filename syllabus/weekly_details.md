@@ -115,7 +115,18 @@ Readings:
 - Fowler, J. H., & Christakis, N. a. (2008). Dynamic spread of happiness in a large social network: longitudinal analysis over 20 years in the Framingham Heart Study. BMJ, 337(dec04 2), a2338–a2338. http://doi.org/10.1136/bmj.a2338
 - Zappa, P., & Lomi, A. (2015). The analysis of multilevel networks in organizations: Models and empirical tests. Organizational Research Methods, 18(3), 542–569. http://doi.org/10.1177/1094428115579225
 
-#### Class 12: Novel Approaches and Analytics
+#### Class 12: Crafting SNA Research, Ethics
+
+Summary: We explore ethical issues with social network analysis in education. This exploration will include 1) traditional discussion of research ethics; 2) ethics in the context of "big", digital data; and 3) ethical use of SNA results in educational contexts.
+
+Readings:
+
+- Carolan, ch. 12, pp. 261-277
+- Kadushin, C. (2005). Who benefits from network analysis: Ethics of social network research. Social Networks, 27(2), 139–153. http://doi.org/10.1016/j.socnet.2005.01.005
+- Borgatti, S. P., & Molina, J. L. (2003). Ethical and Strategic Issues in Organizational Social Network Analysis. Journal of Applied Behavioral Science, 39(3), 337–349. http://doi.org/10.1177/0021886303258111
+- Zwitter, A. (2014). Big Data ethics. Big Data & Society, 1(2), 1–6. http://doi.org/10.1177/2053951714559253
+
+#### Class 13: Novel Approaches and Analytics
 
 Summary: This week explore some "unusual" use of SNA and, in some cases, combination of SNA with other techniques.
 
@@ -128,16 +139,6 @@ Readings:
 - SNAPP
 - Epistemic Network Analysis
 
-#### Class 13: Crafting SNA Research, Ethics
-
-Summary: We explore ethical issues with social network analysis in education. This exploration will include 1) traditional discussion of research ethics; 2) ethics in the context of "big", digital data; and 3) ethical use of SNA results in educational contexts.
-
-Readings:
-
-- Carolan, ch. 12, pp. 261-277
-- Kadushin, C. (2005). Who benefits from network analysis: Ethics of social network research. Social Networks, 27(2), 139–153. http://doi.org/10.1016/j.socnet.2005.01.005
-- Borgatti, S. P., & Molina, J. L. (2003). Ethical and Strategic Issues in Organizational Social Network Analysis. Journal of Applied Behavioral Science, 39(3), 337–349. http://doi.org/10.1177/0021886303258111
-- Zwitter, A. (2014). Big Data ethics. Big Data & Society, 1(2), 1–6. http://doi.org/10.1177/2053951714559253
 
 #### Class 14: Project Presentations
 
