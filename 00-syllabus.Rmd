@@ -1,3 +1,4 @@
 # Syllabus {-}
 
-The most up-to-date syllabus is [here](https://github.com/meefen/sna-ed/blob/master/syllabus/syllabus.md).
+The most up-to-date syllabus is <a href="http://bit.ly/sna-syl-19" target="_blank">here</a>.
+Please post Hypothes.is annotations on the syllabus if you have any questions.

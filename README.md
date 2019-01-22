@@ -2,6 +2,8 @@ This is a course portal developed using [**bookdown**](https://github.com/rstudi
 
 ## Usage
 
+Build book: `bookdown::render_book('index.Rmd', 'bookdown::gitbook')`
+
 To push an update to Bookdown.org, run `bookdown::publish_book(name = "snaEd", account = "chen", render = "local")`. Note that you will need to use your own account.
 
 Check [this example](https://github.com/rstudio/bookdown/tree/master/inst/examples) for detailed usage of **bookdown**.
