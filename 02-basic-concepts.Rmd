@@ -1,14 +1,22 @@
 # Basic Concepts {#ch2}
 
-You've done an absolutely wonderful job on Flipgrid and Hypothesis! So excited to see you joining this course from near (LES Building) and far (yes **Pauline**, I am talking about you!).  From our Flipgrid videos, I was amazed by the range of perspectives you're bringing into this class! As many of you mentioned in your videos, we're going to learn a lot from each other.
+You've done an absolutely wonderful job on Flipgrid and Hypothesis! Each of you brings very unique interests and expertise to the community. I am excited about learning *with* and *from* you in the world of SNA!
 
-**In this week, we will:**
+### Our interaction network on Hypothes.is {-}
+
+Your contributions on Hypothes.is have been very thoughtful in so many ways. You introduced domain knowledge (e.g., about families) to contexualize our shared texts. You asked important questions. You took time to search for terms and share what you found via annotations. Keep up with your good work!
+
+Based on our social interactions on Hypothes.is, I constructed a simply network visualization below. In the visualization below, each node represents one of us, and each *directed* edge represents the existence of at least one reply. So far 7 colleagues in our communities have connected during the first week. In Week 2, I believe 1) more colleagues will join the conversation, 2) there will be more back-and-forth dialogues (or increased *reciprocity* in SNA terms), and 3) we will have a denser network. Will we be able to conquer these goals?
+
+![](images/week1-h.png)
+
+In terms of specific learning goals, **in this week, we will:**
 
 1. Explore social network perspectives
 2. Become familiar with basic SNA concepts
 3. Draft an initial SNA project idea and share out
             
-<iframe width="640" height="360" src="https://www.youtube.com/embed/lX0SmpoHMNA?rel=0" frameborder="0" allowfullscreen></iframe>
+<!-- <iframe width="640" height="360" src="https://www.youtube.com/embed/lX0SmpoHMNA?rel=0" frameborder="0" allowfullscreen></iframe> -->
 
 ## Understanding SNA in Educational Research
 
@@ -30,10 +38,10 @@ In this course, we are mostly concerned with the "big M" level. We will not dive
 
 ## Basic Concepts
 
-Last week, you've identified a wide range of terms from course readings. See the Hypo search results below:
+Last week, you've identified a wide range of terms from course readings. Thanks to many of you who contributed your definitions of important terms. See the Hypothes.is search results below:
 
 ```{r, echo=FALSE}
-knitr::include_url("https://hypothes.is/search?q=tag:snaed%20tag:term", 
+knitr::include_url("https://hypothes.is/groups/REimiBzy/snaed-2019?q=tag%3Aterm", 
   height = "400px")
 ```
 
@@ -46,7 +54,7 @@ This week, we will be immersed in a number of key SNA concepts. In the following
 
 ## Week 2 Activities
 
-**Due by Jan 30, 11:59PM**
+**Due by Feb 4, 11:59PM**
 
 ### Read & Annotate
 
@@ -55,23 +63,26 @@ This week, we will be immersed in a number of key SNA concepts. In the following
 - [Carolan, ch. 2](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n2.xml), starting from "The Integration of Theory and Method" (pp. 32--42)
 - [Carolan, ch. 3](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n3.xml)
 
-**Annotate** using Hypo. Like Week 1, please try to do at least one entry for each of the following:
+Pro Tip:
 
-- Annotate **an SNA term** you find interesting/useful, and provide a definition. Use tags `term` and `SNAEd` in your annotation
-- Annotate **an example application** of SNA in readings, and explain how you find it useful or interesting. Use tags `application` and `SNAEd` in your annotation
-- **Reply to annotations** made by others
+- Please use the links I provided below (i.e., with `.ezp1.lib.umn.edu`). Please also annotate the webpage directly instead of PDFs. Otherwise, our annotations/convos may get scattered among different pages.
 
-### Draft an intial project idea
+**Annotate** using Hypothes.is. Even though I do not require you to make a specific number of annotations, I encourage you to accomplish the following **"ABC"** this week:
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/Pe80-YWFetE?rel=0" frameborder="0" allowfullscreen></iframe>
+1. **Ask a question**
+2. **Brag about your understanding** about an SNA term, a domain-specific theory, a cool tool, etc.
+3. When you reply to one peer, **Connect another peer's ideas** in your annotation
 
-1. In **Slack**, in the `assignments` channel, **share a post** describing your initial project idea. 
 
-  - In your post, use 3 paragraphs to (1) describe the **context**, (2) articulate the **phenomenon** and introduce your key **question(s)**, and (3) describe any initial thoughts (if any) on using SNA in this project. 
-  - Not sure how to compose a post? Check this [help page](https://get.slack.help/hc/en-us/articles/203950418-Compose-a-post).
 
-2. **Read each other's posts**. Please **leave comments** (and emojis if you want) to "praise" and/or "push" each other.
+### Start to put together an intial project idea
 
-(If you find someone who share a similar interest with you, you're encouraged to form a group. Slack is always there for you to communicate and collaborate with each other!)
+<!-- <iframe width="640" height="360" src="https://www.youtube.com/embed/Pe80-YWFetE?rel=0" frameborder="0" allowfullscreen></iframe> -->
+
+From your Flipgrid videos, I see most of you already having fascinating project ideas. Even though we are only in Week 2, I encourge you to take your ideas to the next level when you engage with our readings and annotations. 
+
+Specifically, you can consider the following: (1) what is the central **problem** of your research and why it is worth investigating, (2) what **phenomenon** you are studying, in which **context**, and what key **question(s)** you have about the phenomenon, and (3) why SNA is potentially fruitful based on your current understanding. 
+
+We will share out our initial project ideas by the end of Week 3.
 
 Have a wonderful week!
