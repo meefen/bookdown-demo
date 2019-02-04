@@ -1,25 +1,25 @@
 # Applications and Examples I {#ch3}
 
-In Week 2, we explore **basic concepts/terms** in SNA and drafted our **initial project ideas**. Below I am randomly highlighting two terms you explicated, and I encourage you to check out our [Hypo Feed](https://hypothes.is/stream?q=tag:snaed) regularly.
+Thank you all for doing the **ABC**---Ask a question, Brag about your understanding, and Connect with a peer's idea---when annotating our readings!  Below is a visualization of our interactions on Hypothesis in the past two weeks. It is slightly more complex than the one from last week, as I used a node-level measure named *indegree* to scale the size of nodes. 
 
-> **sociometry**
->
-> This has come up a couple times now with no definition (that I've seen), so I looked it up on dictionary.com: the measurement of attitudes of social acceptance or rejection through expressed preferences among members of a social grouping
->
-> -- [contributed by Val](https://hyp.is/VvJoFOS9EeaJrhvFrHVA3Q/methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n3.xml)
+![](images/week2-h.png)
 
+In Week 2, I challenged our community with the following goals:
 
-> **social capital**
->
-> this is a fuzzy term, which was only reinforced as being fuzzy for me when trying to find a more formal definition. I think [this page](http://www.socialcapitalresearch.com/literature/definition.html) summed it up the best
->
-> -- [contributed by Lisa](https://hyp.is/Z-WUYucUEea1q7eJmEYkfA/methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n2.xml)
+> 1) more colleagues will join the conversation, 2) there will be more back-and-forth dialogues (or increased reciprocity in SNA terms), and 3) we will have a denser network.
+
+Based on what I see in this new network, I can claim with confidence we have more colleagues participating in our conversation on Hypothesis (from `7` to `10`) and higher reciprocity (from `0.18` to `0.3`). But because of the increase of participants, our network did not get denser (from `0.26` to `0.22`). So I would like to congratulate on our progress and encourage you to interact even more with different colleagues in our community!
+
+Cannot wait to make such a graph on your own? We will start exploring SNA data and tools very soon. But I see our current exploration of theories, contexts, and research questions even more critical than manipulating tools because tools are the easy part!
 
 **In this week, we will:**
 
 - Examine some concrete examples of SNA research
 - 'Present' an example of your choice to the class
 - 'Take' ideas from each other to inform your project ideas
+
+*Pro Tip*: You can adjust the speed of Youtube videos by clicking on the gear icon at the bottom of the video player. 
+*Note*: Please refer to the Week 3 Activities page for deadlines.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/AuQOlRQ5mCY?rel=0" frameborder="0" allowfullscreen></iframe>
 
@@ -39,8 +39,8 @@ Did you find these examples inspiring? Feel free to share on the Slack `ideas` c
 
 ## Week 3 Activities
 
-- **Read & Share**, due by **Friday Feb 3, 11:59PM**
-- **Take / comment**, due by **Monday Feb 6, 11:59PM**
+- **Read & Share**, due by **Friday Feb 8, 11:59PM**
+- **Take / comment**, due by **Monday Feb 11, 11:59PM**
 
 ### Readings
 
@@ -78,6 +78,6 @@ You can choose between these **two formats**:
 - *a screencast* (5-min max): A video presentation of you talking through your example. Post a link to your video to the Slack `assignments` channel. Potential video capturing tools include Jing, QuickTime, and Screencast-O-Matic.
 - *a Slack post* (500-word max): Post a text-based post to the Slack `assignments` channel as we did in Week 2. 
 
-2) **Take** ideas from each other's presentations to inform your project. **Comment** on each other's posts to acknowledge ideas you take from them, seek clarifications, etc. 
+2) **Take** ideas from each other's presentations to inform your project. **Comment** on each other's posts to acknowledge ideas you take from them, seek clarifications, etc. Continue to craft your project ideas. 
 
 Have a wonderful week!
