@@ -7,30 +7,15 @@ In Week 5, we explored a range of network-level measures, including `size`, `den
 
 [^1]: See https://www.politaktiv.org/documents/10157/29141/SocNet_TheoryApp.pdf.
 
-You've made [many great annotations on Hypothesis](https://hypothes.is/stream?q=tag:snaed). Below I'm listing a few:
+You have done a phenomenonal job digging into different concepts and measures and sharing your findings back to the group via annotations. A shout-out to **HopeinJ** for asking an important question:
 
-1. "Six degrees of separation"
+> \@bech0079, I don't quite understand the difference btw the network.density between the network.density and edge.density, both gives the ratio between extant edges/potential edges.https://www.rdocumentation.org/packages/network/versions/1.13.0/topics/network.density Do you have any idea on that?
 
+I want to take this opportunity to mention that there is a "universe" of R packages, the dependencies among which can be visualized as a giant graph (see [this page](http://datastorm-open.github.io/DependenciesGraphs/)). Among these packages, there are many packages developed for SNA. The `network` package mentioned by **HopeinJ** is another R package that can be used for SNA. In `igraph`, please use `[edge_density](https://www.rdocumentation.org/packages/igraph/versions/1.2.4/topics/edge_density)` to compute network density.
 
-> '_This was done simply for purposes of presentation; any manipulation of network data should have some theoretical or empirical basis._'
-> 
-> **So are 'purposes of presentation' valid basis for data manipulation? I am left yearning for more explanation.** -- by [churc251](https://hyp.is/vMz5hPeaEeaufPN-Sg-D0A/methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n5.xml)
+![](images/miniCRAN.png)
 
-You might also be interested in [this finding](https://research.fb.com/three-and-a-half-degrees-of-separation/) that "Each person ... among the 1.59 billion people active on Facebook ... is connected to every other person by an average of three and a half other people".
-
-2. Theoretical basis of data manipulation
-
-> '_structural holes (one actor connected to two others who, in turn, are not connected to each other)_'
->
-> From my understanding of this, structural holes differ from triads since triads generally indicate that all three actors are connected in some way. Is this correct? -- by [tasha_mrema](https://hyp.is/c5xSNPesEeaOSvOVuHGnBA/methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n5.xml)
-
-3. Usefulness of measures for specific research
-
-> '_Centralization_'
->
-> Centralization interests me for analyzing discussion forums--are there key players, and do these key players show higher degrees of cognitive presence? -- by [vbarbaro](https://hyp.is/aNW93vbhEea-vRvbw4TlvQ/methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n5.xml)
-
-**What are your responses to those thoughts?** Please keep sharing and discussing on Hypothesis + Slack. 
+Please make sure to check [our Hypothes.is annotations](https://hypothes.is/groups/REimiBzy/snaed-2019) to learn about contributions from other colleagues. If there are burning questions, please continue the discussion on Slack. 
 
 **This week, we will**:
 
@@ -38,7 +23,6 @@ You might also be interested in [this finding](https://research.fb.com/three-and
 - Understand how network-level and node-level measures are connected
 - Learn to calculate node-level measures using SNA applications
 
-Again, no matter whether you're a formal or open participant of this class, **please consider participating in a related research project**. Information about this project and an electronic consent form can be found on [this page](https://goo.gl/forms/M7305n1mMEF1aPWk1). Your voluntary participation would be much appreciated.
 
 
 ## Centrality and Centralization: An Overview
@@ -80,6 +64,8 @@ None. The textbook does not provide a specific introduction to centraly measures
 But you're encouraged to look back into **example papers** you selected in Week 3 to see whether you've developed any fresh understanding after diving deeper into these measures. Please share your findings with the class on Slack.
 
 ### Compute Node-level Measures
+
+Like last week, you can continue to use a dataset you have, either your own dataset or a public one.
 
 #### Track R
 

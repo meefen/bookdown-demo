@@ -6,6 +6,8 @@ Our goals for Week 7 include:
 - Becoming familiar with several popular approaches to identifying groups
 - Using SNA software to identify components and detect cliques
 
+**Important note**: Our first Zoom meeting is taking place on Monday, March 11, 5:30-7pm. Please check your email for the invitation. 
+
 ## Introduction to Components and Cliques
 
 Please watch the following video before reading [Chapter 6](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n6.xml) of Carolan (2014). This video provides intuitions that could be useful before diving into mathematical representations. 
@@ -20,12 +22,12 @@ In the following video, I demonstrate a process of going from a secondary datase
 
 R code used in this demo can be found [here](https://github.com/meefen/sna-ed/blob/master/assets/lab_week7.R). Please feel free to reuse and extend. 
 
-## Assignments and Activities
+## Week 7 Activities
 
 ### Read, Annotate, and Share
 
 - **Read** [Carolan (2014), ch. 6](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n6.xml)
-- **Annotate** as we normally do using proper hashtags (e.g., `question`, `idea`). Don't forget to include our `SNAEd` course hashtag.
+- **Annotate** as we normally do using proper hashtags (e.g., `question`, `idea`) and doing our `ABCs` (i.e., "Ask a question", "Brag about your understanding", and "Connect another peer’s ideas").
 - **Share** tips and tricks related to component/clique analysis on Slack:
     - For Track R, post *Code Snippets* from your analysis on the `R` channel. You can post anything that others may find useful. For example, you can show off your code that detects `strong components` in a directed network.
     - For Track Gephi, post description, snapshots, or posts on the `Gephi` channel.
@@ -38,6 +40,6 @@ In this week, there is a project checkpoint assignment designed to keep you "on 
 
 > Students will share their refined project ideas, with a concrete data collection plan fleshed out.
 
-At this point, we have diverged tremendoulsy on the final projects! I understand that you are all at different stages of your projects and some of you are dealing with IRB applications. So I will **not** require formal submission of this assignment and instead encourage you to make an appointment with me to discuss your project if needed. 
+At this point, we have diverged tremendoulsy on the final projects! I understand that you are all at different stages of your projects. So I will **not** require formal submission of this assignment and instead encourage you to make an appointment with me to discuss your project if needed. 
 
-Have a great week!
+Have a great week, and I look forward to seeing you in Zoom on March 11!

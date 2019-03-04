@@ -13,16 +13,16 @@
 
 - *Read* and *build knowledge*
     - Carolan, ch. 5
-    - Annotate measures with computational solutions
+    - Annotate measures with mathematical/computational solutions
     - Identify network-level measures not covered by the book and share to the class
 - *Complete the data collection hands-on assignment*
 - *Compute network-level measures and share to the class*
 
-Finally, no matter whether you're a formal or open participant of this class, **please consider participating in a related research project**. Information about this project and an electronic consent form can be found on [this page](https://goo.gl/forms/M7305n1mMEF1aPWk1). Your voluntary participation would be much appreciated.
+
 
 ## Sociograms and network visualizations
 
-A `sociogram` is a graphic representation of a social network.[^1] Its goal is to transform mathematical representations of a network -- e.g., a distance matrix -- into a network drawing.
+A `sociogram` is a graphic representation of a social network.[^1] Its goal is to transform mathematical representations of a network -- e.g., an adjacency matrix -- into a network drawing.
 
 [^1]: See https://en.wikipedia.org/wiki/Sociogram
 
@@ -53,7 +53,7 @@ Below, I present a few network visualization examples that do not draw on force-
 
 ![](images/global-flight-network-1420035245.85-1666817.png)
 
-(Source: [dadaviz](http://dadaviz.com/i/2641/))
+(Source: [visualisingdata.com](http://www.visualisingdata.com/blog/wp-content/uploads/2012/02/World_FlightLines_BioDiaspora-600x393.jpg))
 
 1. Goal: Visualize patterns of the global flight network, for example, to see intensive flight activities in certain areas
 2. Type: The coordinates are determined by the origin and destination of each flight. In other words, no additional algorithmic decisions are made beyond the use of a world map.
@@ -82,9 +82,15 @@ Note: Like Example 2, which information naturally existed and which information 
 ### Example 4: Light Up the Curriculum
 
 ![](images/light-up-curriculum.png)  
-(See [interactive version here](http://bodong.ch/assets/hive/lightup.html))
+(See [interactive version here](http://meefen.github.io/assets/hive/lightup.html))
 
 This is a visualization made to demonstrate semantic similarity among three types of documents---curriculum standards, students' online posts, and their verbal discussions. This visualization technique is called `hive plots.` Each axis represents a type of document. This visualization was chosen because researchers only cared about cross-type linkages and didn't care about the links within each document type.
+
+### Example 5: The Food Network Backbone
+
+If you are a foodie, you may appreciate this visualization of flavors backed up by [some hardcore science](https://www.researchgate.net/publication/51959358_Flavor_network_and_the_principles_of_food_pairing). Do you find the use of graphical devices by the authors illuminating in this example?
+
+![](images/yQ2u5WC.png)
 
 
 ### Play more with network visualizations
@@ -97,7 +103,7 @@ This part is **optional**. I'm providing more materials for those who hope to ex
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QRx-yBcPTV8" frameborder="0" allowfullscreen></iframe>
 
-As always, please report back to our track-specific Slack channels -- `Gephi` and `R`.
+As always, please report back to our Slack `home` channel.
 
 ## Density and Other Structural Measures for Complete Networks
 
@@ -125,7 +131,7 @@ As we're diving into specific SNA techniques -- such as `density`, `average degr
 
 ## Assignments and Activities
 
-**Due by Monday, 2/20, 11:59PM**
+**Due by Monday, 2/25, 11:59PM**
 
 ### Read and build knowledge
 
@@ -138,15 +144,19 @@ Finally, if you find a network-level measures not captured in the book, please a
 
 ### Assignment: Data collection hands-on
 
-As the second project checkpoint, you are required to turn in a dataset that is organized according to the "tidy data" principles discussed last week. 
+Last week, we used the [Les Miserables](http://users.csc.calpoly.edu/~dekhtyar/466-Fall2010/labs/lab07.html) sample dataset. This week, you are encouraged to identify a dataset -- public or your own -- and organize it according to the "tidy data" principles discussed in Week 4. 
 
-- If your proposed project idea that involves human subjects and requires an IRB approval, for this assignment you can draft **a data collection plan for your project** AND **find a publicly available dataset to work with**. If the public dataset you find is not tidy, you will need to transform it to a tidy dataset. The [Network Data Repository](https://networkdata.ics.uci.edu/index.html) is a good place to look at, or you can build a network based on public data (e.g., from a novel, Twitter).
-    - If you plan to conduct your proposed project that requires an IRB approval, please get in touch with Bodong to work on an IRB application.  This [IRB webpage](http://www.research.umn.edu/irb/research.html) is a great starting point for you to decide whether you need an IRB approval.
+- The [Network Data Repository](https://networkdata.ics.uci.edu/index.html) is a good place to look at, or you can build a network based on public data (e.g., from a novel, Twitter). Take a look at [NodeXL](http://nodexlgraphgallery.org/Pages/Default.aspx) if you're interested in public Twitter data.
+- You're not expected to accomplish an SNA study by the end of this semester, but you are encouraged to work on an authentic study of your own when possible. 
+    - Please note that if you plan to conduct a study that involves human subjects, an IRB approval is often required. The [IRB office's webpage](https://research.umn.edu/units/irb) is a great starting point for you to decide whether you need an IRB approval.
+- If the public dataset you find is not tidy, you will need to transform it to a tidy dataset. 
 
-When submitting this assignment, depending on whether your dataset contains sensitive data or not, you can choose to share it publicly within the class on the `assignment` Slack channel, or via PM to Bodong, or only share computed results (more below) with the class on Slack.
+When submitting this assignment, depending on whether your dataset contains sensitive data or not, you can choose to share it publicly within the class on the `assignment` Slack channel, or only share computed results (more below) with the class on Slack.
 
 ### Compute network-level measures and share
 
-No matter which dataset you use, please try to compute network-level measures and share back to the class on Slack. You are encouraged to share scripts (for Track R) or mini-videos (for Track Gephi and R) even though they are not required. You are also encouraged to 'triangulate' measures with visualizations. 
+No matter which dataset you use, please try to compute network-level measures and share back to the class on Slack. 
+
+You are encouraged to share scripts (for Track R) or mini-videos (for Track Gephi and R) even though they are not required. You are also encouraged to 'triangulate' measures with visualizations. 
 
 Enjoy a great week!
