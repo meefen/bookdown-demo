@@ -5,6 +5,9 @@ always_allow_html: yes
 
 # Ego-centric Networks {#ch8}
 
+
+**Important Note: The next week is our Spring Break. Our next Zoom meeting will take place on Mar 25, Monday, 5:30pm.**
+
 In the past three weeks, we explored a wide range of concepts and measures for analysis of *whole networks*, *sub-networks* (or sub-graphs), and individual *nodes*. This week, we will dive into *ego-centric networks* as a very unique approach to SNA. Specifically, we will:
 
 - Understand what is an ego-centric network
@@ -12,9 +15,11 @@ In the past three weeks, we explored a wide range of concepts and measures for a
 - Understand how ego-centric network data can be collected
 - Develop initial ideas of applying ego-centric networks in educational settings
 
-In the previous week, I enjoyed reading your Hypothesis annotations and interactions. I especially appreciate your efforts in connecting concepts across weeks, and connecting concepts with your own work. For example, **Ramya** [asked](https://hyp.is/_HHwJv1nEean4-OGO81R9A/methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n6.xml) about the connection between *cutpoints* and *network cohesion*; **Tina** [recognized](https://hyp.is/_HHwJv1nEean4-OGO81R9A/methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n6.xml) similarities between *cutpoints* and *bridges*; **Derek** [pointed out](https://hyp.is/oyDt5AA_Eee_lBskXThq7Q/methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n6.xml) several important decisions we need to make when applying concepts in a particular context. These are all great and thanks for engaging each other in diving deeper in these areas! Please watch the video below to get started with Week 8:
+In the previous week, I enjoyed our first Zoom meeting, as well as reading your Hypothesis annotations and interactions. Thanks for engaging each other in diving deeper in these areas! Please watch the video below to get started with Week 8:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8jPNLgW28TE" frameborder="0" allowfullscreen></iframe>
+
+
 
 <!--
 early example of patients
@@ -122,7 +127,7 @@ Additionally, explore ways to extract ego networks from the complete network usi
 
 [^2]: The `sna` package provides a function named [`ego.extract`](http://svitsrv25.epfl.ch/R-doc/library/sna/html/ego.extract.html) for the same purpose.
 
-Note: If you haven't done so yet, please the video I made in Week 7. You can add new code dealing with ego-centric networks in to your earlier code. (This is when you're starting to love R if the past few weeks were a bit rough :).)
+Note: If you haven't done so yet, please check out the video I made in Week 7. You can add new code dealing with ego-centric networks in to your earlier code. (This is when you're starting to love R if the past few weeks were a bit rough :).)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kvNpFXuQaqU" frameborder="0" allowfullscreen></iframe>
 
@@ -145,7 +150,9 @@ Additionally, there are a number of posts that provide more detailed guidance:
 
 ## Week 8 Activities
 
-1. **Read** [Carolan (2014), ch. 7](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n7.xml).  **Annotate** as we normally do using proper hashtags (e.g., `question`, `idea`). 
+**Due by Monday, 3/25, 5:00PM**
+
+1. **Read** [Carolan (2014), ch. 7](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n7.xml).  **Annotate** as we normally do using proper hashtags  and doing our **ABCs**. 
 
 2. **Respond** below to two questions raised in Sections \@ref(ego-intro) and \@ref(ego-data) **via Hypothesis annotations**. **Discuss** among each other via Hypothesis to make suggestions, expand ideas, explore collaboration, etc. Don't forget to include our `SNAEd` course hashtag or other hashtags deemed relevant.
 
