@@ -19,11 +19,22 @@ g = g %>%
   activate(nodes) %>%
   mutate(centrality = centrality_authority())
 
+# create two groups based on centrality: high and low
+cent = V(g)$centrality
+groups = data.frame(name = names(cent), 
+                    centrality = cent, 
+                    group = if_else(cent > mean(cent), "high", "low"))
+# merge the grouping info to the graph
+g = g %>%
+  activate(nodes) %>%
+  left_join(groups %>% select(name, group), by = c("name" = "name"))
+
+
 # Let's visualize the whole network
 library(ggraph, quietly = T) # we're using the ggraph package for plotting
 ggraph(g, layout = 'kk') + 
     geom_edge_link(alpha = 0.1) + 
-    geom_node_point(aes(size = centrality)) + 
+    geom_node_point(aes(size = centrality, colour = group)) + 
     theme_graph()
 
 
@@ -48,7 +59,7 @@ ggraph(g_egos[[i]], layout = 'kk') +
                  aes(start_cap = label_rect(node1.name),
                      end_cap = label_rect(node2.name))) +
   geom_node_label(aes(label = name)) +
-  geom_node_point(aes(size = centrality)) +
+  geom_node_point(aes(size = centrality, colour = group)) +
   theme_graph() +
   ggtitle(paste0("Ego ", V(g)$name[i]))
 
@@ -64,7 +75,7 @@ ego_plots = lapply(seq(1, length(V(g))), function(i) {
                    aes(start_cap = label_rect(node1.name),
                        end_cap = label_rect(node2.name))) +
     geom_node_label(aes(label = name)) +
-    geom_node_point(aes(size = centrality)) +
+    geom_node_point(aes(size = centrality, colour = group)) +
     ggtitle(paste("Ego", V(g)$name[i])) +
     theme_graph()
 })
