@@ -7,20 +7,20 @@ always_allow_html: yes
 
 In Week \@ref(ch3), we explored a range of example applications of SNA in education. The purpose of that exploration was to expose ourselves to the potential of SNA for educational research and to get acquainted with basic SNA terminologies that were later introduced in the course.
 
-This week, after considerable work on several areas, we're going to do **a 'deep dive'** in more examples. This time, you are bringing with yourself an 'arsenal' of SNA concepts and techniques. By critically examining examples closely, the goal of this week's exploration is to further:
+This week, after considerable work on several areas, we're going to do **a 'deep dive'** in more examples. This time, you are bringing with yourself a collection of SNA concepts and techniques. By critically examining examples closely, the goal of this week's exploration is to further:
 
 - Understand how an SNA study could become theoretically and methodologically aligned
 - Detect critical decisions of SNA research in action
 - Understand how SNA techniques could be combined with other methods
 
-Please watch the introduction video below to get started:
+<!-- Please watch the introduction video below to get started: -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RmjDNnrl-aA" frameborder="0" allowfullscreen></iframe>
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/RmjDNnrl-aA" frameborder="0" allowfullscreen></iframe> -->
 
 ## Week 9 Activities
 
-- **Read, Examine & Share**, due by **Sunday March 26, 11:59PM**
-- **Comment**, due by **Monday March 27, 11:59PM**
+- **Read, Examine & Share**, due by **Saturday March 30, 5PM**
+- **Comment**, due by **Monday April 1, 5PM**
 
 ### Read, Examine & Share
 
@@ -28,7 +28,7 @@ Please watch the introduction video below to get started:
 
 **Examine** this article closely, focusing on the following areas: 1) research purposes served by SNA in the study; 2) specific SNA techniques applied; 3) how SNA is combined with other methodology.
 
-**Share** your thoughts as a **Slack Post** on the `assignments` channel. In this post, add key take-aways from this article that may inform your own research project. This Slack post is due by **Sunday March 26, 11:59PM**.
+**Share** your thoughts as a **Slack Post** on the `assignments` channel. In this post, add key take-aways from this article that may inform your own research project. This Slack post is due by **Saturday March 30, 5PM**.
 
 ### Comment
 
@@ -40,14 +40,19 @@ Please try to comment on at least 2 classmates' posts. Comments are due by **Mon
 
 **Note: Ideally you will choose a reading by yourself that is pertinent to your project idea.**
 
-Examples from LAK17
+Examples from the LAK conference
 
+- Qiao, C., & Hu, X. (2019). Measuring Knowledge Gaps in Student Responses by Mining Networked Representations of Texts. In Proceedings of the 9th International Conference on Learning Analytics & Knowledge (pp. 275–279). New York, NY, USA: ACM. https://doi.org/10.1145/3303772.3303822
+- Wise, A. F., & Cui, Y. (2019). Top Concept Networks of Professional Education Reflections. In Proceedings of the 9th International Conference on Learning Analytics & Knowledge (pp. 260–264). New York, NY, USA: ACM. https://doi.org/10.1145/3303772.3303840
+- Gardner, J., & Brooks, C. (2018). Coenrollment Networks and Their Relationship to Grades in Undergraduate Education. In Proceedings of the 8th International Conference on Learning Analytics and Knowledge (pp. 295–304). New York, NY, USA: ACM. https://doi.org/10.1145/3170358.3170373
 - Boroujeni, M. S., Hecking, T., Hoppe, H. U., & Dillenbourg, P. (2017). Dynamics of MOOC discussion forums. In Proceedings of the Seventh International Learning Analytics & Knowledge Conference on - LAK ’17 (pp. 128–137). New York, New York, USA: ACM Press. https://doi.org/10.1145/3027385.3027391
 - Poquet, O., Dawson, S., & Dowell, N. (2017). How Effective is Your Facilitation?: Group-level Analytics of MOOC Forums. In Proceedings of the Seventh International Learning Analytics & Knowledge Conference (pp. 208–217). New York, NY, USA: ACM. https://doi.org/10.1145/3027385.3027404
 - Wise, A. F., Cui, Y., & Jin, W. Q. (2017). Honing in on social learning networks in MOOC forums: examining critical network definition decisions. In Proceedings of the Seventh International Learning Analytics & Knowledge Conference (pp. 383–392). ACM. https://doi.org/10.1145/3027385.3027446
 
-List of articles from Week 3
+List of articles (most of them are from Week 3)
 
+- Chen, B., & Huang, T. (2019). It is about timing: Network prestige in asynchronous online discussions. https://osf.io/preprints/socarxiv/wvjpd/
+- Chen, X., Vorvoreanu, M., & Madhavan, K. (2014). Mining Social Media Data for Understanding Students’ Learning Experiences. IEEE Transactions on Learning Technologies, 7(3), 246–259. https://doi.org/10.1109/TLT.2013.2296520
 - Daly, A. J., & Finnigan, K. S. (2011). The Ebb and Flow of Social Network Ties Between District Leaders Under High-Stakes Accountability. American Educational Research Journal, 48(1), 39–79.
 - Baker-Doyle, K. (2010). Beyond the Labor Market Paradigm: A Social Network Perspective on Teacher Recruitment and Retention. Education Policy Analysis Archives, 18, 26.
 - Heck, R. h., Price, C. l., & Thomas, S. l. (2004). Tracks as Emergent Structures: A Network Analysis of Student Differentiation in a High School. American Journal of Education , 110(4), 321–353.
@@ -61,22 +66,22 @@ List of articles from Week 3
 - Martinez, A., Dimitriadis, Y., Rubia, B., Gómez, E., & de la Fuente, P. (2003). Combining qualitative evaluation and social network analysis for the study of classroom social interactions. Computers & Education, 41(4), 353–368.
 - Roberson, Q. M., & Colquitt, J. A. (2005). Shared and Configural Justice: A Social Network Model of Justice in Teams. Academy of Management Review. Academy of Management, 30(3), 595–607.
 
-## Course Project Check-in
+## Notes on the Course Project
 
 Based on our Slack communications (public or private), you are all making progress on your course projects. I want to make a few notes so that you can plan your project:
 
-- The *Project Final Artifact* is worth 30 points. Each student will produce a project final artifact that represents preliminary results of their initial project ideas. The specific format of this artifact, which could be a research paper, an e-portfolio, or an interactive tool, is to be negotiated in advance with the instructor. If you have ideas/concerns with your own project, please send Bodong a Direct Message.
-- A rubric will be shared next week to guide your work on the Project Final Artifact. But do use this week's exploration as an opportunity to make an outline for your Final Artifact. As I've mentioned in earlier weeks, I'm looking for your capabilities in **making theoretically and methodologically informed decisions** in a research area you specialize. 
-- If you are still waiting for your data to come in and haven't done SNA analyses in the past few weeks, I strongly suggest you watch [this video in Week 7](https://bookdown.org/chen/snaEd/from-data-to-analyses-a-demo.html). The idea is for you to practice SNA techniques use a toy dataset, and plug in your own dataset when it is ready. (This is the charm of R and reproducible research.)
+- The *Project Final Artifact* is worth 30 points. "Each student will develop a project final artifact that has key components of a research proposal (including research problem, literature review, research questions, methodology, anticipated findings, significance, etc.). Other innovative formats, such as an interactive social network dashboard, are encouraged and should be negotiated in advance with the instructor."  If you have ideas/concerns with your own project, please send Bodong a Direct Message.
+- A rubric will be shared soon to guide your work on the Project Final Artifact. But do use this week's exploration as an opportunity to make an outline for your Final Artifact. As I've mentioned in earlier weeks, I'm looking for your capabilities in **making theoretically and methodologically informed decisions** in a research area you specialize. 
+
 
 ### Use an R Notebook
 
-I mentioned this tip in an earlier video, and want to mention it again that if you're using R/igraph for your SNA project, please keep a file (or multiple files) containing your R scripts. You can directly compile a new report after adding new scripts to your growing project each week. You can reuse your scripts for a new dataset. You can ... I can go on for another 1,000 words, but the key idea is your project (containing your ideas, data, scripts) is fully recorded and reproducible. 
+I mentioned this tip in an earlier video, and want to mention it again that if you're using `R/igraph` for your SNA project, please keep a file (or multiple files) containing your R scripts. You can directly compile a new report after adding new scripts to your growing project each week. You can reuse your scripts for a new dataset. You can ... I can go on for another 1,000 words, but the key idea is your project (containing your ideas, data, scripts) is fully recorded and reproducible. 
 
 To learn more about R Notebooks, check out the video below. Note that you can (1) compile a report directly from a `.R` file, and (2) compile a report from a `.Rmd` (i.e., [R Markdown](http://rmarkdown.rstudio.com/)) file. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TJmNvfhLCoI" frameborder="0" allowfullscreen></iframe>
 
-Again, if you have specific questions, post them on the `q_and_a` channel or reach me via Slack PMs. If you think the questions are too complicated, book an appointment with me via http://bit.ly/bookchen
+Again, if you have specific questions, post them on the `home` channel or reach me via Slack PMs. 
 
 Have a wonderful week!
