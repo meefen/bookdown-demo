@@ -5,28 +5,28 @@ always_allow_html: yes
 
 # Planning SNA Research and Projects {#ch12}
 
-As we are all deeply immersed in the course project, in this week instead of exploring "Novel Approaches and Analytics" as planned in the syllabus, we will **be reflective and continue to refine our projects**. Hopefully this change will help you better focus on your projects, and we will come back to explore cool SNA approaches next week.
+As we are all deeply immersed in the course project, this week we will **be reflective and continue to refine our projects**. 
 
 ### Week 12 activities
 
-1. **Read** [Carolan (2014), Chapter 12](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n12.xml). This chapter summarizes many things we've already been doing in this class, and could serve as a good resource for you to self-check your ongoing work on the course project.
+1. **Read** [Carolan (2014), Chapter 12](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n12.xml). This chapter summarizes things we've already been discussing and doing in this class, and it could serve as a good resource for you to self-check your ongoing course project.
 
 2. **Annotathon** on our Carolan textbook website using `Hypothesis`. Below are four prompts:
 
-- When reading through the nine steps presented in this chapter, annotate areas where your project is currently falling a little bit short or will benefit more work from. 
+- When reading through the nine steps presented in this chapter, annotate areas where your project is currently falling a little short or will benefit more work from. 
 - When reading through the nine steps, annotate things you will do differently from the author.
 - When reading through the Software Sampler, annotate software packages you wish to try in the future and explain why. Please share useful resources you found to the class.
 - On Research Ethics, share any thoughts you have about ethical considerations in SNA research and practice.
 
 As always, please add our `SNAEd` tag, and other appropriate tags, to your Hypothesis annotations.
 
-3. **Continue to refine your SNA projects**. If you have questions, please post them in the Slack `q_and_a` channel or directly PM Bodong.
+3. **Continue to refine your SNA projects**. If you have questions, please post them in the Slack `home` channel or directly PM Bodong.
 
 ### Upcoming milestones
 
 As a reminder, we have two upcoming milestones:
 
-- **5/1, Project presentations** -- I will send out another quick Doodle poll to set a date and time.
-- **5/8, Project final artifact + Reflection essay due** -- You can find some basic info on the syllabus. More detailed info will be shared in later weeks.
+- **5/6, Project presentations** -- I will send out more details.
+- **5/13, Project final artifact + Reflection essay due** -- You can find some basic info on the syllabus. More detailed info will be shared in later weeks.
 
 Have a wonderful week!

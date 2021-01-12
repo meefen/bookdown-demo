@@ -7,18 +7,19 @@ always_allow_html: yes
 
 As we are coming to the final two weeks of this course, I hope we are all coming to appreciate the power of SNA and the `relational` perspective in general. It is totally fine if you are 'still' wrestling with certain areas of SNA, as every one of us brings unique background into this course and may either need extra time to grasp certain concepts/techniques or wish to engage more deeply with certain areas. As the instructor, I will be most happy if this course would serve as a starting point for your journey with SNA.
 
-SNA and network analysis in general are constantly evolving. The potential to apply SNA is endless. This week, we will explore some "unusual" use of SNA and, in some cases, a combination of SNA with other techniques. Please watch the video to get started.
+SNA and network analysis in general are constantly evolving. The potential to apply SNA is endless. This week, we will explore some "unusual" use of SNA and, in some cases, a combination of SNA with other techniques. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pRVkf2DQrs4" frameborder="0" allowfullscreen></iframe>
+<!-- Please watch the video to get started. -->
 
-Note: I was unable to introduce activities in the video. Please proceed to the next page for detailed information, which should be fairly straightforward.
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/pRVkf2DQrs4" frameborder="0" allowfullscreen></iframe> -->
+
 
 ## Resources and Activities
 
 In this week, each of us will:
 
 1. Identify/select a novel SNA-based approach, technique or tool
-2. Review and critique the choose approach or tool for our class
+2. Review and critique the chosen approach or tool for our class
 
 ### Resources
 
@@ -26,12 +27,22 @@ You have absolute freedom in choosing a novel SNA-based approach, technique or t
 
 When making your choice, you should have a vague idea about what 'novelty' means to you. There is no standards to judge novelty in this course but it would be helpful if you can somehow justify your choice.
 
-- Shaffer, D. W., Hatfield, D., Svarovsky, G. N., Nash, P., Nulty, A., Bagley, E., … Mislevy, R. (2009). Epistemic Network Analysis: A Prototype for 21st-Century Assessment of Learning. International Journal of Learning and Media, 1(2), 33–53. https://doi.org/10.1162/ijlm.2009.0013 *(Note: A novel network analysis tool developed to analyze high-order competencies.)*
+Research articles:
+
+- Shaffer, D. W., Collier, W., & Ruis, A. R. (2016). A Tutorial on Epistemic Network Analysis: Analyzing the Structure of Connections in Cognitive, Social, and Interaction Data. Journal of Learning Analytics, 3(3), 9–45. https://doi.org/10.18608/jla.2016.33.3
 - Carley, K. M., Pfeffer, J., Morstatter, F., & Liu, H. (2014). Embassies burning: toward a near-real-time assessment of social media using geo-temporal dynamic network analytics. Social Network Analysis and Mining, 4(1), 195. https://doi.org/10.1007/s13278-014-0195-3 *(Note: A collection of tools that extract network data from fairly free-form social media data.)*
+- Stella, M., Beckage, N. M., & Brede, M. (2017). Multiplex lexical networks reveal patterns in early word acquisition in children. Scientific Reports, 7, 46730. https://doi.org/10.1038/srep46730
 - Ryu, S., & Lombardi, D. (2015). Coding Classroom Interactions for Collective and Individual Engagement. Educational Psychologist, 50(1), 70–83. http://doi.org/10.1080/00461520.2014.1001891 *(Note: An attempt to combine SNA with critical discourse analysis.)*
 - Oshima, J., Oshima, R., & Matsuzawa, Y. (2012). Knowledge Building Discourse Explorer: A social network analysis application for knowledge building discourse. Educational Technology Research and Development, 60(5), 903–921. http://doi.org/10.1007/s11423-012-9265-2 *(Note: A novel tool developed for the analysis of discourse data, esp. by combining social and semantic aspects together.)*
 - Andrade, A. (2015). [Using Situated-Action Networks to visualize complex learning](https://www.isls.org/cscl2015/papers/MC-0340-FullPaper-Andrade.pdf). In O. Lindwall, P. Hakkinen, T. Koschmann, P. Tchounikine, & S. Ludvigsen (Eds.), Exploring the Material Conditions of Learning: The Computer Supported Collaborative Learning (CSCL) Conference 2015, Volume 1 (pp. 372–379). Gothenburg, Sweden: International Society of the Learning Sciences. *(Note: A theory-driven approach to develop a new network-based analytical approach.)*
+- Vu, D., Pattison, P., & Robins, G. (2015). Relational event models for social learning in MOOCs. Social Networks, 43(Supplement C), 121–135. https://doi.org/10.1016/j.socnet.2015.05.001
+
+Tools
+
+- [Epistemic Network Analysis](http://www.epistemicnetwork.org/)
 - [SNAPP (Social Network Analysis & Pedagogical Practices)](https://confluence.sakaiproject.org/pages/viewpage.action?pageId=84902193) *(Note: One social network analytic tool that can be directly layered on top of discussion data in some LMSs for real-time SNA.)*
+- [Threadz](https://threadz.ewu.edu/): a discussion visualization tool that adds graphs and statistics to online discussions
+- [Yellowdig visualization tool](https://sites.northwestern.edu/teachx2016/2016/01/26/gru/)
 - ...
 
 ### Reflect and Share
@@ -42,6 +53,6 @@ After spending time with resources related to the identified SNA-based innovatio
 2. Which 'cool' or 'novel' elements are introduced by this innovation compared to traditional SNA?
 3. Which practical and/or scholarly value does this innovation introduce?
 
-**Post your reflection on the Slack `assignment` channel**. A mini video presentation is preferred this time so that you're warming up for our final project presentations.
+**Post your reflection on the Slack `assignment` channel**. To warm up for our final project presentation, you can choose to make a mini video presentation (3-5 minutes) as well.
 
 Have fun and I look forward to learning from your explorations!

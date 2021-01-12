@@ -18,24 +18,68 @@ In Week 11, we will:
 
 **Note**: You may see people using different words *temporal*, *dynamic*,  *longitudinal* interchangeably to describe social networks.
 
-## Class Google Hangout
+## Getting started with network dynamics
 
-If you missed our class Hangout, or you could only attend a part of it, please check the recording that has been shared via Slack `announcement`. The recording was set as private so please make sure you are signed in with your UMN Google account. 
+### Why temporality in networks matters?
 
-Reflection: It was fun to get together. But attending to two spaces -- F2F and online -- in the same time was challenging to me. Many thanks to Nic and Weiyi for your patience!
+Watch a [video](https://www.coursera.org/learn/model-thinking/lecture/1qEBU/schellings-segregation-model) about the **Schelling's Segregation Model** to understand the importance of understanding network dynamics. 
 
-Week 11 materials have been posted here:
+To further explore the Schelling's Segregation Model:
 
-- [Slides](https://github.com/meefen/sna-ed/blob/master/assets/ch11.md)
-- [The demo with R code](https://raw.githubusercontent.com/meefen/sna-ed/master/assets/temporal.html) (if you see random text, please save the file to your computer and open it again)
+1. Open http://nifty.stanford.edu/2014/mccown-schelling-model-segregation/
+2. Adjust Similarity threshold to 50% --> Record rounds
+3. Adjust Similarity threshold to 75% --> Record rounds
+
+<img src="assets/model-seg-demo.png" width="500px" />
+
+Schelling, T. C. (1971). [Models of Segregation](http://isites.harvard.edu/fs/docs/icb.topic98848.files/shelling1.pdf). The American Economic Review, 59(2), 488–493.
+
+### Conceptualize time in social networks
+
+- Timestamp of an event
+- Duration of an event
+- Frequency of of events
+- Time-order / contingency of events
+- ...
+
+### Approaches of considering time
+
+- Accumulation of networks
+- "Sliding window" (Gloor et al. 2004)
+  - with hisotory
+  - no history
+- SNA measures adding 'a temporal taste'
+  - time series
+  - truely
+
+Gloor, P., Laubacher, R., Zhao, Y., & Dynes, S. (2004). [Temporal visualization and analysis of social networks](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.61.8051&rep=rep1&type=pdf). In NAACSOS Conference, June (pp. 27–29). Citeseer.
+
+#### Sliding window
+
+![](assets/gloor-2004-fig1.png)
+
+![](assets/gloor-2004-fig2.png)
+
+#### SNA measures adding 'a temporal taste'
+
+![](assets/Mascolo-2013.png)
+
+(Mascolo, 2013)
+
 
 ### Tools for temporal network analysis
+
+#### Gephi
 
 **Gephi** supports the analysis of dynamic networks. This website, [Exploring Big Historical Data](http://www.themacroscope.org/2.0/dynamic-networks-in-gephi/), provides a useful introduction. See also the Youtube video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hKYku8b60Dc" frameborder="0" allowfullscreen></iframe>
 
+#### R
+
 **R packages** `networkDynamic`, `tsna`, and `ndtv` are very useful for temporal network analysis and visualization.
+
+Here is a [demo with R code](https://raw.githubusercontent.com/meefen/sna-ed/master/assets/temporal.html) (if you see random text, please save the file to your computer and open it again)
 
 ## Week 11 Activities and Upcoming Milestones
 
@@ -52,14 +96,11 @@ Below are a few readings you can start with:
 - @Raghavan2014-uc
 - @Carley2014-xa
 
-The **Network Analysis Hands-on** is due on 4/10. Please turn in a more-or-less complete version of your ongoing project. Basically this is another check-in point to keep you on track and for you to receive additional feedback. 
-
 ### Upcoming milestones
 
-To reiterate, there are three upcoming milestones:
+As we approach the final weeks of this semester, I want to remind you of two upcoming milestones:
 
-- **4/10, Network analysis hands-on**
-- **5/1, Project presentations** -- I will send out another quick Doodle poll to set a date and time.
-- **5/8, Project final artifact + Reflection essay due** -- You can find some basic info on the syllabus. More detailed info will be shared in later weeks.
+- **5/6, Project presentations** -- I will send out more details.
+- **5/13, Project final artifact + Reflection essay due** -- You can find some basic info on the syllabus. More detailed info will be shared in later weeks.
 
 Have a wonderful week!
