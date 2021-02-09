@@ -1,23 +1,46 @@
 --- 
 title: "Applied Network Analysis for Learning"
-# author: "Bodong Chen"
+author: "Bodong Chen"
 # date: "`r Sys.Date()`"
-knit: "bookdown::render_book"
-documentclass: krantz
+# knit: "bookdown::render_book"
+# documentclass: krantz
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
 bibliography: [biblio.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-colorlinks: yes
-lot: yes
-lof: yes
-fontsize: 12pt
-monofont: "Source Code Pro"
-monofontoptions: "Scale=0.7"
-site: bookdown::bookdown_site
-description: "This is a course handbook written by Bodong Chen for his SNA course at UMN."
-url: 'https\://bookdown.org/chen/snaEd/'
 github-repo: meefen/sna-ed
+url: 'https\://bookdown.org/chen/snaEd/'
 cover-image: images/cover.png
+description: "This is a course handbook written by Bodong Chen for his SNA course at UMN."
+bookdown::gitbook:
+  config:
+    toc:
+      toc_depth: 2
+      collapse: section
+      scroll_highlight: yes
+      before: null
+      after: null
+    toolbar:
+      position: fixed
+    edit : null
+    download: null
+    search: yes
+    fontsettings:
+      theme: white
+      family: sans
+      size: 2
+    sharing:
+      facebook: yes
+      github: no
+      twitter: yes
+      linkedin: no
+      weibo: no
+      instapaper: no
+      vk: no
+      all: ['facebook', 'twitter', 'linkedin', 'weibo', 'instapaper']
+    info: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -34,7 +57,7 @@ library(r2d3)
 ```
 
 
-# Preface {-}
+# Cover Page {-}
 
 This site is built for a course titled **CI 8371 - Applied Social Network Analysis in Education**, taught by **[Prof. Bodong Chen](http://bodong.me)** at the University of Minnesota. 
 
@@ -42,7 +65,7 @@ Content on this site will be actively built and refined throughout the Spring 20
 
 While the course is titled *Social Network Analysis in Education*, this course is not limited to *social networks* or to *education*. **We will broadly examine social, information, and artificial networks in a variety of learning contexts including schools, workplace, and informal settings.**
 
-### Key links for the course {-}
+<h3>Key links for the course</h3>
 
 - **[Textbook Carolan (2014)](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education)**. *Note*: UMN library access required.
 - [**Slack**](https://snaed.slack.com/): We use Slack for course "management," aka. announcements, commucations, chats, small group work, etc. You can also get connected with course alumli via public Slack channels.
@@ -73,42 +96,3 @@ Last update: `r Sys.Date()`
 knitr::include_graphics('images/cover.png', dpi = NA)
 ```
 
-## Why not Canvas for this course? {-}
-
-To learn social network analysis (SNA) -- and many other stuff -- I believe the best way is to 'live' with it. That is, the best way to learn SNA is to seize every opportunity of applying SNA in one's own learning journey. This philosophy leads to two major reasons I'm piecing together a learning environment by myself:[^1]
-
-- First, as an instructor I wish to foster **social interaction** as much as possible. Traditional learning management systems, like Moodle and Canvas, do not prioritize this goal
-- Second, to **practice SNA with our own 'learning traces'**, system log data[^2] need to be somehow exposed to users. Traditional systems are less transparent in this area.
-
-
-
-If you haven't used these tools mentioned above, no worries. I will provide detailed guidelines to get you started (see Section \@ref(digital)). **Many of us would be venturing out of our comfort zones.** (SO DO I -- because I cannot stop trying new things :-).) I hope we will all learn a great deal about SNA and beyond.
-
-Have fun!
-
-[^1]: I've published these ideas as [a *design case* on TechTrends](https://link.springer.com/article/10.1007/s11528-018-0284-7) if you're interested in reading more.
-
-[^2]: I treat 'data' as [plural](https://en.oxforddictionaries.com/definition/us/data) in the course.
-
-## Two tracks of participation {-}
-
-This course website is openly available online, reflecting my committment to '[open scholarship](https://uark.libguides.com/openscholarship)'. So there are two tracks of participation designed for this class.
-
-1. **UMN class**: For UMN graduate students enrolled in the class, your participation in this class is not that different from taking another online class. You are expected to meet course requirements outlined in the course syllabus. You will have *private spaces* (on Slack and Hypothesis) for within-class communication.
-2. **Open participation**: For 'Open Participants' who are following the class, you can access the same materials I curate on this website. You may need to buy the required textbook if you do not have a library access. And ways for you to participate include 1) making public Hypothesis annotations using tag `SNAEd`, and 2) tweeting out your ideas or links to your blog posts using hashtag `#SNAEd`. 
-<!-- Open Participants accomplishing major course requirements will be offered [Digital Badges](https://openbadges.org/). -->
-
-If you have any feedback on the current design, please get in touch. I'd love to hear your thoughts.
-
-## Ways to contribute to this site {-}
-
-This is the 3rd time I am offering this course. By making this course site open, I hope it could be useful beyond the formal class and was thrilled see tweets like this one: 
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Very inspiring course book shared by <a href="https://twitter.com/bod0ng?ref_src=twsrc%5Etfw">@bod0ng</a> about Social Network Analysis in Education <a href="https://t.co/w85Rf5AVs9">https://t.co/w85Rf5AVs9</a> <a href="https://twitter.com/hashtag/SNA?src=hash&amp;ref_src=twsrc%5Etfw">#SNA</a> <a href="https://twitter.com/hashtag/SNAEd?src=hash&amp;ref_src=twsrc%5Etfw">#SNAEd</a></p>&mdash; Marco Kalz (@mkalz) <a href="https://twitter.com/mkalz/status/1346413687670763520?ref_src=twsrc%5Etfw">January 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-I'd appreciate your help to continually improve the site and here are ways you can contribute:
-
-1. The best way to contribute to this site is to annotate it using [Hypothesis](https://Hypothes.is/). For example, to point out a possible spelling error, you can highlight the error and include two tags -- `SNAEd` and `issues` -- in your annotation.
-2. The second best way is to report a `New Issue` on this website's [Github issues page](https://github.com/meefen/sna-ed/issues).
-3. If you're Github-savvy, please consider forking the [Github repository](https://github.com/meefen/sna-ed/), making edits, and sending me a pull request.
-4. If none of those options work for you, simply drop me an email at chenbd\@umn.edu.

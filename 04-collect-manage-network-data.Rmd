@@ -25,7 +25,7 @@ In this week's reading -- **Carolan (2014), Ch 4** -- you will read detailed sug
 
 ### Sources of SNA data
 
-SNA data may be obtained in a variety of ways---from historical archives, questionnaires, ethnographic studies, system logs of online platforms, Medicaid claims, etc. For example, from public records researchers could analyze *co-sponsorship of legislation* in the U.S. Senate; from a classic Chinese novel, *[Dream of the Red Chamber](https://en.wikipedia.org/wiki/Dream_of_the_Red_Chamber)*, researchers could use SNA to estimate relationships between characters based on their co-occurrence [@Zhao2016-th]. In these two cases, we can see that in SNA research some *relational data* are **natural** or readily available (e.g., co-sponsoring of a legislature), while some other need to be **derived** (e.g., relationship between novel characters based on the co-occurrence of names in a same sentence). 
+SNA data may be obtained in a variety of ways---from historical archives, questionnaires, ethnographic studies, system logs of online platforms, Medicaid claims, etc. For example, from public records researchers could analyze *co-sponsorship of legislation* in the U.S. Senate [@brandenberger2018trading]; from a classic Chinese novel, *[Dream of the Red Chamber](https://en.wikipedia.org/wiki/Dream_of_the_Red_Chamber)*, researchers could use SNA to estimate relationships between characters based on their co-occurrence [@Zhao2016-th]. In these two cases, we can see that in SNA research some *relational data* are **natural** or readily available (e.g., co-sponsoring of a legislature), while some other need to be **derived** (e.g., relationship between novel characters based on the co-occurrence of names in a same sentence). 
 
 No matter how relational data get gathered or derived, I want to emphasize the importance of **making sound justification** on the collection/creation of relational data. For example, I reviewed a manuscript that analyzed "co-location networks" based on students' simultaneous access to wifi hotspots on a university campus. As a critical reviewer, I would pay special attention to any strong claims made on "social" connections among students, because accessing a same wifi hotspot does not imply any social interaction. However, if the study looks at pairs of students simultaneously accessing 10 hotspots on the campus every day, it would become a totally different story as such intense co-location could be an indicator of (potential) social ties. Therefore, in SNA studies we need to constantly reflect on the **contextual definition(s)** of *ties* and the **operationalization of the definitions** in data collection.
 
@@ -47,11 +47,11 @@ This important recognition speaks back to my Week 1 video on the importance of *
 
 ## Ethics in SNA research
 
-Ethical considerations are important for both research and practice. We won't spent much time on this topic this week, but I want to encourage you to attend to ethical concerns in your specific research contexts. Does your research involve venerable populations (e.g., young children)? Does your research involve sensitive data (e.g., health data)? Is your research field online or offline? Because SNA is applied in all kinds of educational research, it is almost impossible to come up with a unified ethics guideline. **I strongly encourage you to skim this [chapter from an Open Textbook](https://open.lib.umn.edu/principlesmanagement/chapter/9-5-ethical-considerations-with-social-network-analysis/)** produced by the UMN Libraries. What are the possible ethical concerns in your project? I encourage you to start taking notes on how you could address them.
+Ethical considerations are important for both research and practice. You've already rightfully brought up this topic in prior discussions. We won't spent much time on this topic this week, but I want to encourage you to attend to ethical concerns in your specific research contexts. Does your research involve venerable populations (e.g., young children)? Does your research involve sensitive data (e.g., health data)? Is your research field online or offline? Because SNA is applied in all kinds of educational or organizational settings, it is almost impossible to come up with a unified ethics guideline. **I strongly encourage you to skim this [chapter from an Open Textbook](https://open.lib.umn.edu/principlesmanagement/chapter/9-5-ethical-considerations-with-social-network-analysis/)** produced by the UMN Libraries. What are the possible ethical concerns in your project? I encourage you to start taking notes on how you could address them.
 
-I also want to mention that research ethics is never a static topic at all. In many emerging research spaces (e.g., the Internet), research ethics remains highly debatable [@Rivers2014-wt;@Kraut2004-se]. Feel free to share your thoughts via Hypothesis by adding the `ethics` hashtag, or in the Slack `home` channel.
+I also want to mention that research ethics is never a static topic at all. In many emerging research spaces (e.g., social media), research ethics remains highly debatable [@Rivers2014-wt;@Kraut2004-se]. Feel free to share your thoughts via Hypothesis by adding the `ethics` hashtag, or in the Slack `general` channel.
 
-If you're a UMN student and wish to conduct an actual SNA project as part of the class project (which is not required), please check this [UMN IRB website](http://www.research.umn.edu/irb/guidance/student-researchers.html) for further information. I'm willing to sponsor your project and we can meet individually to talk it through.
+If you're a UMN student and wish to conduct an actual SNA project as part of the class project (which is not required), please check this [UMN IRB website](https://research.umn.edu/units/irb) for further information. 
 
 
 ## Linear algebra basics
@@ -71,7 +71,7 @@ If you want to dive deeper in linear algebra, start from this intro video and mo
 
 ## Managing SNA data
 
-On this page, I introduce recommended ways of structuring and handling SNA data. Here I especially consider principles of **tidy data** [@Wickham2014-jr], which may question things you encounter in textbooks. The principles of tidy data are very simple (p. 4), and I will explain each principle below with examples.
+In this section, I introduce recommended ways of structuring and handling SNA data. Here I especially consider principles of **tidy data** [@Wickham2014-jr], which may question things you encounter in textbooks. The principles of tidy data are very simple (p. 4), and I will explain each principle below with examples.
 
 1. Each variable forms a column.
 2. Each observation forms a row.
@@ -163,63 +163,7 @@ Using Table 5, you could construct a **two-mode network** -- also called as an a
 
 Finally, if your research project is concerned with friendship in general -- which covers both book lending and sports affiliation -- you could even merge two types of relational data together (with solid justification). For example, from Table 5 we can tell A and C are both in the basketball team. We can then adjust the weight between A and B in Table 2 accordingly. This is another type of **transformation** you may need to do in SNA research. Knowing basic data transformation techniques -- either in spreadsheet software or in R -- would be helpful for work in this class.
 
-To summarize, this page provides a basic overview of how SNA data could be structured. You may encounter different ways of representing SNA data, such as a relationship matrix with rows and columns representing the same set of actors (see [the Harry Potter support networks](http://www.stats.ox.ac.uk/~snijders/siena/HarryPotterData.html) for example). Such representations could all be derived from a *tidy* dataset discussed above. In data collection, we will strive for keeping as much raw information as possible (such as timestamp), to enable analyses that only come to your mind afterwards.
-
-## Import data into software {#import-data}
-
-After all these explorations in the past weeks, it's time to play with some SNA data and generate some graphs!!
-
-**Open Dataset**: [Les Miserables](http://users.csc.calpoly.edu/~dekhtyar/466-Fall2010/labs/lab07.html), containing co-appearance weighted network of characters in the novel *Les Miserables*. Note: The dataset is the 5th on the page. 
-
-**Two Tracks**.  To accommodate your learning preferences, I provide two tracks of learning based on what SNA software you wish to learn. 
-
-- **R** is a statistical language that involves a little bit of coding. It may have a steep learning curve if you've never coded before, but I believe everyone of us can learn it and the benefits of knowing R is huge. So I recommend R in this course.
-- **Gephi** is a wonderful SNA software package coming with a graphical user interface. If you're more comfortable with tools like MS Word or SPSS, and if you'll never want to try R, it would be a good option for you.  There are many similar software applications out there, many of which you've already encountered in readings. You can use them, but they're not officially supported in the class.
-
-If you have questions, please post in the `home` channel.
-
-### Track R
-
-If you've not used R before, please take Module 1 of this [free course on Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r). If you have questions, post them in the `home` channel or DM Bodong.
-
-Below are R codes to get you started. I've invited you all to an RStudio Cloud space where you can open a project named `Week 4`, which has the R code for you to get started. See the screenshot below.
-<!-- Please make sure the `igraph` R package is installed in your system as it is beyond `Base R`. Not familiar with installing additional R packages, check out [this video](https://www.youtube.com/watch?v=u1r5XTqrCTQ). -->
-
-![](images/rstudiocloud.png)
-
-You can go far beyond the codes. And make sure you share what you make to our Slack `assignment` channel.
-
-```{r eval=FALSE}
-# Load igraph
-library(igraph)
-
-# Read data
-lesmis <- read.csv("https://raw.githubusercontent.com/meefen/sna-ed/master/assets/lesmis/lesmis.csv")
-# check the head (first 6 rows) of the dataset
-head(lesmis)
-
-# Create a graph using the graph_from_data_frame function
-g <- graph_from_data_frame(lesmis)
-
-# Plot the graph
-plot(g)
-# make the graph a little prettier
-plot(g, edge.arrow.size=.2, vertex.label=NA, vertex.size=8)
-```
-
-Below is a great video made by James Cook (a professor from University of Maine) that would be helpful as well.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/N_mMXvNPE8Y" frameborder="0" allowfullscreen></iframe>
-
-### Track Gephi
-
-To begin, download the .gml file directly from [the dataset page](http://users.csc.calpoly.edu/~dekhtyar/466-Fall2010/labs/lab07.html). You can directly open this .gml file using Gephi.
-
-Follow this really nice tutorial on network visualization and analysis with Gehpi. You only need to get through the **first 10 minutes**.  Given the nature of the dataset, you may want to filter `edges` to leave out those edges with a weight of `0`.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HJ4Hcq3YX4k" frameborder="0" allowfullscreen></iframe>
-
-Like folks from Track R, please share what you make to our Slack `assignment` channel.
+To summarize, this section provides a basic overview of how SNA data could be structured. You may encounter different ways of representing SNA data, such as a relationship matrix with rows and columns representing the same set of actors (see [the Harry Potter support networks](http://www.stats.ox.ac.uk/~snijders/siena/HarryPotterData.html) for example). Such representations could all be derived from a *tidy* dataset discussed above. In data collection, we will strive for keeping as much raw information as possible (such as timestamp), to enable analyses that only come to your mind afterwards.
 
 ## Week 4 Activities
 
@@ -227,6 +171,8 @@ Like folks from Track R, please share what you make to our Slack `assignment` ch
 
 - [Carolan, ch. 4](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n4.xml)
 - [Book chapter on Ethical Considerations With Social Network Analysis](https://open.lib.umn.edu/principlesmanagement/chapter/9-5-ethical-considerations-with-social-network-analysis/)
+
+Like earlier weeks, please strive to **add your annotations by the end of Friday**, and spend time responding to each other before our class meeting on Tuesday. 
 
 Even though I do not require you to make a specific number of annotations, please continue to do the **"ABC"** of social annotation in this community:
 
@@ -239,16 +185,109 @@ Even though I do not require you to make a specific number of annotations, pleas
 
 <!-- <iframe width="640" height="360" src="https://www.youtube.com/embed/Pe80-YWFetE?rel=0" frameborder="0" allowfullscreen></iframe> -->
 
-After spending the past few weeks on SNA basics and examples, we will share out our initial project ideas to the community. Specifically, you can post the following: (1) what is the central **problem** of your research and why it is worth investigating, (2) what **phenomenon** you are studying, in which **context**, and what key **question(s)** you have about the phenomenon, and (3) why SNA is potentially fruitful based on your current understanding. 
+In Week 2, you were invited to start putting together a project idea and many of you have already posted your initial ideas on Slack. This week, after spending the past few weeks on SNA basics and examples, your idea might have evolved -- becoming more specific or shifting to a new direction. 
 
-- To share, please create a [**Slack post**](https://get.slack.help/hc/en-us/articles/203950418-Compose-a-post) under the `assignment` channel, due by **Friday Feb 15, 11:59PM**.
-- Please spend time reading our colleagues' posts and leave your constructive comments by **Monday Feb 18, 11:59PM**.
+You are now invited to formally share out our initial project ideas to the community. Specifically, you can post the following: (1) what is the central **problem** of your research and why it is worth investigating, (2) what **phenomenon** you are studying, in which **context**, and what key **question(s)** you have about the phenomenon, and (3) why SNA is potentially fruitful based on your current understanding. 
 
-### Play & Share
+- To share, please create a [**Slack post**](https://get.slack.help/hc/en-us/articles/203950418-Compose-a-post) under the `projects` channel, due by **Monday Feb 15, 11:59PM**.
+- Please spend time reading our colleagues' posts and leave your constructive comments.
 
-- Import a practice dataset into the SNA software of your choice
-- Get familiar with the software
-- Share the network visualization you make in the `assignment` channel, due by **Monday Feb 18, 11:59PM**
+### Lab 2: Handle Network Data in `igraph` {#lab2}
 
+You have done an amazing job on [Lab 1](#lab1). Like Lab 1, you will have **two weeks** to work on Lab 2. 
+
+First, watch this great video made by James Cook (a professor from University of Maine). Cook provides a detailed walk-through of his R code, which may compliment my video from Lab 1.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N_mMXvNPE8Y" frameborder="0" allowfullscreen></iframe>
+
+**Network data formats**. In Lab 1, you worked with an important type/shape of network data known as `an edge list`. Table 2 above is an edge list. It is slightly more complicated because it has an edge *attribute* named `weight`. As shown in Lab 1, `igraph` allows you to create a graph object directly from an edge list. 
+
+In Lab 2, you will work with another important shape of network data known as `an adjacency matrix`. This data format is used in Cook's video. Below is a screenshot of a 64x64 adjacency matrix from our sample dataset this week. 
+
+![](images/matrix-hp-64.png)
+
+**Sample data**. In Lab 2, I will use a sample dataset from the *Harry Porter* book series found on [this webpage](http://www.stats.ox.ac.uk/~snijders/siena/HarryPotterData.html). Please download the .zip file and unzip it to a folder you can find. You can certainly use another dataset of your choice. 
+
+**Sample code** is provided below. You can copy and past the following code to a new R script and run through the code. You can also download the script [here](assets/lab/lab2/lab2.R).
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Kqf3DTE40Yg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+```{r eval=FALSE, include=TRUE}
+### Lab 2: Handle Network Data and Compute Network Density
+### Source of dataset: http://www.stats.ox.ac.uk/~snijders/siena/HarryPotterData.html
+
+# Read data ---------------------------------------------------------------
+
+# read data from the .txt file
+hpattributes <- read.table(file.choose(),  # CHOOSE FILE hpattributes.txt
+                           header = TRUE)
+hpbook1 <- as.matrix(read.table(file.choose())) # CHOOSE FILE hpbook1.txt or another book
+# note we use read.table in these commands, to learn more you can run
+?read.table
+
+# change column and row names of the matrix to actor id
+colnames(hpbook1) <- hpattributes$id
+rownames(hpbook1) <- hpattributes$id
+
+# show the data in Console
+View(hpbook1)
+View(hpattributes)
+
+# Load igraph and create a network object ---------------------------------
+
+# load the library
+library(igraph)
+# create a network/graph object
+g <- graph_from_adjacency_matrix(hpbook1,
+                                 mode = "undirected")
+
+# add node attributes to the graph object
+V(g)$schoolyear <- hpattributes$schoolyear
+V(g)$gender <- hpattributes$gender
+V(g)$house <- hpattributes$house
+
+# remove self loops in the graph
+g <- simplify(g, remove.loops = TRUE)
+# show the graph in console
+g
+
+# Plot the graph ---------------------------------
+# create four colors to represent four houses
+cols <- c("blue", "red", "black", "magenta")
+plot(
+  g,
+  vertex.shape = "none",
+  vertex.label.cex = 0.75,
+  edge.color = grey(0.85),
+  edge.width = 2,
+  vertex.label.color = cols[V(g)$house]
+)
+
+# Compute network density -------------------------------------------------
+
+edge_density(g)
+```
+
+You are encouraged to go beyond the code. And make sure you share what you make to our Slack `general` channel.
+
+<!-- ### Track Gephi -->
+
+<!-- To begin, download the .gml file directly from [the dataset page](http://users.csc.calpoly.edu/~dekhtyar/466-Fall2010/labs/lab07.html). You can directly open this .gml file using Gephi. -->
+
+<!-- Follow this really nice tutorial on network visualization and analysis with Gehpi. You only need to get through the **first 10 minutes**.  Given the nature of the dataset, you may want to filter `edges` to leave out those edges with a weight of `0`. -->
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/HJ4Hcq3YX4k" frameborder="0" allowfullscreen></iframe> -->
+
+<!-- Like folks from Track R, please share what you make to our Slack `assignment` channel. -->
+
+<!-- ### Play & Share -->
+
+<!-- - Import a practice dataset into the SNA software of your choice -->
+<!-- - Get familiar with the software -->
+<!-- - Share the network visualization you make in the `assignment` channel, due by **Monday Feb 18, 11:59PM** -->
+
+### Meet the Class on Gather
+
+We will meet again in Gather on **Tuesday, Feb 16, 2021, 3--4:30pm** Central Time. Please use the same Gather link from the first meeting.
 
 Have fun, everyone!!

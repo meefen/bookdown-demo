@@ -2,10 +2,11 @@ book_filename: snaEd
 repo: https://github.com/meefen/sna-ed/
 output_dir: _book
 clean: [packages.bib, bookdown.bbl]
+delete_merged_file: true
 language:
   label:
     fig: "FIGURE "
     tab: "TABLE "
   ui:
     edit: "Edit"
-    chapter_name: "Chapter "
+    chapter_name: "Week "

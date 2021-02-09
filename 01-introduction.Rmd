@@ -3,10 +3,12 @@
 This week we will: 
 
 1. Get to know each other
-2. Walk through the Syllabus
-3. Get to know course logistics
+2. Walk through the Syllabus, and get to know course logistics
+3. Read and discuss introductory articles
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/JvgqCZtLtp0?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_FfL-2K4hbI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!-- <iframe width="640" height="360" src="https://www.youtube.com/embed/JvgqCZtLtp0?rel=0" frameborder="0" allowfullscreen></iframe> -->
 
 <!-- Please click on the '>' button to proceed to the next page. -->
 
@@ -27,29 +29,13 @@ This week we will:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2U-tOghblfE" frameborder="0" allowfullscreen></iframe>
 
-## Why Social Network Analysis?
+## Networks are everywhere!
 
-### Perspectives from colleagues
+We come together to learn (more) about social network analysis (SNA) – for various reasons and from various disciplinary angles. 
 
-We come together to learn (more) about social network analysis (SNA) -- for various reasons. In preparation for the class, I invited three colleagues who're all doing interesting work with SNA to share a bit about their experiences (note some videos are only visible for UMN viewers):
+In preparation for the class, post your initial ideas of using SNA below, by clicking on the **+** button.
 
-**Alejandro Andrade**, PhD from Indiana University, now Data Scientist at ACT
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/jQVWJonzASM?rel=0" frameborder="0" allowfullscreen></iframe>
-
-**Michael Brown**, PhD from the University of Michigan, now Assistant Professor at Iowa State
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/znlFO7nAli4?rel=0" frameborder="0" allowfullscreen></iframe>
-
-**Fan Ouyang**, PhD from the University of Minnesota, now Assistant Professor at Zhejiang University
-
-<iframe src="https://drive.google.com/file/d/0By5677EX3O4eb3lXOTc5MlBGWGc/preview" width="640" height="480"></iframe>
-
-### Networks are everywhere! Getting inspired? 
-
-Post your initial ideas of using social network analysis below, by clicking on the **+** button.
-
-<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/vuqloe0vlnq5" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="padding:8px;text-align:right;margin:0;"><a href="https://padlet.com?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank"><img src="https://resources.padletcdn.com/assets/made_with_padlet.png" width="86" height="16" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none" alt="Made with Padlet"></a></div></div>
+<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/vcxyk6btrux9sc32" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="padding:8px;text-align:right;margin:0;"><a href="https://padlet.com?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank"><img src="https://resources.padletcdn.com/assets/made_with_padlet.png" width="86" height="16" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none" alt="Made with Padlet"></a></div></div>
 
 <!-- ### Bodong's SNA journey -->
 
@@ -58,103 +44,39 @@ Post your initial ideas of using social network analysis below, by clicking on t
 
 <!-- Now I engage with SNA for three major reasons: 1) to apply 'classic' SNA techniques in my empirical work; 2) to develop formative feedback tools focusing on social aspects of learning; and 3) to develop network-based approaches to uncover holistic insights about learning, by combining multiple analytical aspects (social, temporal, semantic) together. I consider myself constantly learning new thigns about SNA, and look forward to this learning journey with everyone in the class! -->
 
-## Syllabus
-
-The most <a href="http://bit.ly/sna-syl-19" target="_blank">current syllabus</a> will always available online. 
-
-In Week 1, please read the Syllabus in full. Ask questions, if any, on the `#q_and_a` channel on Slack or annotate the syllabus using Hypothes.is. 
-
-## Digital learning environments {#digital}
-
-This is a **fully online** class. An online course does not need to be about watching videos and answering quizzes. To foster rich learning experiences, we will be using several technological tools to foster social, collaborative learning. Depending on your familiarity with these tools, there could be a learning curve. So please spend time this week to familiarize yourself with them.
-
-Below is a list of them and we could tweak the list when moving forward.
-
-**Bookdown course site**. This website you're reading is built by myself using `Bookdown`. `Bookdown` is designed for writing books. While this site may evolve into an open textbook, I'm using it as our course portal.
-
-Course resourses, usually organized by weeks, will be published here. Each chapter maps onto a week. Weekly course annoucements will be pushed to the class through Slack (more below). (If you are an 'Open Participant', just check this website every Tuesday!)
-
-**Slack** (UMN Students Only). You will receive a link that invites you to join [our Slack community](https://la-mn.slack.com/). Course announcements are made on Slack. All sorts of class discussion will take place there as well. First time using Slack? Watch the video below and/or read this [brief introduction to Slack](https://get.slack.help/hc/en-us/articles/115004071768-What-is-Slack-).
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9RJZMSsH7-g?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-To get started with Slack, get familiar with a few **Slack terms** you need to know [^3]:
-
-- **Messages** or **Updates** — the basic message or status of Slack. Similar to Facebook updates, tweets, chats, etc.
-- **Channels** — like separate rooms within the domain. They can be *public* or *private*. 
-- **Direct Messages** — like DMs or private messages anywhere else.
-- **Posts** — longer than a status update. Similar to a blog post or a Word document. Once it's shared to a *Channel*, folks can **comment** on it or even **edit** it if the owner allows. 
-- **Snippets** — Chunks of syntax-highlighted code for when that’s the thing you need to share. We *might* use it.
-- **\@replies** — much like on Twitter, used when you want to mention someone. You can \@everyone or \@channel.
-- **emoji** — just like what you see everywhere.
-- **Integrations** — Slack can 'talk' with many other systems. For example, you can post a doc from your Google Drive when submitting an assignment; you can type `/giphy` to share random gifs. I will explain more later. 
-
-To learn more, check out the [Slack tutorials](https://get.slack.help/hc/en-us/categories/200111606-Using-Slack).
-
-**Hypothes.is**. If you're a formal participant, you should have received a link that invites you to join a private Hypothes.is group. Hypothes.is is a web annotation tool that enables us to discuss readings in a contextual manner. When annotating, please make sure our group name (**SNAEd**) is properly selected.  *Pro Tip*: Please try to use a same (or at least a smilar) username for Slack and Hypo so that we can match you in two spaces.
-
-![](images/scopeselector-groupname.png)
-
-If you are an Open Participant, please annotate publicly and make sure to tag your annotations with `SNAEd`. Otherwise, it will not be picked up by our [class feed](https://hypothes.is/search?q=tag%3ASNAEd).
-
-To learn more, check out [Hypothesis Quick Start Guide for Students](https://hypothes.is/quick-start-guide-for-students/), and [a more complete Resource Guide for Students](https://hypothes.is/student-resource-guide/).
-
-**Zoom**. We will host virtual meetings on Zoom from Week 7. Please make sure your computer has [Zoom](https://zoom.us/) installed (see the video below). Please test your Zoom setup in advance to make sure audio and video configurations work properly. You will receive a calendar invitation with details about joining our Zoom meetings. 
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vFhAEoCF7jg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-
-**Twitter** (optional). If you tweet, like [me](https://twitter.com/bod0ng), please tag your tweets with `#SNAEd` as well. 
-
-To demonstrate how Twitter could be useful, I bet you can learn more from [TechPizza](http://techpizza.org/twitter.php) than from this course (set Topic to be, for example, 'Text, Network Analysis' --> 'network:gephi').
-
-**Google Drive**. Google Drive will be used for major assignment submissions. I will provide detailed feedback directly in your Google Docs, so it is important you use Google Drive. UMN offers free Drive access and unlimited storage. If you need help, check this OIT page: https://it.umn.edu/technology/google-drive
-
-To submit an assignment through Slack, head to the #assignment Slack channel and click on the '+' button to pull out a menu with opitons of adding Drive files. You may need to authenticate Google Drive on Slack. See [help page](https://get.slack.help/hc/en-us/articles/205875058-Google-Drive-for-Slack).
-
-<!-- ### Integrations -->
-
-<!-- We are using multiple systems in this class. And I am fully aware that it may cause disorientation especially in the first one or two weeks. Please keep in mind Slack is the place for us to hang out, and other things -- course content on our course site, Hypo, Drive -- will be somehow integrated in our commucations on Slack. -->
-
-<!-- - **Course site -> Slack**: When new content is published (weekly in most cases), I will send out an annoucement in the `#annoucement` channel. -->
-<!-- - **Hypo -> Slack**: Hypo annotations properly posted using our `#SNAEd` tag will be notifed in Slack's `#hypo_feed` channel.  -->
-<!-- - **Drive -> Slack**: You can directly add Drive files into Slack when submitting a 'larger' assignment (e.g., project paper, presentations, essays).  -->
-<!-- - **Slack -> Email**: Depending on your preference settings, you will receive some notification emails from Slack. The default settings will email you Private Messages. You can change [your email preferences here](https://snaed.slack.com/account/notifications).  -->
-
 ## Week 1 Activities {#week1assign}
 
-Below are a list of activities for Week 1. They are all **due by Jan 23, 23:59PM**, but I strongly encourage you to get started as early as possible!
+Below are a list of activities for Week 1. I strongly encourage you to get started as early as possible!
+
+### Read the Syllabus
+
+The most <a href="https://docs.google.com/document/d/1Z39J9Hn-qn2iKcrVzpMz3nm60ThnGKZMZQ_cWJSlUOg/edit?usp=sharing" target="_blank">current syllabus</a> will always available online. 
+
+In Week 1, please read the Syllabus in full. Ask any questions you may have on the `#questions` Slack channel or leave a comment in the syllabus. 
 
 ### Get to know each other
 
-**UMN Participants**. Please record a short Flipgrid video to introduce yourself to the class. This activity is important for this primarily online class. You can either follow [this link](https://flipgrid.com/51906a58) or directly record below.
+Say hi👋 to the class by posting a short self-introduction on Slack. Things you could include: your (preferred) name and pronouns, your department and program area, why you're taking the class, and one interesting/boring thing about yourself.
 
-<iframe
-    width="600"
-    height="600"
-    frameBorder="0"
-    src="https://flipgrid.com/51906a58?embed=true"
-    webkitallowfullscreen
-    mozallowfullscreen
-    allowfullscreen
-    allow="microphone; camera"></iframe>
-
-After recording your self-intro video, please check each other's videos and respond. Don't feel shy about pointing out your shared interests or one classmate's nice wall decorations :-). (Pro Tip: Test your sound to make sure it works.)
-
-**Open Participants**. Please leave a Hypothes.is annotation to **SAY HI**!
-
-### Readings & Annotations
+### Read and Annotate
 
 **Read** and **annotate** the following texts
 
 - [Carolan, ch. 1](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n1.xml)
-- Borgatti, S. P., Mehra, A., Brass, D. J., & Labianca, G. [-@Borgatti2009-du]. [Network analysis in the social sciences](http://science.sciencemag.org.ezp2.lib.umn.edu/content/323/5916/892.full). Science, 323(5916), 892–895.  (Note: enter [here](http://science.sciencemag.org/content/323/5916/892.full) if you're a non-UMN participant.)
+- Borgatti et al. [-@Borgatti2009-du]. [Network analysis in the social sciences](http://science.sciencemag.org.ezp2.lib.umn.edu/content/323/5916/892.full). Science, 323(5916), 892–895.  (Note: enter [here](http://science.sciencemag.org/content/323/5916/892.full) if you're a non-UMN participant.)
 
 When annotating, please try to do at least one entry for each of the following:
 
-- Annotate **an SNA term** you find interesting/useful, and provide a definition. Use tags `term` in your annotation
+- Annotate **an SNA term** you find interesting/useful, and provide a definition. Use tag `term` in your annotation
 - Annotate **an example application** of SNA in readings, and explain how you find it useful or interesting. Use tags `application` in your annotation
 - **Reply to annotations** made by other participants
 
+### Meet the Class on Gather
+
+As mentioned in *Preface*, we will use Gather instead of Zoom. I have created a dedicated virtual classroom for us to mingle. Below is a screenshot of the space. The link to the space will be shared in a calendar invite.
+
+See you on **Tuesday, January 26, 2021, 3--4:30pm** Central Time. 
+
+![](assets/gather-R250.png)
 
 Have a wonderful week! 
