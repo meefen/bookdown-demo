@@ -208,7 +208,7 @@ In Lab 2, you will work with another important shape of network data known as `a
 
 **Sample data**. In Lab 2, I will use a sample dataset from the *Harry Porter* book series found on [this webpage](http://www.stats.ox.ac.uk/~snijders/siena/HarryPotterData.html). Please download the .zip file and unzip it to a folder you can find. You can certainly use another dataset of your choice. 
 
-**Sample code** is provided below. You can copy and past the following code to a new R script and run through the code. You can also download the script [here](assets/lab/lab2/lab2.R).
+**Sample code** is provided below. You can copy and past the following code to a new R script and run through the code. You can also download the script [here](https://raw.githubusercontent.com/meefen/sna-ed/master/assets/lab/lab2/lab2.R).
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Kqf3DTE40Yg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
