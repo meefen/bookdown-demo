@@ -1,0 +1,186 @@
+--- 
+title: "Ego-centric Networks"
+always_allow_html: yes
+---
+
+# Ego-centric Networks {#ch8}
+
+
+<!-- **Important Note: The next week is our Spring Break. Our next Zoom meeting will take place on Mar 25, Monday, 5:30pm.** -->
+
+In the past three weeks, we explored a wide range of concepts and measures for analysis of *whole networks*, *sub-networks* (or sub-graphs), and individual *nodes*. This week, we will dive into *ego-centric networks* as a very unique approach to SNA. Specifically, we will:
+
+- Understand what is an ego-centric network
+- Understand different levels of ego-centric networks
+- Understand how ego-centric network data can be collected
+- Develop initial ideas of applying ego-centric networks in educational settings
+
+<!-- In the previous week, I enjoyed our first Zoom meeting, as well as reading your Hypothesis annotations and interactions. Thanks for engaging each other in diving deeper in these areas! Please watch the video below to get started with Week 8: -->
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/8jPNLgW28TE" frameborder="0" allowfullscreen></iframe> -->
+
+
+
+<!--
+early example of patients
+Dawson example
+[NodeXL example](http://www.nodexlgraphgallery.org/Pages/Graph.aspx?graphID=97332)
+homophily
+clustering coefficient (NodeXL)
+add in-text visualizations
+-->
+
+## Introduction to Ego-Centric Networks {#ego-intro}
+
+```{r, echo=FALSE}
+library(visNetwork)
+# data used in next examples
+nb <- 6
+group <- c("ego", rep("alter", nb-2), "alter'")
+nodes <- data.frame(
+  id = 1:nb, 
+  group = group,
+  label = c("ego", paste("alter", 1:(nb-2)), "alter' 1"),
+  value = seq(nb, 1),
+  stringsAsFactors = FALSE)
+
+edges <- data.frame(
+  from = c(1,1,1,1,2,4,4,5),
+  to = c(2,3,4,5,3,2,5,6))
+
+visNetwork(nodes, edges, height = "300px", width = "100%") %>% 
+  visOptions(highlightNearest = TRUE) %>%
+  visLayout(randomSeed = 123)
+```
+
+> Egocentric analysis shifts the analytical lens onto a sole ego actor and concentrates on the local pattern of relations in which that ego is embedded as well as the types of resources to which those relations provide access. (Carolan, 2014, ch. 7)
+
+The concept of *ego-centric networks* is pitched against *socio-centric networks* that we've been exploring so far in this class. Some researchers also refer to ego-centric networks as *ego networks* or *personal networks*. Ego-centric and sociocentric networks are distinct in several important ways:
+
+- **Unbounded versus bounded networks**. Sociocentric SNA attempts to collect data on ties between all members of a socially or geographically-bounded group and has limited inference beyond that group. Egocentric SNA assesses individuals' personal networks across any number of social settings using name generators, and is therefore less limited in theoretical and substantive scope.
+- **Focus on individual rather than group outcomes**. Sociocentric SNA often focuses on network structures of groups as predictors of group-level outcomes (e.g. concentration of power, resource distribution, information diffusion). In contrast, egocentric SNA is concerned with how people's patterns of interaction shape their individual-level outcomes (e.g. health, voting behavior, employment opportunities).
+- **Flexibility in data collection**. Because sociocentric SNA must use as its sampling frame a census of a particular bounded group, data collection is very time-consuming, expensive, and targeted to a specific set of research questions. In contrast, because egocentric SNA uses individuals as cases, potential sampling frames and data collection strategies are virtually limitless. Egocentric data collection tools can easily be incorporated into large-scale or nationally-representative surveys being fielded for a variety of other purposes.
+
+Ego-centric networks are useful when the foci of the research are individuals in a network, if capturing the complete network is less important, and/or when the researcher plan to correlate *attribute data* of individuals with their *relational* characteristics in a network. Examples of ego-centric networks' applications abound. As we explored in [Week 3](ch3.html), ego-centric networks can be used to investigate stroke patients' health behaviors. In education, for example, @Dawson2010-se studies high and low-performing students based on their ego-networks. 
+
+Below, James Cook -- a sociology professor we've been watching -- nicely explains how studying ego-centric networks would be helpful.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SM08TsCldWI" frameborder="0" allowfullscreen></iframe>
+
+
+After watching this video, consider this question: **How ego-centric networks could be applied to your research projects?** You do not necessarily need to focus on your class project but projects in your field in general.
+
+## Collecting Ego-Centric Network Data {#ego-data}
+
+As you'll read in our textbook, there are basically two ways to construct ego-centric networks:
+
+1. **Ego-centric networks by design**: When a research project is initiated by asking ego-centric questions, ego-centric data are usually directed collecting. For example, when a *name generator questionnaire* is distributed to a sample of students in a large high school to study in-school friendship of students, each student's response will be directly used to construct a network.
+2. **Derived ego-centric networks**: When a complete network can be captured, we can also derive ego-centric networks by filtering network data. For example, if we're analyzing our own Slack discussions, we can also create an ego-centric network for each one of us to investigate our connectedness in the class. 
+
+In either of these conditions, an important decision to make is how you define the **neighborhood** of the ego-centric network, or how many steps does an ego can reach, as Cook explored in his video. This will again be informed by theories and contextual information you bring to bear. 
+
+Consider this question: **What definition of the *neighborhood* will make sense for your research projects?**
+
+### "Les Miserables" Example
+
+Below I demonstrate the difference between one-step vs. two-step ego networks using the *Les Miserables* dataset[^1]. Which type of ego networks would make more sense for analyzing characters in this novel?
+
+[^1]: Code used to generate this example is adapted from [visNetwork](http://datastorm-open.github.io/visNetwork/options.html), an R package used to generate interactive network visualizations.
+
+First, explore **one-step ego networks** by choosing or clicking on a node:
+
+```{r, echo=FALSE}
+nodes <- jsonlite::fromJSON("https://raw.githubusercontent.com/datastorm-open/datastorm-open.github.io/master/visNetwork/data/nodes_miserables.json")
+
+edges <- jsonlite::fromJSON("https://raw.githubusercontent.com/datastorm-open/datastorm-open.github.io/master/visNetwork/data/edges_miserables.json")
+
+
+visNetwork(nodes, edges, height = "600px", width = "100%") %>%
+  visOptions(highlightNearest = TRUE,
+             nodesIdSelection = TRUE) %>%
+  visPhysics(stabilization = FALSE)
+```
+
+Second, **two-step ego networks**:
+
+```{r, echo=FALSE}
+visNetwork(nodes, edges, height = "600px", width = "100%") %>%
+  visOptions(highlightNearest = list(enabled=TRUE, degree = 2),
+             nodesIdSelection = TRUE) %>%
+  visPhysics(stabilization = FALSE)
+```
+
+
+
+
+## Week 8 Activities
+
+### Read, Annotate, and Share
+
+1. **Read** [Carolan (2014), ch. 7](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n7.xml).  **Annotate** as we normally do using proper hashtags  and doing our **ABCs**. 
+
+2. On Slack, **share** your thoughts on these two questions (listed below) that are raised in Sections \@ref(ego-intro) and \@ref(ego-data). **Discuss** among each other by offering comments, expanding on each other's ideas, identifying limitations, etc. 
+
+    - *How ego-centric networks could be applied to your research projects?*
+    - *What definition(s) of the neighborhood will make sense for your research projects?*
+
+### Lab 3(c): Analyzing Ego-Centric Networks
+
+In the textbook, the author explores a range of measures that we've introduced when studying complete networks, such as *density* and *centrality*. This is another chance to examine these concepts even though computing these measures is the same mathematically for complete or ego networks.
+
+In this week, I encourage you to use a complete-network dataset you have in hand (e.g., your own data, demo data we used in earlier weeks, Twitter/NodeXL data I demoed) to:
+
+- Derive ego-centric networks based on a complete network
+- Conduct basic analysis of ego-centric networks
+
+In `igraph`, there are several functions you can use to extract information about ego networks. Run `?ego` to learn more.[^2] Please add the following lines to your Lab 3, and tinker with different parameters. 
+
+[^2]: The `sna` package provides a function named [`ego.extract`](http://svitsrv25.epfl.ch/R-doc/library/sna/html/ego.extract.html) for the same purpose.
+
+
+```{r eval=FALSE, include=TRUE}
+## Size of ego networks
+?ego_size
+ego_size(g, order = 0)
+ego_size(g, order = 1)
+ego_size(g, order = 2)
+ego_size(g, order = 1, 1:3)
+
+## Check the neighborhood of each ego
+ego(g, order = 2)
+ego(g, order = 2, 1:3)
+
+## Extract ego networks
+make_ego_graph(g, order = 1)
+```
+
+Note: If you haven't done so yet, please check out the video I made in Week 7. You can add new code dealing with ego-centric networks in to your earlier code. (This is when you're starting to love R if the past few weeks were a bit rough :).)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kvNpFXuQaqU" frameborder="0" allowfullscreen></iframe>
+
+<!-- ### Track Gephi -->
+
+<!-- The half-minute video below will give you a sense about steps involved in deriving ego-centric networks from a complete network: -->
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/At7vDTUFFW0" frameborder="0" allowfullscreen></iframe> -->
+
+<!-- Additionally, there are a number of posts that provide more detailed guidance: -->
+
+<!-- - [gephi: Centring a graph around an individual node](http://www.markhneedham.com/blog/2012/04/30/gephi-centring-a-graph-around-an-individual-node/) -->
+<!-- - [My Facebook Network, Part III: Ego Filters and Simple Network Stats](https://blog.ouseful.info/2010/05/10/getting-started-with-gephi-network-visualisation-app-%E2%80%93-my-facebook-network-part-iii-ego-filters-and-simple-network-stats/) -->
+<!-- - Page 3 of [Introduction to Network Analysis: Working with Gephi (pdf)](https://introdh.files.wordpress.com/2011/10/gephi-workshop-01.pdf) -->
+
+<!-- **Optional** if you're using Windows: -->
+
+<!-- - [UCINET](https://sites.google.com/site/ucinetsoftware/home) provides good support for ego-centric network analysis. You can find a detailed tutorial [here](http://www.faculty.ucr.edu/~hanneman/nettext/C9_Ego_networks.html). -->
+<!-- - [E-Net](https://sites.google.com/site/enetsoftware1/) is an SNA tool specially designed for ego network analysis. Here is [An Introduction to Personal Network Analysis and Tie Churn Statistics using E-NET](https://50e20782-a-62cb3a1a-s-sites.googlegroups.com/site/enetsoftware1/files/Halgin%20%26%20Borgatti%202012%20Personal%20Network%20Analysis.pdf). You can also find [public datasets](https://sites.google.com/site/enetsoftware1/datasets) from its website. -->
+
+This will be the final lab assignment in this course. After you finish Lab 3, please compile a report by clicking on the button shown below and submit your full Lab 3 report to the `labs` channel. As always, the example codes above are quite barebone and you are encouraged to add more analysis by adding more analysis you are interested in exploring. 
+
+*Note*: To make it work, you will need to tell R exactly where your data file is located. The easiest way is to put the data file under the same folder as your .R file. The `file.choose()` function will not work when you compile a report.
+
+![](images/rstudio-compile-report.png)
+
+<!-- **Post results of your ego-centric network analysis** in the `assignment` Slack channel. For both R and Gephi tracks, you can choose to either (1) focus on one ego in your network, or (2) derive ego network measures and/or visualizations for every node in the network. When sharing, please **make a Slack `Post`** instead of posting multiple messages.  -->
+
+Have a wonderful week!

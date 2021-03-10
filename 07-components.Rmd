@@ -1,0 +1,70 @@
+# Components and Cliques {#ch7}
+
+Our goals for Week 7 include:
+
+- Understanding components and cliques
+- Becoming familiar with several popular approaches to identifying groups
+- Using SNA software to identify components and cliques
+ 
+
+## Introduction to Components and Cliques
+
+Please watch the following video before reading [Chapter 6](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n6.xml) of Carolan (2014). This video provides intuitions that could be useful before diving into mathematical representations. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jdkKWQT-zDs" frameborder="0" allowfullscreen></iframe>
+
+## From (Messy) Data to Analysis: A Demo
+
+Glad colleagues are taking opportunities to explore SNA tools such as [NodeXL](https://nodexlgraphgallery.org/pages/AboutNodeXL.aspx). 
+
+As we explore network data that exist "in the wild", important questions came up surrounding messy vs. tidy data in network analysis. 
+
+In the following video, I demonstrate a process of going from a secondary dataset towards some simple analyses covered in the past few weeks. This demo is based on a NodeXL dataset. Several data analysis principles, such as *tidy data* and *reproducible analysis*, are reflected in this demo.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kvNpFXuQaqU" frameborder="0" allowfullscreen></iframe>
+
+You can find the demo's [R code](https://github.com/meefen/sna-ed/blob/master/assets/lab_week7.R) and [dataset](https://github.com/meefen/sna-ed/blob/master/assets/cscw17.xlsx) following the links. 
+
+## Week 7 Activities
+
+### Read, Annotate, and Share
+
+**Read** [Carolan (2014), ch. 6](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education/n6.xml). 
+**Annotate** as we normally do using proper hashtags (e.g., `question`, `idea`) and doing our `ABCs` (i.e., "Ask a question", "Brag about your understanding", and "Connect another peer’s ideas").
+
+**Build community knowledge**: When reading through the chapter, **identify** one concept about network components (such as *K*-cores), **conduct research** on how we can identify such components using R, and **share** your solution via a Hypothesis annotation. The book chapter uses UCINET instead of R, so it is critical for us to build our group knowledge about conducting these analyses in R. Please include in your Hypothesis annotation this tag `analyze` so that we can bring our knowledge together.
+
+- If you found someone else has already covered your 'favorite' measure, try to **build on** the existing solution by, for example, introducing a parameter/mechanism to deal with weighted networks.
+
+Finally, you can also **Find** and **Share** a study from education or business that deals with network components or cliques. Point out specific techniques applied in that study.
+
+
+## Lab 3(b): Components and Cliques
+
+Using `igraph`, you can identify components and cliques using a few lines of code. 
+
+Please add the following lines to your Lab 3, and tinker with different parameters. 
+
+```{r eval=FALSE, include=TRUE}
+## Components
+components(g)
+components(g, mode = "strong")
+
+## Cliques
+cliques(g)
+largest.cliques(g)
+```
+
+### Project Checkpoint 2
+
+In this week, there is a project checkpoint assignment designed to keep you "on track". The description of this checkpoint reads as following:
+
+> Students will share their refined project ideas, with a concrete data collection plan fleshed out.
+
+At this point, we have diverged tremendously on the final projects. I understand that you are all at different stages of your projects. So I will **not** require formal submission of this assignment and instead encourage you to make an appointment with me to discuss your project if needed. 
+
+### Class Meeting on Gather
+
+We will meet again in Gather on **Tuesday, Mar 9, 2021, 3--4:30pm** Central Time. Please use the same Gather link from the first meeting.
+
+Have a great week, and I look forward to seeing you in a week!

@@ -69,7 +69,7 @@ While the course is titled *Social Network Analysis in Education*, this course i
 
 - **[Textbook Carolan (2014)](http://methods.sagepub.com.ezp1.lib.umn.edu/book/social-network-analysis-and-education)**. *Note*: UMN library access required.
 - [**Slack**](https://snaed.slack.com/): We use Slack for course "management," aka. announcements, commucations, chats, small group work, etc. You can also get connected with course alumli via public Slack channels.
-- [**Hypothesis**](https://hypothes.is/): We interact on top of web materials (including the textbook) during this course. Hypothesis is a cutting-edge, open-source *web annotation* tool, which is used more and more broadly [by educators](https://Hypothesis/education/) in the past two years.
+- [**Hypothesis**](https://hypothes.is/): We interact on top of web materials (including the textbook) during this course. Hypothesis is a cutting-edge, open-source *web annotation* tool, which is used more and more broadly [by educators](https://web.hypothes.is/education/) in the past two years.
 - [**Gather**](https://gather.town/): We has a dedicated virtual classroom space to gather. 
 - Optional -- [**Twitter** hashtag #SNAEd](https://twitter.com/search?q=%23snaed): You can tweet about this course using #SNAEd.
 
